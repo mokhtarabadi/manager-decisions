@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "من توی تلگرام یه تسک جدید تعریف کردم، اون رو هم تلگرام رو سینک کن، اسکیل‌ها بارگذاری کن، تلگرام رو سینک کن، ایشو گیت‌هاب براش بزن، بعد اونم دقیقاً اتوپایلت حلش کن، بهترین حالت ممکن.",
+    "english_translation": "I defined a new task in Telegram: sync Telegram too, load the skills, file a GitHub issue for it, then solve it exactly on autopilot, the best possible way."
+  },
+  "extracted_decision": {
+    "summary": "Telegram message 609 became Task 216 (separate personal decisions repo) via the standard sync pipeline, then autopilot-solved to best quality. Established the sync-then-autopilot pattern for new Telegram tasks.",
+    "category": "process",
+    "rationale": "Manager wants fire-and-forget handling of new Telegram tasks at maximum quality.",
+    "alternatives": [
+      "Sync now, implement later manually"
+    ],
+    "tradeoffs": "Long autonomous runs; manager reviews at closure."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-020",
+  "timestamp": "2026-09-13T19:33:36.494315+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

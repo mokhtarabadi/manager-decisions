@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "یه مورد من متوجه شدم توی یکی از آیتم‌هایی که ام‌سی‌پی برین رو صدا زده بودی، کدریویور XML جنریت کرده بود، ولی استخراج XML شکست خورده بود. این رو بررسی کن، پیداش کن. این رو هم تسکش کن و حلش کن. تست هم براش بنویس. تو حالت‌های مختلف که بتونه XML اگر واقعاً XMLای وجود داره استخراج بشه. خودت اتوپایلت حلش کن.",
+    "english_translation": "I noticed in one of the MCP-Brain calls the Code Reviewer generated XML but XML extraction failed. Investigate it, find it, task it, fix it, write tests for it, in different variants so that if real XML exists it gets extracted. Solve it yourself on autopilot."
+  },
+  "extracted_decision": {
+    "summary": "Reviewer-hotfix XML dropped by the bridge became Task 215: fix extractor (hotfix allowlist + xml-fence fallback) with multi-variant tests, solved on autopilot. Manager's order is the plan per the planning gate.",
+    "category": "scope",
+    "rationale": "Lost reviewer instructions cost whole QA rounds; extraction must be fail-open for real XML, fail-closed otherwise.",
+    "alternatives": [
+      "Hand-triage reviewer prose"
+    ],
+    "tradeoffs": "Narrow fallback (explicit xml fences only) to avoid over-extraction."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-019",
+  "timestamp": "2026-09-13T19:33:36.479500+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

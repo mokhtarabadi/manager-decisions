@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "توی مموری من نوشتم که چگونه می‌تونیم گلوبال رو سینک کنیم، منظورم آپگرید گلوبال رو انجام بدیم.",
+    "english_translation": "I wrote in my memory how we can sync global — I mean perform the global upgrade."
+  },
+  "extracted_decision": {
+    "summary": "'Global sync' means the global install upgrade per memory workflows/global-install-upgrade.md: repo is source of truth, audit → copy → orphans → verify → smoke, so a restart picks up the new skills/servers/prompts.",
+    "category": "process",
+    "rationale": "Terminology fixed: sync = upgrade the machine-global OpenCode install from the repo.",
+    "alternatives": [
+      "Manual global reinstall"
+    ],
+    "tradeoffs": "Upgrade procedure must be followed exactly or global drifts from repo."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-026",
+  "timestamp": "2026-09-13T19:33:36.577104+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

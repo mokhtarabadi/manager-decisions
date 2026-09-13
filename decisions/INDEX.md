@@ -17,3 +17,17 @@
 | DEC-20260913-011 | process | In-flight findings go to a side note (/tmp) during the run, not into the task file; only final verdi | `decisions/2026/09/DEC-20260913-011.json` |
 | DEC-20260913-012 | tooling | Mechanical permission-layer lock: executor agents can never run git add/checkout/commit/push via bas | `decisions/2026/09/DEC-20260913-012.json` |
 | DEC-20260913-013 | process | Every future release must archive tasks/completed/ via the archive-tasks skill as part of the releas | `decisions/2026/09/DEC-20260913-013.json` |
+| DEC-20260913-014 | process | Every Telegram-synced task gets a GitHub issue; skills and project memory must be loaded and followe | `decisions/2026/09/DEC-20260913-014.json` |
+| DEC-20260913-015 | process | Manager's one-word 'All' selects every proposed candidate (used for the 602/604/605 sync batch). | `decisions/2026/09/DEC-20260913-015.json` |
+| DEC-20260913-016 | process | GitHub issues are valid task sources alongside Telegram; issue 9 became Task 214. | `decisions/2026/09/DEC-20260913-016.json` |
+| DEC-20260913-017 | process | Standing autopilot order for the sprint: implement 211-214 in wave order with Brain QA+review each,  | `decisions/2026/09/DEC-20260913-017.json` |
+| DEC-20260913-018 | process | Empty Brain REPORT output is a transport flake, never a verdict: retry once lean, then escalate. Thi | `decisions/2026/09/DEC-20260913-018.json` |
+| DEC-20260913-019 | scope | Reviewer-hotfix XML dropped by the bridge became Task 215: fix extractor (hotfix allowlist + xml-fen | `decisions/2026/09/DEC-20260913-019.json` |
+| DEC-20260913-020 | process | Telegram message 609 became Task 216 (separate personal decisions repo) via the standard sync pipeli | `decisions/2026/09/DEC-20260913-020.json` |
+| DEC-20260913-021 | architecture | Decision migration must be a Hands-invoked SKILL (capability), never a standalone script. Became Tas | `decisions/2026/09/DEC-20260913-021.json` |
+| DEC-20260913-022 | process | One-word 'Approved' after a 3-step plan authorizes full autopilot implementation under the Direct In | `decisions/2026/09/DEC-20260913-022.json` |
+| DEC-20260913-023 | process | Closure chain: close META 219, run global install upgrade, restart, create the personal decisions re | `decisions/2026/09/DEC-20260913-023.json` |
+| DEC-20260913-024 | process | Nothing destructive (prune/push/restart) happens before the Manager sees the worktree status first. | `decisions/2026/09/DEC-20260913-024.json` |
+| DEC-20260913-025 | tooling | On approval-for-closure the Hands must commit through the sanctioned MCP commit path (stage_and_inje | `decisions/2026/09/DEC-20260913-025.json` |
+| DEC-20260913-026 | process | 'Global sync' means the global install upgrade per memory workflows/global-install-upgrade.md: repo  | `decisions/2026/09/DEC-20260913-026.json` |
+| DEC-20260913-027 | process | Batch approval authorizes migrating all 13 local DEC records; each carries migrated_from provenance  | `decisions/2026/09/DEC-20260913-027.json` |

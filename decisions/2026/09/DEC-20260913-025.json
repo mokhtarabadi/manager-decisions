@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "تو باید با s-mcp-inject-diff-clean صدا بزنی که خودش کامیت رو بکنه.",
+    "english_translation": "You must call it via s-mcp-inject-diff-clean, which performs the commit itself."
+  },
+  "extracted_decision": {
+    "summary": "On approval-for-closure the Hands must commit through the sanctioned MCP commit path (stage_and_inject_diff + commit_and_clean_task over MCP stdio), never raw git and never by leaving commits to the Manager.",
+    "category": "tooling",
+    "rationale": "Manager expects closure to include the actual commit; ZAC bans only raw git, not the MCP commit tools.",
+    "alternatives": [
+      "Manager commits manually"
+    ],
+    "tradeoffs": "Hands must know the MCP stdio fallback when the tool is not in its function list."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-025",
+  "timestamp": "2026-09-13T19:33:36.560451+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

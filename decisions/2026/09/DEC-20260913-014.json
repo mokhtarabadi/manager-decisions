@@ -1,0 +1,23 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "sync telegram and create tasks all need github load skills and memories and follow",
+    "english_translation": "Sync Telegram and create tasks; all of them need GitHub; load skills and memories and follow them."
+  },
+  "extracted_decision": {
+    "summary": "Every Telegram-synced task gets a GitHub issue; skills and project memory must be loaded and followed during the sync.",
+    "category": "process",
+    "rationale": "Manager wants full traceability (local task + issue) and no hallucination (skills + memory first).",
+    "alternatives": [
+      "Tasks without issues",
+      "Sync without loading skills"
+    ],
+    "tradeoffs": "More turns per sync in exchange for standards compliance."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-014",
+  "timestamp": "2026-09-13T19:33:36.407444+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

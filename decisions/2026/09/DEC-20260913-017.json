@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "Uh, I upload this plan too. Please use the autopilot mode and start it working. Also, please create a goal for this. And continue until the finish.",
+    "english_translation": "I approve this plan too. Work it on autopilot, create a goal for it, and continue until the finish."
+  },
+  "extracted_decision": {
+    "summary": "Standing autopilot order for the sprint: implement 211-214 in wave order with Brain QA+review each, under a session goal, zero approval pauses, no auto-commit, no closure without the approval word. 'upload' normalized to 'approve' (voice typo).",
+    "category": "process",
+    "rationale": "Manager delegates the full saga and keeps only hard blockers, relay questions, and closure approval.",
+    "alternatives": [
+      "Manual mode with per-step approval"
+    ],
+    "tradeoffs": "Hands autonomy in exchange for verbose execution logging."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-017",
+  "timestamp": "2026-09-13T19:33:36.452685+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

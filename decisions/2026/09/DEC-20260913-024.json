@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "قبلش استتوس گیت رو بررسی کن، به من بگو.",
+    "english_translation": "Before that, check the git status and tell me."
+  },
+  "extracted_decision": {
+    "summary": "Nothing destructive (prune/push/restart) happens before the Manager sees the worktree status first.",
+    "category": "process",
+    "rationale": "Status-first is the safety gate before irreversible steps.",
+    "alternatives": [
+      "Proceed on assumptions"
+    ],
+    "tradeoffs": "One extra report turn per destructive sequence."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-024",
+  "timestamp": "2026-09-13T19:33:36.547484+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

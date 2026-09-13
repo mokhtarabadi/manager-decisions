@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "حله، اگه اوکیه منم قبول دارم، ببند. تسک رو ببندیم، بعد که بستی گلوبال سینک رو انجام بده، به من بگو ریستارت رو انجام بدم که بریم ریپوی دیسیژن رو بسازیم و همین دیسیژن‌هایی که داخل همین ریپو هستن رو مایگریشن کنیم توی چیز جدیدمون. و از اینجا پاکش کنیم.",
+    "english_translation": "OK, if it's fine I accept too — close it. Let's close the task; after closing, do the global sync, tell me to restart so we build the decision repo, migrate this repo's decisions into our new thing, and delete them from here."
+  },
+  "extracted_decision": {
+    "summary": "Closure chain: close META 219, run global install upgrade, restart, create the personal decisions repo, migrate local records into it, prune them locally. Commit+push stay Manager-owned at restart under ZAC.",
+    "category": "process",
+    "rationale": "Manager sequences closure → upgrade → fresh-repo standup → migration → prune so nothing is lost.",
+    "alternatives": [
+      "Migrate before closing"
+    ],
+    "tradeoffs": "Restart in the middle; commit tooling had to be driven over MCP stdio."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-023",
+  "timestamp": "2026-09-13T19:33:36.534872+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "All",
+    "english_translation": "All (sync all three candidates: 602, 604, 605)."
+  },
+  "extracted_decision": {
+    "summary": "Manager's one-word 'All' selects every proposed candidate (used for the 602/604/605 sync batch).",
+    "category": "process",
+    "rationale": "Terse voice-style approvals are binding selections, not requests for more detail.",
+    "alternatives": [
+      "Ask for per-item confirmation"
+    ],
+    "tradeoffs": "Speed over per-item caution; hands logs the assumption explicitly."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-015",
+  "timestamp": "2026-09-13T19:33:36.422721+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

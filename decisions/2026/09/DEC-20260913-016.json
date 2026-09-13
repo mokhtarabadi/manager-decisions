@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "we have a also a isssue .../issues/9 create a task file for it too.",
+    "english_translation": "We also have GitHub issue 9 — create a task file for it too."
+  },
+  "extracted_decision": {
+    "summary": "GitHub issues are valid task sources alongside Telegram; issue 9 became Task 214.",
+    "category": "process",
+    "rationale": "Manager treats the issue tracker as a second inbox feeding the same Kanban.",
+    "alternatives": [
+      "Telegram-only task intake"
+    ],
+    "tradeoffs": "Two inboxes to drain per session."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-016",
+  "timestamp": "2026-09-13T19:33:36.437821+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

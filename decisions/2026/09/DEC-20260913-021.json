@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "نه، به نظرم اسکریپت نیاز نیست باشه. به نظرم نیازه یک اسکیل باشه که توسط خود هندز این مایگریشن اتفاق بیفته. مثلاً من توی پروژه دیگه بگم اسکیل مایگریشن رو صدا بزن، تصمیم‌ها رو مایگریشن انجام بده. اِ، منظورم توانایی اسکیل.",
+    "english_translation": "No — I don't think it should be a script. It needs to be a skill so the Hands itself performs the migration. E.g. in another project I say 'invoke the migration skill, migrate the decisions'. I mean the skill's capability."
+  },
+  "extracted_decision": {
+    "summary": "Decision migration must be a Hands-invoked SKILL (capability), never a standalone script. Became Task 217 (skill-templates/decision-migration).",
+    "category": "architecture",
+    "rationale": "Migration must run inside the agent loop with confirm gates and provenance, not as an opaque out-of-band script.",
+    "alternatives": [
+      "Standalone migration script"
+    ],
+    "tradeoffs": "Skill prose must be precise enough to be the executable contract."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-021",
+  "timestamp": "2026-09-13T19:33:36.507597+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

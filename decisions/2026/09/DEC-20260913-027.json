@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "approved, migrate all 13",
+    "english_translation": "Approved — migrate all 13 (local decision records into the personal repo)."
+  },
+  "extracted_decision": {
+    "summary": "Batch approval authorizes migrating all 13 local DEC records; each carries migrated_from provenance (display-name only, no abs paths — public-repo guard).",
+    "category": "process",
+    "rationale": "Explicit batch token satisfies the migration skill's approval gate.",
+    "alternatives": [
+      "Per-record approval"
+    ],
+    "tradeoffs": "One token for the batch; skill still reports per-record results."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-027",
+  "timestamp": "2026-09-13T19:33:36.590881+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "Retry",
+    "english_translation": "Retry (the empty Brain planning turn for 213plan)."
+  },
+  "extracted_decision": {
+    "summary": "Empty Brain REPORT output is a transport flake, never a verdict: retry once lean, then escalate. Third attempt succeeded.",
+    "category": "process",
+    "rationale": "Confirmed the bridge empty-output rule with a live case.",
+    "alternatives": [
+      "Treat empty output as approval"
+    ],
+    "tradeoffs": "One extra turn per flake; never act on silence."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-018",
+  "timestamp": "2026-09-13T19:33:36.465983+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

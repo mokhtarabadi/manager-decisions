@@ -1,0 +1,22 @@
+{
+  "session_id": "sprint-20260913",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved (autopilot for Task 217)."
+  },
+  "extracted_decision": {
+    "summary": "One-word 'Approved' after a 3-step plan authorizes full autopilot implementation under the Direct Input protocol.",
+    "category": "process",
+    "rationale": "Plan-and-halt keeps ad-hoc work gated while staying fast.",
+    "alternatives": [
+      "Implement without asking"
+    ],
+    "tradeoffs": "One round-trip per ad-hoc task."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-022",
+  "timestamp": "2026-09-13T19:33:36.520352+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
