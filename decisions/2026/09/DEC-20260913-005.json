@@ -1,0 +1,23 @@
+{
+  "session_id": "189",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "پوش کردم چک کن.",
+    "english_translation": "I pushed, check it."
+  },
+  "extracted_decision": {
+    "summary": "Push is Manager-owned (ZAC): manager pushes with git, Hands verifies remotely afterward (push-then-verify loop).",
+    "category": "process",
+    "rationale": "Agents must never push; the manager executes pushes himself and orders verification after.",
+    "alternatives": [
+      "Agent pushes directly"
+    ],
+    "tradeoffs": "One extra round-trip per push in exchange for full push control."
+  },
+  "migrated_from": "cognitive-lead-hq:DEC-20260912-005",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260913-005",
+  "timestamp": "2026-09-13T19:20:52.386688+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
