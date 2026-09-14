@@ -1,0 +1,23 @@
+{
+  "decision_id": "DEC-20260912-001",
+  "extracted_decision": {
+    "alternatives": [
+      "Silent default (current)",
+      "Per-project path config"
+    ],
+    "category": "process",
+    "rationale": "Absolute path leaks OS username even when the story is cleared for public.",
+    "summary": "Public-default secret handling: record only repo display name (active_root), never absolute path; full path stays in local stderr only.",
+    "tradeoffs": "Slightly less precise provenance in exchange for no username leak."
+  },
+  "migrated_from": "dumble/DEC-20260912-001",
+  "project_name": "dumble",
+  "timestamp": "2026-09-12T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "This story explicitly marks the repo public — public-default applies. The full absolute path WILL NOT be included in any record — active_root stores only the repo display name; the full path appears only in local stderr.",
+    "original": "This story explicitly marks the repo public — public-default applies. The full absolute path WILL NOT be included in any record — active_root stores only the repo display name; the full path appears only in local stderr."
+  },
+  "redaction_verified": true,
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

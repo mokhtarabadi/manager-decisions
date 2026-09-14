@@ -4,6 +4,9 @@
 
 | ID | Category | Summary | Path |
 |---|---|---|---|
+| DEC-20260912-001 | process | Public-default secret handling: record only repo display name (active_root), never absolute path; fu | `decisions/2026/09/DEC-20260912-001.json` |
+| DEC-20260912-002 | process | Every stored decision must pass sanitize_text on all free-text fields plus a verify_clean gate; any  | `decisions/2026/09/DEC-20260912-002.json` |
+| DEC-20260912-003 | process | Decision stores are append-only: corrections are new tombstone records, never edits or deletes of st | `decisions/2026/09/DEC-20260912-003.json` |
 | DEC-20260913-001 | process | Manager orders Hands to run the QA-review autopilot cycle autonomously and promises closure approval | `decisions/2026/09/DEC-20260913-001.json` |
 | DEC-20260913-002 | architecture | Brain must always receive the full task-file working content on every turn (implemented as auto-atta | `decisions/2026/09/DEC-20260913-002.json` |
 | DEC-20260913-003 | process | In autopilot/automatic mode the Hands must call brain_turn directly and never route questions or XML | `decisions/2026/09/DEC-20260913-003.json` |
@@ -31,3 +34,5 @@
 | DEC-20260913-025 | tooling | On approval-for-closure the Hands must commit through the sanctioned MCP commit path (stage_and_inje | `decisions/2026/09/DEC-20260913-025.json` |
 | DEC-20260913-026 | process | 'Global sync' means the global install upgrade per memory workflows/global-install-upgrade.md: repo  | `decisions/2026/09/DEC-20260913-026.json` |
 | DEC-20260913-027 | process | Batch approval authorizes migrating all 13 local DEC records; each carries migrated_from provenance  | `decisions/2026/09/DEC-20260913-027.json` |
+| DEC-20260914-001 | process | Hands must always reply in English, never in Persian. | `decisions/2026/09/DEC-20260914-001.json` |
+| DEC-20260914-002 | quality-gate | Image-moderation QA scenarios marked FAILED instead of BLOCKED. | `decisions/2026/09/DEC-20260914-002.json` |

@@ -1,0 +1,22 @@
+{
+  "decision_id": "DEC-20260912-003",
+  "extracted_decision": {
+    "alternatives": [
+      "Edit the existing record in place"
+    ],
+    "category": "process",
+    "rationale": "Edits destroy audit trail; tombstones keep history queryable.",
+    "summary": "Decision stores are append-only: corrections are new tombstone records, never edits or deletes of stored history.",
+    "tradeoffs": "More records over time; queries must respect tombstones."
+  },
+  "migrated_from": "dumble/DEC-20260912-003",
+  "project_name": "dumble",
+  "timestamp": "2026-09-12T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Append-only on both ends: corrections are new tombstone records, never edits or deletes.",
+    "original": "Append-only on both ends: corrections are new tombstone records, never edits or deletes."
+  },
+  "redaction_verified": true,
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

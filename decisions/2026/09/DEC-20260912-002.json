@@ -1,0 +1,22 @@
+{
+  "decision_id": "DEC-20260912-002",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep recording raw chat text"
+    ],
+    "category": "process",
+    "rationale": "Raw dumps bloat context and leak secrets; scrubbed rulings stay queryable.",
+    "summary": "Every stored decision must pass sanitize_text on all free-text fields plus a verify_clean gate; any surviving sensitive pattern raises and nothing is written (no bypass flag).",
+    "tradeoffs": "Stricter writes; occasional false-positive blocks need rephrasing."
+  },
+  "migrated_from": "dumble/DEC-20260912-002",
+  "project_name": "dumble",
+  "timestamp": "2026-09-12T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Scrub gate fail-closes on EVERY root: free-text fields are sanitized, and if any sensitive pattern survives sanitizing, nothing is written — there is no bypass flag.",
+    "original": "Scrub gate fail-closes on EVERY root: free-text fields are sanitized, and if any sensitive pattern survives sanitizing, nothing is written — there is no bypass flag."
+  },
+  "redaction_verified": true,
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
