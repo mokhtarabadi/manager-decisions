@@ -1,0 +1,23 @@
+{
+  "verbatim_quote": {
+    "original": "no task file, one filter per collection; step 1 approved read-only (Reconstructed from session summary; exact wording lost to context compression.)",
+    "english_translation": "No task file for the curl ops; one broad filter per collection; step 1 approved as read-only discovery."
+  },
+  "extracted_decision": {
+    "summary": "Curl-driven filter creation runs without a task file, one EXPLORER_BROAD filter per collection.",
+    "category": "scope",
+    "rationale": "Bulk ops across 30 collections; per-collection tasks would spam the Kanban with identical items.",
+    "alternatives": [
+      "One task per collection",
+      "Single tracking task"
+    ],
+    "tradeoffs": "Kanban hygiene vs per-item traceability."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-008",
+  "timestamp": "2026-09-14T16:42:07.317710+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

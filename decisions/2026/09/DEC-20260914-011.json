@@ -1,0 +1,22 @@
+{
+  "verbatim_quote": {
+    "original": "firest restart server for me wait me to test i will tell you back",
+    "english_translation": "First restart the server for me; wait for me to test, I will tell you back."
+  },
+  "extracted_decision": {
+    "summary": "Restart handshake: Hands restarts, Manager tests, result comes back before closure.",
+    "category": "process",
+    "rationale": "Live browser behavior (HSTS/login) can only be verified by the Manager; closure waits for their verdict.",
+    "alternatives": [
+      "Close on curl proof alone"
+    ],
+    "tradeoffs": "Cycle time vs real-client verification."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-011",
+  "timestamp": "2026-09-14T16:42:07.361048+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

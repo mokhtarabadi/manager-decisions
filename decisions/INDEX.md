@@ -36,3 +36,14 @@
 | DEC-20260913-027 | process | Batch approval authorizes migrating all 13 local DEC records; each carries migrated_from provenance  | `decisions/2026/09/DEC-20260913-027.json` |
 | DEC-20260914-001 | process | Hands must always reply in English, never in Persian. | `decisions/2026/09/DEC-20260914-001.json` |
 | DEC-20260914-002 | quality-gate | Image-moderation QA scenarios marked FAILED instead of BLOCKED. | `decisions/2026/09/DEC-20260914-002.json` |
+| DEC-20260914-003 | process | Standing full-autopilot order: run end-to-end with zero questions until the Manager speaks. | `decisions/2026/09/DEC-20260914-003.json` |
+| DEC-20260914-004 | process | socat port-forward work on the manager script needs no Kanban task file. | `decisions/2026/09/DEC-20260914-004.json` |
+| DEC-20260914-005 | architecture | CSP upgrade-insecure-requests disabled on dev, kept on prod. | `decisions/2026/09/DEC-20260914-005.json` |
+| DEC-20260914-006 | process | Task 221 absorbs port/forward-script worktree changes; .forward.pid is gitignored runtime state. | `decisions/2026/09/DEC-20260914-006.json` |
+| DEC-20260914-007 | architecture | Dev server port moved 8081 to 8082 (8081 held by external proxy). | `decisions/2026/09/DEC-20260914-007.json` |
+| DEC-20260914-008 | scope | Curl-driven filter creation runs without a task file, one EXPLORER_BROAD filter per collection. | `decisions/2026/09/DEC-20260914-008.json` |
+| DEC-20260914-009 | quality-gate | Admin backup download accepted as prod-only; dev 500s are environmental, not a code bug. | `decisions/2026/09/DEC-20260914-009.json` |
+| DEC-20260914-010 | architecture | Stopped apex-dev-pg container kept (not removed) after compose takeover. | `decisions/2026/09/DEC-20260914-010.json` |
+| DEC-20260914-011 | process | Restart handshake: Hands restarts, Manager tests, result comes back before closure. | `decisions/2026/09/DEC-20260914-011.json` |
+| DEC-20260914-012 | process | A-vs-B choice delegated to Brain + stored decisions; then run autonomously to end-of-day closeout. | `decisions/2026/09/DEC-20260914-012.json` |
+| DEC-20260914-013 | scope | New goal with explicit objective text: 5% profit scan + engine verification and speedup via log trac | `decisions/2026/09/DEC-20260914-013.json` |

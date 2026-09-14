@@ -1,0 +1,22 @@
+{
+  "verbatim_quote": {
+    "original": "Ask brain and check my desctions to choose and contune until end",
+    "english_translation": "Ask the Brain and check my decisions to choose, and continue until the end."
+  },
+  "extracted_decision": {
+    "summary": "A-vs-B choice delegated to Brain + stored decisions; then run autonomously to end-of-day closeout.",
+    "category": "process",
+    "rationale": "Manager refuses micro-choice overhead; Brain decides from evidence, stored rulings replay the Manager's stance.",
+    "alternatives": [
+      "Manager picks A/B directly"
+    ],
+    "tradeoffs": "Manager time vs decision precision."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-012",
+  "timestamp": "2026-09-14T16:42:07.375240+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

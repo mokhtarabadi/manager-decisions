@@ -1,0 +1,23 @@
+{
+  "verbatim_quote": {
+    "original": "create a task, absorb the working tree, gitignore the pid file (Reconstructed from session summary; exact wording lost to context compression.)",
+    "english_translation": "Create a task file, absorb the uncommitted working tree into it, and gitignore the runtime pid file."
+  },
+  "extracted_decision": {
+    "summary": "Task 221 absorbs port/forward-script worktree changes; .forward.pid is gitignored runtime state.",
+    "category": "process",
+    "rationale": "Keeps the repo clean of runtime artifacts while preserving the work under Kanban tracking.",
+    "alternatives": [
+      "Commit pid file",
+      "Leave worktree untracked"
+    ],
+    "tradeoffs": "Clean history vs keeping every runtime artifact."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-006",
+  "timestamp": "2026-09-14T16:42:07.290154+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

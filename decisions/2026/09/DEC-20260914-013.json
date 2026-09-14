@@ -1,0 +1,22 @@
+{
+  "verbatim_quote": {
+    "original": "can you scan marjetbfor proftiable gifts thst give usb5 percent profit, automaticully verify our engine and enhance and trace it performance from logs and maje itbbetterb, goal is find proftiable signals in this market and maje enine eveb faster and better bt tracing and logs ans veridying",
+    "english_translation": "Scan the market for profitable gifts with 5 percent profit, automatically verify the engine, trace its performance from logs, make it better; the goal is finding profitable signals and making the engine faster and better through tracing, logs, and verification."
+  },
+  "extracted_decision": {
+    "summary": "New goal with explicit objective text: 5% profit scan + engine verification and speedup via log tracing.",
+    "category": "scope",
+    "rationale": "Voice-dictated objective kept verbatim (typos included) with a cleaned translation; explicit text becomes the goal contract.",
+    "alternatives": [
+      "Reword objective before creating the goal"
+    ],
+    "tradeoffs": "Fidelity to the Manager's words vs polished text."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-013",
+  "timestamp": "2026-09-14T16:42:07.389326+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,23 @@
+{
+  "verbatim_quote": {
+    "original": "disable for dev, keep for prod",
+    "english_translation": "disable for dev, keep for prod"
+  },
+  "extracted_decision": {
+    "summary": "CSP upgrade-insecure-requests disabled on dev, kept on prod.",
+    "category": "architecture",
+    "rationale": "Dev is served over plain http on a public IP where the directive breaks login; prod terminates TLS so the hardening stays.",
+    "alternatives": [
+      "Disable globally",
+      "Keep globally and fix dev TLS"
+    ],
+    "tradeoffs": "Dev convenience vs keeping prod security posture intact."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-005",
+  "timestamp": "2026-09-14T16:42:07.276356+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

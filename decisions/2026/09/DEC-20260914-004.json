@@ -1,0 +1,22 @@
+{
+  "verbatim_quote": {
+    "original": "no task required",
+    "english_translation": "no task required"
+  },
+  "extracted_decision": {
+    "summary": "socat port-forward work on the manager script needs no Kanban task file.",
+    "category": "process",
+    "rationale": "Small ops script change; task overhead exceeds the work itself.",
+    "alternatives": [
+      "Create a backlog task first"
+    ],
+    "tradeoffs": "Traceability vs speed for trivial ops edits."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-004",
+  "timestamp": "2026-09-14T16:42:07.262465+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

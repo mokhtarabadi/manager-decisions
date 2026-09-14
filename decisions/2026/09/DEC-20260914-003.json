@@ -1,0 +1,22 @@
+{
+  "verbatim_quote": {
+    "original": "Full-auto scan: create the goal, hunt bottlenecks and real profitable signals, use Brain, personas, decisions and skills, never ask questions until I tell you otherwise. (Reconstructed from session summary; exact wording lost to context compression.)",
+    "english_translation": "Standing autopilot order: run fully autonomous, never ask questions until told otherwise; use Brain, personas, decisions, and skills."
+  },
+  "extracted_decision": {
+    "summary": "Standing full-autopilot order: run end-to-end with zero questions until the Manager speaks.",
+    "category": "process",
+    "rationale": "Manager prefers autonomous execution and only wants to see Relay questions and final verdicts.",
+    "alternatives": [
+      "Ask for approval at each step"
+    ],
+    "tradeoffs": "Speed and flow vs Manager oversight on micro-decisions."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-003",
+  "timestamp": "2026-09-14T16:42:07.247445+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

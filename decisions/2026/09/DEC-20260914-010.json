@@ -1,0 +1,23 @@
+{
+  "verbatim_quote": {
+    "original": "keep the stopped manual database container, do not remove it (Reconstructed from session summary; exact wording lost to context compression.)",
+    "english_translation": "Keep the stopped manual database container for data safety; do not remove it."
+  },
+  "extracted_decision": {
+    "summary": "Stopped apex-dev-pg container kept (not removed) after compose takeover.",
+    "category": "architecture",
+    "rationale": "It held the live dev data; removal would destroy the only copy of some rows before verification.",
+    "alternatives": [
+      "Remove immediately",
+      "Migrate data then remove"
+    ],
+    "tradeoffs": "Disk overhead vs data-loss risk."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-010",
+  "timestamp": "2026-09-14T16:42:07.346326+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

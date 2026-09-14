@@ -1,0 +1,23 @@
+{
+  "verbatim_quote": {
+    "original": "change port of dev port to 8082",
+    "english_translation": "Change the dev server port to 8082."
+  },
+  "extracted_decision": {
+    "summary": "Dev server port moved 8081 to 8082 (8081 held by external proxy).",
+    "category": "architecture",
+    "rationale": "Port conflict with an unrelated container; moving dev is cheaper than moving shared infra.",
+    "alternatives": [
+      "Free port 8081",
+      "Bind dev to another interface"
+    ],
+    "tradeoffs": "One-line config change vs touching shared proxy setup."
+  },
+  "project_name": "apex",
+  "session_id": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-007",
+  "timestamp": "2026-09-14T16:42:07.303902+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
