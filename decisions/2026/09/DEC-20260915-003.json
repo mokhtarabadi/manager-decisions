@@ -1,0 +1,25 @@
+{
+  "verbatim_quote": {
+    "original": "منم اوکی‌ام، تسک رو ببند.",
+    "english_translation": "I am OK, close the task."
+  },
+  "extracted_decision": {
+    "summary": "Manager approved closure of Task 232.",
+    "category": "process",
+    "rationale": "Explicit close order after QA_PASSED and technical review approval.",
+    "alternatives": [],
+    "tradeoffs": ""
+  },
+  "project_name": "cognitive-lead-hq",
+  "session_id": "232",
+  "mode": "manual",
+  "fidelity": "verbatim",
+  "scope": "episode",
+  "goal_ref": "232",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260915-003",
+  "timestamp": "2026-09-15T12:09:53.882671+00:00",
+  "fingerprint": "83dd4925a5859d145fd2cc1225d4df8c6191055fdbb28e6fe2461028c7defa85",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

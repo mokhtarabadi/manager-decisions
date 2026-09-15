@@ -1,0 +1,27 @@
+{
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Add most cheap items as broad sigbal and snable auto scanner so i want to see engine work make sure resgatt lages verson ans ads them using curl and update settings using curl",
+    "english_translation": "Add the cheapest items as broad signals and enable the auto scanner; I want to watch the engine work; make sure to respect the latest version; add them using curl and update settings using curl."
+  },
+  "extracted_decision": {
+    "summary": "Ops via curl only: add the 10 cheapest uncovered collections as EXPLORER_BROAD filters (both markets, 10 TON cap, 5% target), enable AUTO_SCAN_ENABLED via /config/update, restart via manager script so the latest code runs, verify from logs.",
+    "category": "process",
+    "rationale": "Manager wants to watch the engine work live with curl-driven ops against the newest binary instead of UI clicks.",
+    "alternatives": [
+      "Add filters via dashboard UI",
+      "Restart only when code changes"
+    ],
+    "tradeoffs": "Curl ops leave no UI audit trail; mitigated by verifying every step from DB and log evidence."
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-016",
+  "timestamp": "2026-09-14T19:33:52.334644+00:00",
+  "fingerprint": "fe59e683a5221c4eec9e61fc3c74be4ca5d8cfa534a3f711a92c24670eb210ab",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

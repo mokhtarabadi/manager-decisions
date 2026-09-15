@@ -1,0 +1,27 @@
+{
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "[reconstructed] Manager chose option 3 for the goal conflict: retire the old goal into the new Portal-speed goal.",
+    "english_translation": "[reconstructed] Manager chose option 3 for the goal conflict: retire the old goal into the new Portal-speed goal."
+  },
+  "extracted_decision": {
+    "summary": "Goal conflict resolved with option 3: old 5%-profit goal retired into the Portal scan-speed goal via update_goal (objective rewrite + resume), no new goal created.",
+    "category": "process",
+    "rationale": "Only one goal can be active; the profit-watch goal was paused with a dated check, and the Manager preferred folding it into the Portal-speed goal rather than closing or keeping parallel goals.",
+    "alternatives": [
+      "Close the old goal now",
+      "Keep the old goal paused and run Portal work goal-free"
+    ],
+    "tradeoffs": "The 2026-09-15 profit re-check is absorbed into the active goal's margin watch instead of standing alone."
+  },
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-014",
+  "timestamp": "2026-09-14T19:33:52.297211+00:00",
+  "fingerprint": "b4d88e26fb9202db8a6d766b04ee9c535367ab166971117dd276714f7008dba3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

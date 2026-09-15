@@ -47,3 +47,10 @@
 | DEC-20260914-011 | process | Restart handshake: Hands restarts, Manager tests, result comes back before closure. | `decisions/2026/09/DEC-20260914-011.json` |
 | DEC-20260914-012 | process | A-vs-B choice delegated to Brain + stored decisions; then run autonomously to end-of-day closeout. | `decisions/2026/09/DEC-20260914-012.json` |
 | DEC-20260914-013 | scope | New goal with explicit objective text: 5% profit scan + engine verification and speedup via log trac | `decisions/2026/09/DEC-20260914-013.json` |
+| DEC-20260914-014 | process | Goal conflict resolved with option 3: old 5%-profit goal retired into the Portal scan-speed goal via | `decisions/2026/09/DEC-20260914-014.json` |
+| DEC-20260914-015 | autopilot-cycle | Standing full-autopilot order for the Telegram/Portal engine-speed work: parallel lanes allowed, Bra | `decisions/2026/09/DEC-20260914-015.json` |
+| DEC-20260914-016 | process | Ops via curl only: add the 10 cheapest uncovered collections as EXPLORER_BROAD filters (both markets | `decisions/2026/09/DEC-20260914-016.json` |
+| DEC-20260915-001 | autopilot-cycle | Manager approved fixing all brainstorm gaps via the Hands on autopilot. | `decisions/2026/09/DEC-20260915-001.json` |
+| DEC-20260915-002 | autopilot-cycle | Manager ordered Task 232 implementation on autopilot with Brain planning. | `decisions/2026/09/DEC-20260915-002.json` |
+| DEC-20260915-003 | process | Manager approved closure of Task 232. | `decisions/2026/09/DEC-20260915-003.json` |
+| DEC-20260915-004 | process | Manager approved closure of Task 233. | `decisions/2026/09/DEC-20260915-004.json` |

@@ -1,0 +1,25 @@
+{
+  "verbatim_quote": {
+    "original": "close",
+    "english_translation": "Close it."
+  },
+  "extracted_decision": {
+    "summary": "Manager approved closure of Task 233.",
+    "category": "process",
+    "rationale": "One-word close order following the handoff that asked for the approval word.",
+    "alternatives": [],
+    "tradeoffs": ""
+  },
+  "project_name": "cognitive-lead-hq",
+  "session_id": "233",
+  "mode": "manual",
+  "fidelity": "verbatim",
+  "scope": "episode",
+  "goal_ref": "233",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260915-004",
+  "timestamp": "2026-09-15T12:09:53.914039+00:00",
+  "fingerprint": "0e78c309c833288927266c1d41bc019053391a704deb49ed0663d23b27454149",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

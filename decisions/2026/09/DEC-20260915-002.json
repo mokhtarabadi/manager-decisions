@@ -1,0 +1,25 @@
+{
+  "verbatim_quote": {
+    "original": "Start fix task 232 use brain auto pilot",
+    "english_translation": "Start fixing Task 232 using the Brain on autopilot."
+  },
+  "extracted_decision": {
+    "summary": "Manager ordered Task 232 implementation on autopilot with Brain planning.",
+    "category": "autopilot-cycle",
+    "rationale": "Explicit order names both the task and autopilot mode.",
+    "alternatives": [],
+    "tradeoffs": ""
+  },
+  "project_name": "cognitive-lead-hq",
+  "session_id": "232",
+  "mode": "autopilot",
+  "fidelity": "verbatim",
+  "scope": "episode",
+  "goal_ref": "232",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260915-002",
+  "timestamp": "2026-09-15T12:09:53.834365+00:00",
+  "fingerprint": "df562cbac04b42c8cfb4d160f2e5c29b03338451c4bdf78a419cf44f472f1810",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

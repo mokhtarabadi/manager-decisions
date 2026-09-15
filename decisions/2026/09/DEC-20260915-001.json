@@ -1,0 +1,25 @@
+{
+  "verbatim_quote": {
+    "original": "Yes fix all by ask hands (auto pilot)",
+    "english_translation": "Yes, fix all via the Hands on autopilot."
+  },
+  "extracted_decision": {
+    "summary": "Manager approved fixing all brainstorm gaps via the Hands on autopilot.",
+    "category": "autopilot-cycle",
+    "rationale": "Explicit Manager order locks autopilot; Hands executes end-to-end with no approval pauses.",
+    "alternatives": [],
+    "tradeoffs": ""
+  },
+  "project_name": "cognitive-lead-hq",
+  "session_id": "233",
+  "mode": "autopilot",
+  "fidelity": "verbatim",
+  "scope": "episode",
+  "goal_ref": "233",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260915-001",
+  "timestamp": "2026-09-15T12:09:53.773727+00:00",
+  "fingerprint": "39af764c24c882aff3eeca6f778c87462a9d30c40646c79842b80ab31391f627",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

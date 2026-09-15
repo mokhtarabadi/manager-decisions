@@ -1,0 +1,27 @@
+{
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "[reconstructed] Full autopilot on the Telegram/Portal speed work until the fastest safe engine: per-market parallel scanner permitted, Brain decides the design, never ask until done, floor cache must never cause a money-losing buy, consult all past manager decisions.",
+    "english_translation": "[reconstructed] Full autopilot on the Telegram/Portal speed work until the fastest safe engine: per-market parallel scanner permitted, Brain decides the design, never ask until done, floor cache must never cause a money-losing buy, consult all past manager decisions."
+  },
+  "extracted_decision": {
+    "summary": "Standing full-autopilot order for the Telegram/Portal engine-speed work: parallel lanes allowed, Brain (Senior Programmer) decides design iteratively, no user questions until the fastest safe engine is reached, zero tolerance for stale-cache financial harm.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager wants maximum hands-off speed work with safety outsourced to Brain verdicts and bulletproof cache rules instead of step-by-step approvals.",
+    "alternatives": [
+      "Manual mode with per-fix approval",
+      "Watch-only with no code changes"
+    ],
+    "tradeoffs": "Autonomy for speed; Manager reviews only the final report and explicit commit/approval gates (ZAC holds, per-item parallelism still needs approval)."
+  },
+  "fidelity": "reconstructed",
+  "mode": "autopilot",
+  "scope": "standing",
+  "goal_ref": "ses_f60dc35daffeyqox5E1Ul9jAc6",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260914-015",
+  "timestamp": "2026-09-14T19:33:52.316198+00:00",
+  "fingerprint": "bfcfd4d1169ab9950f8e065f74cfdc65dc71b724bf40946fc60d0da043e1332f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
