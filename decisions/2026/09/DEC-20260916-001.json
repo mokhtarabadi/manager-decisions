@@ -1,0 +1,26 @@
+{
+  "session_id": "226",
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved."
+  },
+  "extracted_decision": {
+    "summary": "Manager approves the 226 Brain plan with assumptions A1 keep buying concurrency, A2 bias never-double-bill, A3 triple charge shares the 03:12:04 root; Q3/Q5/Q6 left unanswered.",
+    "category": "process",
+    "rationale": "Plan was grounded (2 discovery rounds, file paths with lines); open questions answered by logged assumptions instead of stalling.",
+    "alternatives": [
+      "Answer Q3/Q5/Q6 before approving",
+      "Reject plan"
+    ],
+    "tradeoffs": "Assumptions A1-A3 are Manager-correctable later; speed over certainty."
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260916-001",
+  "timestamp": "2026-09-16T12:46:30+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

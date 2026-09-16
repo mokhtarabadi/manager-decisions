@@ -1,0 +1,25 @@
+{
+  "session_id": "228",
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "solve it yourself with Brain advice, 100 autopilot",
+    "english_translation": "Solve task 228 yourself using the Brain's advice, full (100 percent) autopilot."
+  },
+  "extracted_decision": {
+    "summary": "Full-autopilot order for 228: Hands executes the Brain's two-pass docs audit end to end, stopping only for hard blockers and closure approval.",
+    "category": "process",
+    "rationale": "Docs audit is wide but low-risk; Brain opinion already constrained the scope.",
+    "alternatives": [
+      "Manual step-by-step with approval per pass"
+    ],
+    "tradeoffs": "Manager reviews only the final report; interim verdicts are Hands-owned."
+  },
+  "fidelity": "reconstructed",
+  "mode": "autopilot",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260916-002",
+  "timestamp": "2026-09-16T12:46:30+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

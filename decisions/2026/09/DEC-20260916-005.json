@@ -1,0 +1,25 @@
+{
+  "session_id": "229",
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "create issue at the congtive project of our issues. with details ask brain for `reflect` it help you.tell inside issue we need add rtk usage in system prompt too. and fix manager desctions why not auto saved! ask bran for `reflect` with details of two bug we find",
+    "english_translation": "Create an issue in the cognitive project covering our issues, with details. Ask the Brain to reflect, it helps you. State inside the issue that we need rtk usage added to the system prompt too. And fix why manager decisions are not auto-saved. Ask the Brain to reflect with details of the two bugs we found."
+  },
+  "extracted_decision": {
+    "summary": "File the HQ umbrella issue (became issue 15) with Brain reflect on two bridge bugs, demanding rtk-in-system-prompt plus a fix for missing decision auto-extraction.",
+    "category": "process",
+    "rationale": "Truncation-remedy bug plus cross-project task bleed plus silent decision loss are systemic HQ defects, not apex defects.",
+    "alternatives": [
+      "Keep the findings local to the apex session"
+    ],
+    "tradeoffs": "Public issue text must carry zero secrets; all evidence quoted is code lines and verdicts."
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260916-005",
+  "timestamp": "2026-09-16T12:46:30+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "229",
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "ask qa and code reviewer for our task.",
+    "english_translation": "Ask QA and the code reviewer about our task."
+  },
+  "extracted_decision": {
+    "summary": "QA plus code-reviewer gate order for the 229 cooldown-proof endpoint work (uncommitted debug-controller probe).",
+    "category": "process",
+    "rationale": "Production-facing date/lock logic needs adversarial QA plus review even for a debug-harness endpoint.",
+    "alternatives": [
+      "Ship the probe without review"
+    ],
+    "tradeoffs": "Extra QA cycles on a probe endpoint; buys proof the lock path is correct."
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260916-004",
+  "timestamp": "2026-09-16T12:46:30+00:00",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

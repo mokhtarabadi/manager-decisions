@@ -54,3 +54,8 @@
 | DEC-20260915-002 | autopilot-cycle | Manager ordered Task 232 implementation on autopilot with Brain planning. | `decisions/2026/09/DEC-20260915-002.json` |
 | DEC-20260915-003 | process | Manager approved closure of Task 232. | `decisions/2026/09/DEC-20260915-003.json` |
 | DEC-20260915-004 | process | Manager approved closure of Task 233. | `decisions/2026/09/DEC-20260915-004.json` |
+| DEC-20260916-001 | process | Manager approves the 226 Brain plan with assumptions A1 keep buying concurrency, A2 bias never-double-bill, A3 triple ch | `decisions/2026/09/DEC-20260916-001.json` |
+| DEC-20260916-002 | process | Full-autopilot order for 228: Hands executes the Brain's two-pass docs audit end to end, stopping only for hard blockers | `decisions/2026/09/DEC-20260916-002.json` |
+| DEC-20260916-003 | tooling | Standing order: wrap all test-verdict runs with rtk test (token collapse, exit code preserved); failures keep full outpu | `decisions/2026/09/DEC-20260916-003.json` |
+| DEC-20260916-004 | process | QA plus code-reviewer gate order for the 229 cooldown-proof endpoint work (uncommitted debug-controller probe). | `decisions/2026/09/DEC-20260916-004.json` |
+| DEC-20260916-005 | process | File the HQ umbrella issue (became issue 15) with Brain reflect on two bridge bugs, demanding rtk-in-system-prompt plus  | `decisions/2026/09/DEC-20260916-005.json` |
