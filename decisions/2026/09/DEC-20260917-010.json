@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Block the repair until the record tools can accept records again",
+      "Log everything in the task file regardless of record-tool health",
+      "Suspend reporting for the duration of the repair"
+    ],
+    "category": "process",
+    "rationale": "The repair targets the decision tooling itself, so a self-referential requirement would create a deadlock unless a fallback path is pre-authorized.",
+    "summary": "Bug and learning reporting defaults to decision records; when the record tools themselves are the broken components, task-file logs and messages are the accepted fallback channel.",
+    "tradeoffs": "Evidence keeps flowing during the tool outage, but learnings from this window may live only in task files and messages, outside the decision store that autopilot replays."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Report bugs and learnings via decision records, or via task-file logs and messages when the record tools themselves are broken.",
+    "original": "Report bugs and learnings via decision records, or via task-file logs and messages when the record tools themselves are broken."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-010",
+  "timestamp": "2026-09-17T18:12:46.084660+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "d39fe2c0130e207efd4caa302b935aaecda57f4c5dcd66b8ea2239ae87c3d063",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Hands plan, implement, and self-QA to save round-trips",
+      "Manager performs the review step directly",
+      "Skip the planning seat for what looks like a small bug fix"
+    ],
+    "category": "process",
+    "rationale": "Seat separation keeps planning, implementation, and verification independent so each stage is judged by a separate seat rather than self-approved.",
+    "summary": "Every step of the task routes through the Brain seat sequence: Brain plans, Hands implement, Brain QA, Brain review; nothing bypasses a seat.",
+    "tradeoffs": "Full seat chaining raises latency and turn count for a small repair, but it produces auditable plan, QA, and review verdicts instead of a single self-assessed change."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Work task-by-task with Brain on every step: Brain plans, hands implement, Brain QAs, Brain reviews.",
+    "original": "Work task-by-task with Brain on every step: Brain plans, hands implement, Brain QAs, Brain reviews."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-008",
+  "timestamp": "2026-09-17T18:12:37.668499+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "25f9f70c372ebd009fe7e3b9237cdb5c048679d22089d6e1cad62f80cab83a2c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

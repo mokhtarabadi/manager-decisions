@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Treat the approval phrase embedded in the pasted task file as sufficient (rejected: not a direct reply to the relay)",
+      "Hold the task in tasks/qa for a manual PO pass",
+      "Send the task back for another fix cycle"
+    ],
+    "category": "release",
+    "rationale": "QA_PASSED plus Code Reviewer technical APPROVED with PO_REVIEW_PENDING and zero blocking issues satisfied the standing full-automatic closure rule, and the approval was delivered as a direct reply to the relayed closure question rather than replayed from the task file.",
+    "summary": "Closure approved for Task 248: the single-issuance final-closure XML may be issued and executed once, moving the task to completed and performing the feature commit plus closure commit through the closure MCP tool.",
+    "tradeoffs": "Closure ends the saga without a live human PO review of UX or business intent, accepting the reviewer verdict as the Manager's stand-in; holding would preserve that review but stall a task whose evidence is complete."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure.",
+    "original": "Approved for closure."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-011",
+  "timestamp": "2026-09-17T18:12:50.642370+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c00807cd2033e18ae82cf67ac9a898fa203a66e9f422590cb98c6d5620ab119c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

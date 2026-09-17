@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Split the fix into three tasks, one per broken tool (extract, record, profile)",
+      "Fix only the two crash paths (extract and record) and leave the profile consult message alone",
+      "Repair only the extraction crash, since that blocked the most recent task close"
+    ],
+    "category": "scope",
+    "rationale": "The three symptoms share one failure surface and one impact: the B2 auto-capture-on-close rule and the consult-before-asking rule cannot run, and autopilot loses its lineage source, so a single task keeps the fix coherent.",
+    "summary": "One repair task (248) covers the whole manager-decision tool chain: session extraction, decision recording, and profile consult, all filed as a single bug task rather than split into separate tasks per broken tool.",
+    "tradeoffs": "One task keeps the three symptoms fixed together but widens the surface a single verification must clear; splitting would narrow each diff but triple the plan/QA/review ceremony."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Repair the manager-decision tool chain so session extraction, decision recording, and profile consult work again.",
+    "original": "Repair the manager-decision tool chain so session extraction, decision recording, and profile consult work again."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-006",
+  "timestamp": "2026-09-17T18:12:26.461067+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "2d0eb1541d059f5ec143903927b4ed4ccdda53f27702e0f1f16b32e8fb4f885b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

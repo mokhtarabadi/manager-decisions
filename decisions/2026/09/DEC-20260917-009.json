@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Hold the task in tasks/qa until the Manager personally approves closure",
+      "Allow closure without any review verdict once QA passes",
+      "Require both a reviewer verdict and a recorded Manager phrase before closing"
+    ],
+    "category": "quality-gate",
+    "rationale": "The Manager is unreachable in full-automatic mode, so the closure gate must remain satisfiable by a recorded technical verdict plus the standing order.",
+    "summary": "A Code Reviewer technical APPROVED verdict carrying PO_REVIEW_PENDING status satisfies the closure gate for this task; no separate live Manager sign-off is required.",
+    "tradeoffs": "Removing the human closure bottleneck keeps the pipeline moving, but final authority rests on a technical review that does not weigh UX or business intent."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Reviewer technical APPROVED + PO_REVIEW_PENDING counts as closure approval.",
+    "original": "Reviewer technical APPROVED + PO_REVIEW_PENDING counts as closure approval."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-009",
+  "timestamp": "2026-09-17T18:12:42.225055+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "60087fd0eccde1bc60d23e13f85faaf5abcc685bf7787768e2f74b3cb349110f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Manual mode, stopping at every approval point",
+      "Fire-and-forget autopilot with no plan-approval pause"
+    ],
+    "category": "process",
+    "rationale": "The Manager wanted the task driven to full completion on autopilot rather than ferrying work through him.",
+    "summary": "Lock the task in autopilot and drive it end-to-end without human pauses, except hard blockers and Relay questions.",
+    "tradeoffs": "Less human oversight during execution; non-trivial work still must pass the supervised plan-approval gate, hard blockers and Relay questions still surface, and ferrying work through the Manager is treated as a bug."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "run on autopilot to full completion",
+    "original": "run on autopilot to full completion"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-002",
+  "timestamp": "2026-09-17T18:12:14.486616+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0d888dccb090d4a061ed8bc193bb50871409b13c80d2e4b0ba60f70df585bbc5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -61,3 +61,36 @@ Clean check passed: zero records with empty quotes. Promotion excludes nothing._
 - Doppelganger runtime stays deferred: 43 records are too few for unsupervised replay (issue 8 brainstorm).
 - Fidelity/mode/scope/goal_ref/fingerprint fields (Task 230 hardening) postdate all 43 records; next promotion should weigh `verbatim`-marked records first.
 - No expiry dates set: no standing order in this batch carries one yet.
+
+## Generated aggregate — second reviewed promotion (2026-09-17, Manager-APPROVED)
+
+_Source: 46 decisions not cited in the first promotion (all with verbatim original + English translation, except 4 reconstructed records listed below which stay training data). Clean check passed: zero records with empty quotes. Promotion excludes nothing._
+
+### Category distribution
+
+- process: 25
+- quality-gate: 5
+- scope: 4
+- architecture: 3
+- autopilot-cycle: 3
+- release: 3
+- tooling: 3
+
+### Ruling clusters
+
+- **Full-auto with no session access** (DEC-20260917-007, DEC-20260917-012, DEC-20260917-002, DEC-20260917-008): zero questions to the Manager; the stored standing order supplies authority; every step routes through Brain seats (plan, implement, QA, review); ferrying work through the Manager is a bug.
+- **Reviewer verdict as closure stand-in** (DEC-20260917-009, DEC-20260917-013): technical APPROVED plus PO_REVIEW_PENDING satisfies the closure gate when the Manager is unreachable; the Manager reviews the verdict after the commit.
+- **Closure stays word-gated when the Manager is present** (DEC-20260917-003, DEC-20260917-005, DEC-20260917-011): only "Approved for closure" or "Close task" count; replayed past rulings never satisfy the gate.
+- **ZAC reaffirmed** (DEC-20260917-004, DEC-20260913-025): no autonomous commits ever; closure commits go only through the sanctioned MCP commit path.
+- **One-task bundling for coherent repairs** (DEC-20260917-001, DEC-20260917-006): fold the fix plus all priority upgrades into a single task when symptoms share one failure surface; adjacent hardening becomes a new task, not scope creep (DEC-20260917-014).
+- **Fallback reporting when tooling itself is broken** (DEC-20260917-010): decision records by default; task-file logs and messages when the record tools are the broken components.
+- **English-only reasoning** (DEC-20260917-015, reconstructed): all thinking, reasoning, and responses stay in English even when the Manager writes in Persian; non-English input passes validate-translate-enrich-refactor-execute.
+- **Restarts and global sync are a handshake** (DEC-20260913-009, DEC-20260913-026, DEC-20260914-011): global sync means the repo-to-install upgrade; config changes take effect only after the Manager restarts OpenCode; live behavior is verified by the Manager before closure.
+- **RTK-first verification is standing** (DEC-20260916-003): all test-verdict runs wrap with rtk test; failures keep full output.
+- **Evidence-grounded approvals** (DEC-20260916-001, DEC-20260915-003, DEC-20260915-004, DEC-20260914-002, DEC-20260914-009): plans with file paths and lines get approved with logged assumptions; closures follow QA_PASSED plus technical review; environmental failures are marked failed-as-executed, not blocked.
+
+### Dissent / deferred notes
+
+- Reconstructed records stay training data, excluded from promotion weight: DEC-20260914-014, DEC-20260914-015, DEC-20260916-002, DEC-20260917-015.
+- Standing scopes without expiry in this batch: DEC-20260914-015, DEC-20260916-003.
+- Doppelganger runtime stays deferred: 71 records are still too few for unsupervised replay.

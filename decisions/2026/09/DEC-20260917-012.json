@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Manual mode with per-step manager approval before each phase",
+      "Halting mid-task for manager clarification on ambiguous steps"
+    ],
+    "category": "process",
+    "rationale": "The manager has no session access, so mid-task clarification is impossible; authorization to proceed comes from the stored standing order manager/full_automatic_mode, and the Brain must carry the plan/QA/review roles that the absent manager would otherwise fill.",
+    "summary": "Run the task under locked full-automatic mode with zero questions to the manager, and route every step through the Brain (plan, instruct, implement, QA, review) instead of human checkpoints.",
+    "tradeoffs": "Gains speed and unattended progress, but removes every human checkpoint inside the run; all questions must be deferred to the final handoff and every Brain turn must be recorded in the task's Execution Log."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Full-automatic mode applies (stored order `manager/full_automatic_mode`, zero questions). Manager has no session access. Work with Brain on every step: Brain plans and instructs, hands implement, Brain QAs, Brain reviews.",
+    "original": "Full-automatic mode applies (stored order `manager/full_automatic_mode`, zero questions). Manager has no session access. Work with Brain on every step: Brain plans and instructs, hands implement, Brain QAs, Brain reviews."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-012",
+  "timestamp": "2026-09-17T18:12:53.971296+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "3185a9407e51c6b5db78ade09d9d6b29a7dcb3b478ed1574067efcbbe206f0d8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

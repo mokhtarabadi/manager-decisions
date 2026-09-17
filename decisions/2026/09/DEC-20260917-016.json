@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Leave session rulings scattered across task files and chat history",
+      "Record only selected highlights instead of the full session set"
+    ],
+    "category": "process",
+    "rationale": "The Manager wants every session ruling preserved as a replayable decision and the manager profile sample kept current so future autopilot consults decide as he would.",
+    "summary": "Save every Manager decision from the session as a manager decision record and update the manager-decision profile sample.",
+    "tradeoffs": "Bulk recording adds many records at once, including near-duplicate standing orders across tasks; profile updates still require the review gate before any identity change lands."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Save all of my decisions in the session as manager decisions, and update my profile too, my manager-decision profile.",
+    "original": "خب همهی تصمیمات من توی سیشن رو ذخیره کردی به عنوان منیجر دیسیژن و پروفایل من رو هم آپدیت کن، پروفایل منیجر دیسیژن من رو."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-016",
+  "timestamp": "2026-09-17T18:13:14.286233+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "6c37548784e1c7e45fb8841f017662af89e3c99c4b61a73c9e23a015bcb69f1d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

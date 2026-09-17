@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Requiring the manager's explicit 'Approved for closure' before the closure commit",
+      "Relaying the review verdict to the manager and holding the task in tasks/qa/ until an answer arrives"
+    ],
+    "category": "quality-gate",
+    "rationale": "With the manager out of session, the closure gate is delegated to the reviewer verdict recorded in the task file, which is checked alongside QA_PASSED and recorded exit-code-0 evidence.",
+    "summary": "A reviewer technical APPROVED together with PO_REVIEW_PENDING status is sufficient to close the task; no separate manager approval word is required for this task.",
+    "tradeoffs": "Enables autonomous closure of an autopilot-locked task, at the cost of the manager reviewing the verdict only after the work is already committed; approval strength rests on a self-reported task-file line rather than a live manager message."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Reviewer technical APPROVED + PO_REVIEW_PENDING counts as closure approval.",
+    "original": "Reviewer technical APPROVED + PO_REVIEW_PENDING counts as closure approval."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-013",
+  "timestamp": "2026-09-17T18:12:56.898291+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "6d3a3bfe8d44efddeaa63516a115f49c8aed4b77242f45ed6fa313d55279b5d7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

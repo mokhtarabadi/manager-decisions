@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Allow the Hands to stage and commit directly at closure",
+      "Let autopilot auto-commit the feature diff"
+    ],
+    "category": "quality-gate",
+    "rationale": "The Manager reaffirmed ZAC for this task explicitly.",
+    "summary": "Zero-Autonomous-Commit holds for the entire task: no git add, git commit, or git push by the Hands at any point.",
+    "tradeoffs": "Staging happens only through the MCP stage tool and the single permitted commit path is custom_context_commit_and_clean_task after approval, so nothing lands without the closure word."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "ZAC holds throughout.",
+    "original": "ZAC holds throughout."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-004",
+  "timestamp": "2026-09-17T18:12:20.519951+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "4925528f4af5d9ed0483ae6eff8c79476606ceda1f02e2607393a5f7bcadedd5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

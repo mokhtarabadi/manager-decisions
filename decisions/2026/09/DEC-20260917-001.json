@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Split the work into separate tasks per phase (routing, prompt cache, ranked retrieval, eval metrics), as the still-unchecked Acceptance Criteria would imply",
+      "Fix only the context-path bug and defer all harness upgrades to a later task"
+    ],
+    "category": "scope",
+    "rationale": "The Manager ordered the fix plus all priority upgrades delivered as one task so the harness performs at its best, to a professional company team standard.",
+    "summary": "Fold the Brain context-path bug fix and every priority harness improvement from the research into a single task instead of splitting them.",
+    "tradeoffs": "Broad scope carried in one diff; routing or cache changes could alter Brain behavior and the resolver fix could change path-security semantics. Recorded Assumption A2 commits to escalating for a split rather than silently narrowing scope if the work cannot verify in one diff."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "make it ONE task",
+    "original": "make it ONE task"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-001",
+  "timestamp": "2026-09-17T18:12:11.390950+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "87322a4355887fdfce006ab8321042b5024a638aa77c83e5d7c78df1f3be16c5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

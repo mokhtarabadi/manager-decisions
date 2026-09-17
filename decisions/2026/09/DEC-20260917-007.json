@@ -1,0 +1,28 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Manual mode with blocking questions at each gate",
+      "Pause the task until the Manager reattaches to the session",
+      "Proceed with questions batched into the final handoff instead of blocking"
+    ],
+    "category": "process",
+    "rationale": "The Manager cannot see the session, so interactive clarification is impossible; the standing stored order supplies the authority that questions would otherwise provide.",
+    "summary": "Run the task under the stored standing order manager/full_automatic_mode: full-automatic execution with zero questions to the Manager, because the Manager has no session access.",
+    "tradeoffs": "Zero-question autonomy removes the human bottleneck but pushes every ambiguity onto logged assumptions and stored rulings, so a wrong assumption is only corrected after the work is done."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Full-automatic mode applies (stored order `manager/full_automatic_mode`, zero questions). Manager has no session access.",
+    "original": "Full-automatic mode applies (stored order `manager/full_automatic_mode`, zero questions). Manager has no session access."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-007",
+  "timestamp": "2026-09-17T18:12:29.642220+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f82637eaf36ed79f2674045e42a8b427e3c7554aafe797d4920149124c636680",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

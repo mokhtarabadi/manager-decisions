@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Let autopilot close the task automatically once QA and code review pass"
+    ],
+    "category": "release",
+    "rationale": "The Manager stated that even under autopilot the closure gate remains his explicit approval word.",
+    "summary": "Closure stays Manager-gated: the task may not be closed, and no closure commit made, without the Manager's explicit approval word.",
+    "tradeoffs": "The task sits in tasks/qa/ until the Manager replies; only \"Approved for closure\" or \"Close task\" count, and replayed past rulings or self-decisions never satisfy the gate."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Closure still needs the explicit approval word.",
+    "original": "Closure still needs the explicit approval word."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-003",
+  "timestamp": "2026-09-17T18:12:18.018700+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "fa648018cf9fdfd42163dd7c244fda0c9783351a4c43b32e548224b93ca663f1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

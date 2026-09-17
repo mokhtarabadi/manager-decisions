@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Answer the Manager in his own language when he writes non-English",
+      "Translate only the final answer but allow non-English reasoning"
+    ],
+    "category": "process",
+    "rationale": "The Manager ordered English-only thinking, reasoning, and responses as a permanent standing rule, with the input-validation pipeline as priority one for non-English or noisy inputs.",
+    "summary": "Standing order: the agent must never think, reason, or respond in any language but English, even when the Manager writes in Persian; every non-English or noisy input must pass validate-translate-enrich-refactor-execute with typo and voice-to-text correction.",
+    "tradeoffs": "Manager-facing messages stay English-only, which may feel less conversational for Persian input, but it keeps reasoning, logs, and prompts uniform and regeneration-safe."
+  },
+  "fidelity": "reconstructed",
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "The agent must never respond, think, or reason in any language other than English. The input-validation pipeline is priority one for every non-English or noisy input: validate, translate to English, enrich, refactor, then execute. (Reconstructed from the closed task file Manager's Notes; original order issued in Persian.)",
+    "original": "The agent must never respond, think, or reason in any language other than English. The input-validation pipeline is priority one for every non-English or noisy input. (Reconstructed from the closed task file Manager's Notes; original order issued in Persian.)"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-015",
+  "timestamp": "2026-09-17T18:13:11.024783+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0b1c9f4308b54b0a1e9b0fe4f2fd6ee3fa1198488313c8f220d5728e6c8025e1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Fold adjacent hardening (wrapper-prefixed git command detection, stricter numeric validation of cost/latency) into this task",
+      "Open a separate follow-up task for the deferred low-severity review residuals"
+    ],
+    "category": "scope",
+    "rationale": "The task continues the Brain verdict priorities after routing and prompt-cache separation, so it must stay additive and reviewable; widening it into cleanup or adjacent features would break the intended review boundary.",
+    "summary": "Limit this task to authority-ranked retrieval ranking plus the evaluation metrics; any other work must be filed as a new task instead of being absorbed here.",
+    "tradeoffs": "Keeps the diff small and reviewable, but leaves two low, non-blocking residual risks unresolved here and deferred to a follow-up task rather than fixed in place."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Scope is retrieval ranking plus eval metrics. Anything outside that scope is a new task, not scope creep.",
+    "original": "Scope is retrieval ranking plus eval metrics. Anything outside that scope is a new task, not scope creep."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-014",
+  "timestamp": "2026-09-17T18:12:59.521055+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "88efee258bc0c81192ffadd001e2af648c6cb063162f50f49c9cb702f1a485af",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Withhold approval and leave the task in tasks/qa/ for more work",
+      "Require the deferred routing, prompt-cache, retrieval, and eval work before closing"
+    ],
+    "category": "release",
+    "rationale": "The Manager answered the relayed closure question with the exact accept phrase after QA_PASSED and the code reviewer's PO_REVIEW_PENDING technical approval.",
+    "summary": "The Manager granted closure approval for the harness-upgrade/context-path task, authorizing the move to tasks/completed/ and the closure commit.",
+    "tradeoffs": "The feature commit and the separate closure commit are created, while the four unchecked Acceptance Criteria (routing, prompt cache, ranked retrieval, eval metrics) ship deferred to a follow-up task."
+  },
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260917-005",
+  "timestamp": "2026-09-17T18:12:23.140989+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9be86142fa520855cbca22840cff023db7cd6c38d24404974ad836207033a536",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

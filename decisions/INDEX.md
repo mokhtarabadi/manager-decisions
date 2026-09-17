@@ -54,8 +54,24 @@
 | DEC-20260915-002 | autopilot-cycle | Manager ordered Task 232 implementation on autopilot with Brain planning. | `decisions/2026/09/DEC-20260915-002.json` |
 | DEC-20260915-003 | process | Manager approved closure of Task 232. | `decisions/2026/09/DEC-20260915-003.json` |
 | DEC-20260915-004 | process | Manager approved closure of Task 233. | `decisions/2026/09/DEC-20260915-004.json` |
-| DEC-20260916-001 | process | Manager approves the 226 Brain plan with assumptions A1 keep buying concurrency, A2 bias never-double-bill, A3 triple ch | `decisions/2026/09/DEC-20260916-001.json` |
-| DEC-20260916-002 | process | Full-autopilot order for 228: Hands executes the Brain's two-pass docs audit end to end, stopping only for hard blockers | `decisions/2026/09/DEC-20260916-002.json` |
-| DEC-20260916-003 | tooling | Standing order: wrap all test-verdict runs with rtk test (token collapse, exit code preserved); failures keep full outpu | `decisions/2026/09/DEC-20260916-003.json` |
-| DEC-20260916-004 | process | QA plus code-reviewer gate order for the 229 cooldown-proof endpoint work (uncommitted debug-controller probe). | `decisions/2026/09/DEC-20260916-004.json` |
-| DEC-20260916-005 | process | File the HQ umbrella issue (became issue 15) with Brain reflect on two bridge bugs, demanding rtk-in-system-prompt plus  | `decisions/2026/09/DEC-20260916-005.json` |
+| DEC-20260916-001 | process | Manager approves the 226 Brain plan with assumptions A1 keep buying concurrency, A2 bias never-doubl | `decisions/2026/09/DEC-20260916-001.json` |
+| DEC-20260916-002 | process | Full-autopilot order for 228: Hands executes the Brain's two-pass docs audit end to end, stopping on | `decisions/2026/09/DEC-20260916-002.json` |
+| DEC-20260916-003 | tooling | Standing order: wrap all test-verdict runs with rtk test (token collapse, exit code preserved); fail | `decisions/2026/09/DEC-20260916-003.json` |
+| DEC-20260916-004 | process | QA plus code-reviewer gate order for the 229 cooldown-proof endpoint work (uncommitted debug-control | `decisions/2026/09/DEC-20260916-004.json` |
+| DEC-20260916-005 | process | File the HQ umbrella issue (became issue 15) with Brain reflect on two bridge bugs, demanding rtk-in | `decisions/2026/09/DEC-20260916-005.json` |
+| DEC-20260917-001 | scope | Fold the Brain context-path bug fix and every priority harness improvement from the research into a  | `decisions/2026/09/DEC-20260917-001.json` |
+| DEC-20260917-002 | process | Lock the task in autopilot and drive it end-to-end without human pauses, except hard blockers and Re | `decisions/2026/09/DEC-20260917-002.json` |
+| DEC-20260917-003 | release | Closure stays Manager-gated: the task may not be closed, and no closure commit made, without the Man | `decisions/2026/09/DEC-20260917-003.json` |
+| DEC-20260917-004 | quality-gate | Zero-Autonomous-Commit holds for the entire task: no git add, git commit, or git push by the Hands a | `decisions/2026/09/DEC-20260917-004.json` |
+| DEC-20260917-005 | release | The Manager granted closure approval for the harness-upgrade/context-path task, authorizing the move | `decisions/2026/09/DEC-20260917-005.json` |
+| DEC-20260917-006 | scope | One repair task (248) covers the whole manager-decision tool chain: session extraction, decision rec | `decisions/2026/09/DEC-20260917-006.json` |
+| DEC-20260917-007 | process | Run the task under the stored standing order manager/full_automatic_mode: full-automatic execution w | `decisions/2026/09/DEC-20260917-007.json` |
+| DEC-20260917-008 | process | Every step of the task routes through the Brain seat sequence: Brain plans, Hands implement, Brain Q | `decisions/2026/09/DEC-20260917-008.json` |
+| DEC-20260917-009 | quality-gate | A Code Reviewer technical APPROVED verdict carrying PO_REVIEW_PENDING status satisfies the closure g | `decisions/2026/09/DEC-20260917-009.json` |
+| DEC-20260917-010 | process | Bug and learning reporting defaults to decision records; when the record tools themselves are the br | `decisions/2026/09/DEC-20260917-010.json` |
+| DEC-20260917-011 | release | Closure approved for Task 248: the single-issuance final-closure XML may be issued and executed once | `decisions/2026/09/DEC-20260917-011.json` |
+| DEC-20260917-012 | process | Run the task under locked full-automatic mode with zero questions to the manager, and route every st | `decisions/2026/09/DEC-20260917-012.json` |
+| DEC-20260917-013 | quality-gate | A reviewer technical APPROVED together with PO_REVIEW_PENDING status is sufficient to close the task | `decisions/2026/09/DEC-20260917-013.json` |
+| DEC-20260917-014 | scope | Limit this task to authority-ranked retrieval ranking plus the evaluation metrics; any other work mu | `decisions/2026/09/DEC-20260917-014.json` |
+| DEC-20260917-015 | process | Standing order: the agent must never think, reason, or respond in any language but English, even whe | `decisions/2026/09/DEC-20260917-015.json` |
+| DEC-20260917-016 | process | Save every Manager decision from the session as a manager decision record and update the manager-dec | `decisions/2026/09/DEC-20260917-016.json` |
