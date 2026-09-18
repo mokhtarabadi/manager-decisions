@@ -75,3 +75,8 @@
 | DEC-20260917-014 | scope | Limit this task to authority-ranked retrieval ranking plus the evaluation metrics; any other work mu | `decisions/2026/09/DEC-20260917-014.json` |
 | DEC-20260917-015 | process | Standing order: the agent must never think, reason, or respond in any language but English, even whe | `decisions/2026/09/DEC-20260917-015.json` |
 | DEC-20260917-016 | process | Save every Manager decision from the session as a manager decision record and update the manager-dec | `decisions/2026/09/DEC-20260917-016.json` |
+| DEC-20260918-001 | scope | No Cando task file for non-Cando framework work. | `decisions/2026/09/DEC-20260918-001.json` |
+| DEC-20260918-002 | process | Report baseline-flow gaps as upstream HQ issues with full evidence; persist decisions via the decisi | `decisions/2026/09/DEC-20260918-002.json` |
+| DEC-20260918-003 | process | Telegram sync runs without GitHub issues unless explicitly asked. | `decisions/2026/09/DEC-20260918-003.json` |
+| DEC-20260918-004 | autopilot-cycle | Pre-authorized plan auto-approval is valid only on explicit Manager order; announce and record the l | `decisions/2026/09/DEC-20260918-004.json` |
+| DEC-20260918-005 | autopilot-cycle | On autopilot, QA and review run machine-to-machine; Manager sees only relay questions and final verd | `decisions/2026/09/DEC-20260918-005.json` |

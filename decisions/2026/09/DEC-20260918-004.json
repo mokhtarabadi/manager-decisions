@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Always show the plan and wait, even on autopilot."
+    ],
+    "category": "autopilot-cycle",
+    "rationale": "Explicit Manager order waives the standing supervised-approval gate for that run.",
+    "summary": "Pre-authorized plan auto-approval is valid only on explicit Manager order; announce and record the lock.",
+    "tradeoffs": "Speed over review; a wrong logged assumption is corrected later."
+  },
+  "project_name": "Cando",
+  "verbatim_quote": {
+    "english_translation": "Give task 828 to the Brain, ask for a plan, then auto-approved by me, then implement it. Use autopilot mode.",
+    "original": "Give task 828 to brain ask for plan the auto approved it then implement it use auto pilot mode"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260918-004",
+  "timestamp": "2026-09-18T13:34:32.420675+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ba9b5c52e7b35f3d18087ff93d91922b7a7afd127ad2fbbb1abbe3283c293550",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

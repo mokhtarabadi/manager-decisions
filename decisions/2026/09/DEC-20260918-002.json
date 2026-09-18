@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Keep gaps local and informal."
+    ],
+    "category": "process",
+    "rationale": "Upstream issues with session evidence let the framework fix the baseline flow.",
+    "summary": "Report baseline-flow gaps as upstream HQ issues with full evidence; persist decisions via the decision server.",
+    "tradeoffs": "Public issues carry session detail; scrubbed before posting."
+  },
+  "project_name": "Cando",
+  "verbatim_quote": {
+    "english_translation": "Create issues on GitHub with enough context and details for why the baseline flow is not fully automatic. Then save all my decisions using manager decisions.",
+    "original": "create issues at the github with enough context and details for why baseline flow not full automatic. then save my all desctions. using manager decideations"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260918-002",
+  "timestamp": "2026-09-18T13:34:27.140870+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "00dfb92c119d79adacadf0e8c6c1a03d2297f53f12bdeb8b314613aa23eb7a41",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

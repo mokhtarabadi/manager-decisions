@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Track all work, including framework work, in the Cando backlog."
+    ],
+    "category": "scope",
+    "rationale": "The HQ repo is a separate project; Cando backlog stays Cando-only.",
+    "summary": "No Cando task file for non-Cando framework work.",
+    "tradeoffs": "Framework fixes tracked upstream only; local ledger holds no pointer."
+  },
+  "project_name": "Cando",
+  "verbatim_quote": {
+    "english_translation": "No task required. The Cognitive repo is not our project. Are you crazy?",
+    "original": "no task required, the congnite not our project. are crazy?"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260918-001",
+  "timestamp": "2026-09-18T13:34:27.113760+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "69cca957eaf28c895d65236ab5b1bccf0f2b16941f11c2472a4753fb41163a4f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

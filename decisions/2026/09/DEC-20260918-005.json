@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "alternatives": [
+      "Manager ferries verdicts between seats."
+    ],
+    "category": "autopilot-cycle",
+    "rationale": "Ferrying work through the Manager wastes turns and breaks autopilot.",
+    "summary": "On autopilot, QA and review run machine-to-machine; Manager sees only relay questions and final verdict.",
+    "tradeoffs": "Less Manager visibility mid-saga; full Execution Log compensates."
+  },
+  "project_name": "Cando",
+  "verbatim_quote": {
+    "english_translation": "Give the task to the Brain code reviewer. Use autopilot.",
+    "original": "give task to brain code reviewer use autopilot"
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260918-005",
+  "timestamp": "2026-09-18T13:34:32.444278+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b13e78c8d28f8dc0d23b2a6cbd752725e39d5945aad53af7db3f71f5b1c5b6ed",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
