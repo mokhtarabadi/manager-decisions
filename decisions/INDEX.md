@@ -80,3 +80,5 @@
 | DEC-20260918-003 | process | Telegram sync runs without GitHub issues unless explicitly asked. | `decisions/2026/09/DEC-20260918-003.json` |
 | DEC-20260918-004 | autopilot-cycle | Pre-authorized plan auto-approval is valid only on explicit Manager order; announce and record the l | `decisions/2026/09/DEC-20260918-004.json` |
 | DEC-20260918-005 | autopilot-cycle | On autopilot, QA and review run machine-to-machine; Manager sees only relay questions and final verd | `decisions/2026/09/DEC-20260918-005.json` |
+| DEC-20260919-001 | process | Execute Task 259 under full automatic autopilot: ask no questions, consult all Brain personas via br | `decisions/2026/09/DEC-20260919-001.json` |
+| DEC-20260919-002 | scope | Extend the same provider-diagnosis fix to mcp-decision-server/server.py inside the current active ta | `decisions/2026/09/DEC-20260919-002.json` |

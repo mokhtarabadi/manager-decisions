@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "apply samething for manager desctions mcp too. in current active task.",
+    "english_translation": "apply samething for manager desctions mcp too. in current active task."
+  },
+  "extracted_decision": {
+    "summary": "Extend the same provider-diagnosis fix to mcp-decision-server/server.py inside the current active task instead of opening a new task.",
+    "category": "scope",
+    "rationale": "The manager-decisions server shares the empty-envelope failure mode that previously produced a misleading 'decision model returned non-JSON' error.",
+    "alternatives": [
+      "Create a separate task for the decision server",
+      "Defer the decision-server fix to a later task"
+    ],
+    "tradeoffs": "Widens the diff to a second server, but keeps the fix and its tests under one verified task."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "goal_ref": "task-259",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260919-002",
+  "timestamp": "2026-09-19T12:29:20.113592+00:00",
+  "fingerprint": "6c7ff9db34dae6c7768d48bbe32426fdb83235c7ff8f10f657a7de1a51c6ea0d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

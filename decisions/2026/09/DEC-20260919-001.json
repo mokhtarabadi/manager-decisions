@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "create a task from https://github.com/mokhtarabadi/cognitive-lead-hq/issues/20 and fix and close issue and task (use auto pilot mode)",
+    "english_translation": "create a task from https://github.com/mokhtarabadi/cognitive-lead-hq/issues/20 and fix and close issue and task (use auto pilot mode)"
+  },
+  "extracted_decision": {
+    "summary": "Execute Task 259 under full automatic autopilot: ask no questions, consult all Brain personas via brain_turn, verify RTK-first, and close the task and GitHub issue 20 one-by-one with an issue fix comment.",
+    "category": "process",
+    "rationale": "Manager standing orders for autopilot task execution of this bug fix. The standing-order expansion is the task-file note the Manager approved; the verbatim quote is the Manager's own session instruction.",
+    "alternatives": [
+      "Run in manual mode with human approval gates",
+      "Skip all-persona consultation and use a single seat",
+      "Close the task without posting an issue comment"
+    ],
+    "tradeoffs": "Zero-question autopilot removes human checkpoints but speeds delivery; consulting all personas costs extra Brain turns for broader coverage."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "goal_ref": "task-259",
+  "redaction_verified": true,
+  "decision_id": "DEC-20260919-001",
+  "timestamp": "2026-09-19T12:29:20.082005+00:00",
+  "fingerprint": "988ada3c4de899a2fa24a57d4b77d35aba096a8c96eb709e253e143fb94586b6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
