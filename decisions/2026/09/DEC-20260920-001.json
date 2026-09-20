@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "a new task need and use auto pilot baseline mode so first plan them then fix automaticall, at end extraxt my desctions from old and new tsak and save them",
+    "english_translation": "A new task is needed; use autopilot baseline mode: plan first, then fix automatically, and at the end extract my decisions from the old and the new task and save them."
+  },
+  "extracted_decision": {
+    "summary": "On autopilot, plan through the Brain first and then implement automatically without pausing for a separate plan approval.",
+    "category": "process",
+    "rationale": "The Manager wants end-to-end autonomy while keeping the Brain's planning step in the loop.",
+    "alternatives": [
+      "Pause for explicit plan approval before implementing",
+      "Skip planning and implement directly"
+    ],
+    "tradeoffs": "Fewer human checkpoints and less token churn, at the cost of the Manager not reviewing the plan before code lands."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260920-001",
+  "timestamp": "2026-09-20T10:38:29.862869+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "68fb5bf5651352173e703c0c70b164629301ce55351be7c5b4b1fa011c5e6df2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -82,3 +82,7 @@
 | DEC-20260918-005 | autopilot-cycle | On autopilot, QA and review run machine-to-machine; Manager sees only relay questions and final verd | `decisions/2026/09/DEC-20260918-005.json` |
 | DEC-20260919-001 | process | Execute Task 259 under full automatic autopilot: ask no questions, consult all Brain personas via br | `decisions/2026/09/DEC-20260919-001.json` |
 | DEC-20260919-002 | scope | Extend the same provider-diagnosis fix to mcp-decision-server/server.py inside the current active ta | `decisions/2026/09/DEC-20260919-002.json` |
+| DEC-20260920-001 | process | On autopilot, plan through the Brain first and then implement automatically without pausing for a se | `decisions/2026/09/DEC-20260920-001.json` |
+| DEC-20260920-002 | architecture | Store the full per-task history durably and bound only the view sent to the model; simple JSON stora | `decisions/2026/09/DEC-20260920-002.json` |
+| DEC-20260920-003 | tooling | Fix our own transcript storage instead of migrating to LiteLLM, and make every Responses-API server  | `decisions/2026/09/DEC-20260920-003.json` |
+| DEC-20260920-004 | process | Run the new analytics task through the autopilot baseline cycle, using Brain, Blues search, and mana | `decisions/2026/09/DEC-20260920-004.json` |

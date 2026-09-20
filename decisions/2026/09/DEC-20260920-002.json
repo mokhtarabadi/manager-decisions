@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "serach how agents like opencode works and keep sessions ? we need use same techniqe, we can use simple json but make sure it keep all history for each task",
+    "english_translation": "Research how agents like opencode keep sessions. We need the same technique. Simple JSON is fine, but make sure it keeps all history for each task."
+  },
+  "extracted_decision": {
+    "summary": "Store the full per-task history durably and bound only the view sent to the model; simple JSON storage is acceptable.",
+    "category": "architecture",
+    "rationale": "Long sessions must never lose history; the industry pattern is to persist everything and compact only what is sent.",
+    "alternatives": [
+      "Cap stored history to bound storage",
+      "Adopt a third-party session SDK"
+    ],
+    "tradeoffs": "Unbounded storage growth in exchange for never discarding a turn."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260920-002",
+  "timestamp": "2026-09-20T10:39:25.701691+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "24b37bcf87ddb4aea93de32956bf7bfccb230fc3ffa18e63cb81c4044a4ec426",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

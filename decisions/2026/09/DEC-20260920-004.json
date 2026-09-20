@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "verbatim_quote": {
+    "original": "Then search and 'collect data' and put it into the autopilot baseline cycle, and with the help of Brain and the Blues search engine and the manager's decisions, complete this section—this new task.",
+    "english_translation": "Then search and 'collect data' and put it into the autopilot baseline cycle, and with the help of Brain and the Blues search engine and the manager's decisions, complete this section—this new task."
+  },
+  "extracted_decision": {
+    "summary": "Run the new analytics task through the autopilot baseline cycle, using Brain, Blues search, and manager decisions to complete it.",
+    "category": "process",
+    "rationale": "Manager wants the work executed in the established automation workflow with research and decision support.",
+    "alternatives": [
+      "Manual ad-hoc implementation",
+      "Skip Brain/Blues research",
+      "Use only manager instructions without stored decisions"
+    ],
+    "tradeoffs": "Automation may be faster and grounded but depends on Brain/Blues/manager-decision tooling; less direct human oversight until gates."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260920-004",
+  "timestamp": "2026-09-20T11:25:02.348248+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "26320726d4a9cc15e0b553388daef9092fc3a72ac405c29ef511e82ee109e8f8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

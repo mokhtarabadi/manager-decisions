@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "verbatim_quote": {
+    "original": "i choose R3 too. read the response api docs and make sure you follow them for both mcps servers we have taht used repsonse api.",
+    "english_translation": "I choose R3 as well. Read the Responses API docs and make sure both MCP servers that use the Responses API follow them."
+  },
+  "extracted_decision": {
+    "summary": "Fix our own transcript storage instead of migrating to LiteLLM, and make every Responses-API server conform to the OpenAI Responses API documentation.",
+    "category": "tooling",
+    "rationale": "The provider is stateless, so the defect is local; LiteLLM adds no session storage of its own and would not fix it.",
+    "alternatives": [
+      "Migrate to LiteLLM",
+      "Switch to OpenAI direct and use previous_response_id with store:true"
+    ],
+    "tradeoffs": "Keeps the current provider and the custom code, but leaves server-side session state unavailable."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260920-003",
+  "timestamp": "2026-09-20T10:40:15.274229+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0b2776066bc0082bf3200fd43a7002480458618190216d10dbcd920a8c80972f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
