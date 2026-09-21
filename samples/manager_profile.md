@@ -94,3 +94,89 @@ _Source: 46 decisions not cited in the first promotion (all with verbatim origin
 - Reconstructed records stay training data, excluded from promotion weight: DEC-20260914-014, DEC-20260914-015, DEC-20260916-002, DEC-20260917-015.
 - Standing scopes without expiry in this batch: DEC-20260914-015, DEC-20260916-003.
 - Doppelganger runtime stays deferred: 71 records are still too few for unsupervised replay.
+
+## Generated aggregate — third reviewed promotion (2026-09-21, Manager-APPROVED)
+
+_Source: 30 new decision(s) not yet cited in the sample (2026-09-21)._
+
+### Category distribution (new records)
+
+- architecture: 4
+- autopilot-cycle: 4
+- process: 17
+- scope: 4
+- tooling: 1
+
+### Ruling clusters (new records)
+
+- **architecture**
+  - DEC-20260914-005: CSP upgrade-insecure-requests disabled on dev, kept on prod.
+    Rationale: Dev is served over plain http on a public IP where the directive breaks login; prod terminates TLS so the hardening stays.
+  - DEC-20260914-007: Dev server port moved 8081 to 8082 (8081 held by external proxy).
+    Rationale: Port conflict with an unrelated container; moving dev is cheaper than moving shared infra.
+  - DEC-20260914-010: Stopped apex-dev-pg container kept (not removed) after compose takeover.
+    Rationale: It held the live dev data; removal would destroy the only copy of some rows before verification.
+  - DEC-20260920-002: Store the full per-task history durably and bound only the view sent to the model; simple JSON storage is acceptable.
+    Rationale: Long sessions must never lose history; the industry pattern is to persist everything and compact only what is sent.
+- **autopilot-cycle**
+  - DEC-20260915-001: Manager approved fixing all brainstorm gaps via the Hands on autopilot.
+    Rationale: Explicit Manager order locks autopilot; Hands executes end-to-end with no approval pauses.
+  - DEC-20260915-002: Manager ordered Task 232 implementation on autopilot with Brain planning.
+    Rationale: Explicit order names both the task and autopilot mode.
+  - DEC-20260918-004: Pre-authorized plan auto-approval is valid only on explicit Manager order; announce and record the lock.
+    Rationale: Explicit Manager order waives the standing supervised-approval gate for that run.
+  - DEC-20260918-005: On autopilot, QA and review run machine-to-machine; Manager sees only relay questions and final verdict.
+    Rationale: Ferrying work through the Manager wastes turns and breaks autopilot.
+- **process**
+  - DEC-20260912-002: Every stored decision must pass sanitize_text on all free-text fields plus a verify_clean gate; any surviving sensitive pattern raises and nothing is written (…
+    Rationale: Raw dumps bloat context and leak secrets; scrubbed rulings stay queryable.
+  - DEC-20260913-001: Manager orders Hands to run the QA-review autopilot cycle autonomously and promises closure approval on a pass.
+    Rationale: Manager trusts the memorized QA-review cycle and wants verification without his involvement; approval is conditional on a pass.
+  - DEC-20260913-004: Task numbers live ONLY in code comments, CHANGELOG, task files, history archives, and HTML comments — never in prompt-facing Markdown prose (anti-hallucination…
+    Rationale: Manager observed task-number references in prompt Markdown causing AI hallucination; code comments are fine and welcome.
+  - DEC-20260913-020: Telegram message 609 became Task 216 (separate personal decisions repo) via the standard sync pipeline, then autopilot-solved to best quality. Established the …
+    Rationale: Manager wants fire-and-forget handling of new Telegram tasks at maximum quality.
+  - DEC-20260913-022: One-word 'Approved' after a 3-step plan authorizes full autopilot implementation under the Direct Input protocol.
+    Rationale: Plan-and-halt keeps ad-hoc work gated while staying fast.
+  - DEC-20260913-024: Nothing destructive (prune/push/restart) happens before the Manager sees the worktree status first.
+    Rationale: Status-first is the safety gate before irreversible steps.
+  - DEC-20260913-027: Batch approval authorizes migrating all 13 local DEC records; each carries migrated_from provenance (display-name only, no abs paths — public-repo guard).
+    Rationale: Explicit batch token satisfies the migration skill's approval gate.
+  - DEC-20260914-004: socat port-forward work on the manager script needs no Kanban task file.
+    Rationale: Small ops script change; task overhead exceeds the work itself.
+  - DEC-20260914-016: Ops via curl only: add the 10 cheapest uncovered collections as EXPLORER_BROAD filters (both markets, 10 TON cap, 5% target), enable AUTO_SCAN_ENABLED via /con…
+    Rationale: Manager wants to watch the engine work live with curl-driven ops against the newest binary instead of UI clicks.
+  - DEC-20260916-004: QA plus code-reviewer gate order for the 229 cooldown-proof endpoint work (uncommitted debug-controller probe).
+    Rationale: Production-facing date/lock logic needs adversarial QA plus review even for a debug-harness endpoint.
+  - DEC-20260916-005: File the HQ umbrella issue (became issue 15) with Brain reflect on two bridge bugs, demanding rtk-in-system-prompt plus a fix for missing decision auto-extract…
+    Rationale: Truncation-remedy bug plus cross-project task bleed plus silent decision loss are systemic HQ defects, not apex defects.
+  - DEC-20260917-016: Save every Manager decision from the session as a manager decision record and update the manager-decision profile sample.
+    Rationale: The Manager wants every session ruling preserved as a replayable decision and the manager profile sample kept current so future autopilot consults decide as he…
+  - DEC-20260918-002: Report baseline-flow gaps as upstream HQ issues with full evidence; persist decisions via the decision server.
+    Rationale: Upstream issues with session evidence let the framework fix the baseline flow.
+  - DEC-20260918-003: Telegram sync runs without GitHub issues unless explicitly asked.
+    Rationale: Manager wants local task files only; GitHub issues are opt-in per run.
+  - DEC-20260919-001: Execute Task 259 under full automatic autopilot: ask no questions, consult all Brain personas via brain_turn, verify RTK-first, and close the task and GitHub i…
+    Rationale: Manager standing orders for autopilot task execution of this bug fix. The standing-order expansion is the task-file note the Manager approved; the verbatim quo…
+  - DEC-20260920-001: On autopilot, plan through the Brain first and then implement automatically without pausing for a separate plan approval.
+    Rationale: The Manager wants end-to-end autonomy while keeping the Brain's planning step in the loop.
+  - DEC-20260920-004: Run the new analytics task through the autopilot baseline cycle, using Brain, Blues search, and manager decisions to complete it.
+    Rationale: Manager wants the work executed in the established automation workflow with research and decision support.
+- **scope**
+  - DEC-20260914-008: Curl-driven filter creation runs without a task file, one EXPLORER_BROAD filter per collection.
+    Rationale: Bulk ops across 30 collections; per-collection tasks would spam the Kanban with identical items.
+  - DEC-20260918-001: No Cando task file for non-Cando framework work.
+    Rationale: The HQ repo is a separate project; Cando backlog stays Cando-only.
+  - DEC-20260919-002: Extend the same provider-diagnosis fix to mcp-decision-server/server.py inside the current active task instead of opening a new task.
+    Rationale: The manager-decisions server shares the empty-envelope failure mode that previously produced a misleading 'decision model returned non-JSON' error.
+  - DEC-20260921-001: Broadcast dedup keys on the broadcast identity, not on the message text. Two separate submissions of the same text are two broadcasts and must each deliver; no…
+    Rationale: Measured: identical text enqueued twice produced two Broadcast rows, 12 message rows (2 per recipient) and 2 device pushes; two distinct texts produced exactly…
+- **tooling**
+  - DEC-20260920-003: Fix our own transcript storage instead of migrating to LiteLLM, and make every Responses-API server conform to the OpenAI Responses API documentation.
+    Rationale: The provider is stateless, so the defect is local; LiteLLM adds no session storage of its own and would not fix it.
+
+### Dissent / deferred notes
+
+- All new records are verbatim fidelity.
+- No standing scopes in this batch.
+- Merge rule: append a new dated aggregate section to the sample; never edit prior promoted sections in place.
