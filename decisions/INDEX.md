@@ -86,3 +86,4 @@
 | DEC-20260920-002 | architecture | Store the full per-task history durably and bound only the view sent to the model; simple JSON stora | `decisions/2026/09/DEC-20260920-002.json` |
 | DEC-20260920-003 | tooling | Fix our own transcript storage instead of migrating to LiteLLM, and make every Responses-API server  | `decisions/2026/09/DEC-20260920-003.json` |
 | DEC-20260920-004 | process | Run the new analytics task through the autopilot baseline cycle, using Brain, Blues search, and mana | `decisions/2026/09/DEC-20260920-004.json` |
+| DEC-20260921-001 | scope | Broadcast dedup keys on the broadcast identity, not on the message text. Two separate submissions of | `decisions/2026/09/DEC-20260921-001.json` |
