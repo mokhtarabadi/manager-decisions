@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-005",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep research open",
+      "Defer AI changes"
+    ],
+    "category": "release",
+    "rationale": "20 research queries answered, AI system judged safe, no code needed.",
+    "summary": "Approved closure of Task 471 AI research queries",
+    "tradeoffs": "Research done vs no implementation"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "is all fine close task",
+    "original": "is all fine close task"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "09d92f6936cdbef9ee99d837234de459e56c235dc40819ce71b7ad57cb884f40",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

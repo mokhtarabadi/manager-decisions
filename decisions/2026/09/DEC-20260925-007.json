@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-007",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep time ticker open",
+      "Fix all time displays"
+    ],
+    "category": "release",
+    "rationale": "60s ticker with WeakReference, 7 adapters, 10 tests, no schema change.",
+    "summary": "Approved closure of Task 840 time ticker",
+    "tradeoffs": "Small ticker vs full time rewrite"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "4b8aee73c8a0cfc34c105ef075a4845260ad8432f300a9aa3a85b9387ed280f0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -87,3 +87,11 @@
 | DEC-20260920-003 | tooling | Fix our own transcript storage instead of migrating to LiteLLM, and make every Responses-API server  | `decisions/2026/09/DEC-20260920-003.json` |
 | DEC-20260920-004 | process | Run the new analytics task through the autopilot baseline cycle, using Brain, Blues search, and mana | `decisions/2026/09/DEC-20260920-004.json` |
 | DEC-20260921-001 | scope | Broadcast dedup keys on the broadcast identity, not on the message text. Two separate submissions of | `decisions/2026/09/DEC-20260921-001.json` |
+| DEC-20260925-001 | release | Approved closure of Task 841 Phase 1 offline-cache kill-switch | `decisions/2026/09/DEC-20260925-001.json` |
+| DEC-20260925-002 | release | Approved closure of Task 839 typing indicator as static text | `decisions/2026/09/DEC-20260925-002.json` |
+| DEC-20260925-003 | release | Approved closure of Task 838 billing hardening A1-A6 | `decisions/2026/09/DEC-20260925-003.json` |
+| DEC-20260925-004 | release | Approved closure of Task 579 timezone hardening | `decisions/2026/09/DEC-20260925-004.json` |
+| DEC-20260925-005 | release | Approved closure of Task 471 AI research queries | `decisions/2026/09/DEC-20260925-005.json` |
+| DEC-20260925-006 | release | Approved closure of Task 842 UI audit | `decisions/2026/09/DEC-20260925-006.json` |
+| DEC-20260925-007 | release | Approved closure of Task 840 time ticker | `decisions/2026/09/DEC-20260925-007.json` |
+| DEC-20260925-008 | release | Approved closure of Task 837 analytics fix | `decisions/2026/09/DEC-20260925-008.json` |

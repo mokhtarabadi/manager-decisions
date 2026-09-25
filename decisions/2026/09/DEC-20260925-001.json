@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-001",
+  "extracted_decision": {
+    "alternatives": [
+      "Defer 841 to later sprint",
+      "Build full offline cache now"
+    ],
+    "category": "release",
+    "rationale": "Phase 1 adds zero new cached reads, only a kill-switch and guardrails. Safe to ship before ads.",
+    "summary": "Approved closure of Task 841 Phase 1 offline-cache kill-switch",
+    "tradeoffs": "No offline benefit yet vs zero risk of stale/cross-account/money bugs"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "6459793ab3a4419f002dd0e8354501291799d3aa53698b37767520e6ed7a8974",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-003",
+  "extracted_decision": {
+    "alternatives": [
+      "Ship without billing fixes",
+      "Fix all 7 edge cases at once"
+    ],
+    "category": "release",
+    "rationale": "A1-A6 fixes prevent paid-but-ungranted and reused receipts. R1-R5 stay as follow-ups.",
+    "summary": "Approved closure of Task 838 billing hardening A1-A6",
+    "tradeoffs": "Partial fix now vs full audit later"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5752b33f06962764f8c328e0378f8bcbcd7c8016718edff320dab8b764367d9e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

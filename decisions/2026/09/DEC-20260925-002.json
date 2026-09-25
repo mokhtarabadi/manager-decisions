@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-002",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep typing indicator static gray",
+      "Animate with dots or yellow color"
+    ],
+    "category": "release",
+    "rationale": "Designer advised static text is stable, readable both languages, no leak risk. Animation adds RTL and TalkBack issues.",
+    "summary": "Approved closure of Task 839 typing indicator as static text",
+    "tradeoffs": "Less flashy vs safe and clear for release"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a3a28be8d91a0114c1388f5fafb6c84c1b56b55adcc9d39769596bdd31511c4b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

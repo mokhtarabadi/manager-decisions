@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-008",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep analytics open",
+      "Backfill historical data"
+    ],
+    "category": "release",
+    "rationale": "System-bot bucket split fixes 68% skew, no backfill, trend step-down noted.",
+    "summary": "Approved closure of Task 837 analytics fix",
+    "tradeoffs": "Fix forward vs rewrite history"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "34455aaf56c76d80ee0b16dd8493b553186f23caaf51b855ae2c4ef848656c6f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

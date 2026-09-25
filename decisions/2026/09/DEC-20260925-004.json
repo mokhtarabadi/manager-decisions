@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-004",
+  "extracted_decision": {
+    "alternatives": [
+      "Defer timezone fixes",
+      "Fix all 31 legacy files"
+    ],
+    "category": "release",
+    "rationale": "D1+D2-minimal+D5+D6 fix real bugs with minimal risk. Bulk migration parked.",
+    "summary": "Approved closure of Task 579 timezone hardening",
+    "tradeoffs": "Small safe fixes now vs large risky rewrite"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c26351f3bc136a7c6d8820c0c1b46a2e3902b3b171112183003a8bcc430c929b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

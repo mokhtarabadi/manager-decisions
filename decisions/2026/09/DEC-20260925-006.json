@@ -1,0 +1,28 @@
+{
+  "category": "release",
+  "decision_id": "DEC-20260925-006",
+  "extracted_decision": {
+    "alternatives": [
+      "Keep UI audit open",
+      "Fix all 73 layouts"
+    ],
+    "category": "release",
+    "rationale": "Top-5 screens audited, 2 TalkBack labels + snackbar theming fixed, no color/RTL issues.",
+    "summary": "Approved closure of Task 842 UI audit",
+    "tradeoffs": "Scoped fix vs full redesign"
+  },
+  "project_name": "dumble",
+  "timestamp": "2026-09-25T00:00:00Z",
+  "verbatim_quote": {
+    "english_translation": "Approved for closure",
+    "original": "Approved for closure"
+  },
+  "redaction_verified": true,
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "8a7d79b857a3965407432468291d28580abc08f7b48554b40baa339b6f3d51ad",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
