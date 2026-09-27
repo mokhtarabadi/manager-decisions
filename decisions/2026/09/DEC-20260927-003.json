@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "verbatim_quote": {
+    "original": "check cloud logs direct payment need valid or at least correct mock .env for zarinpal. check and fix and restart server and tell me restarted them",
+    "english_translation": "check cloud logs direct payment need valid or at least correct mock .env for zarinpal. check and fix and restart server and tell me restarted them"
+  },
+  "extracted_decision": {
+    "summary": "Staging Zarinpal set to sandbox mock (code supports merchant_id=sandbox); parse service recreated to pick up env.",
+    "category": "tooling",
+    "rationale": "Staging placeholder merchant ID was rejected by live Zarinpal (422); direct purchases must test without real money.",
+    "alternatives": [
+      "Real staging merchant account"
+    ],
+    "tradeoffs": "Sandbox authorities only; prod keeps the real merchant ID — env differs per environment."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-003",
+  "timestamp": "2026-09-27T12:38:51.404945+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "6c116b6fd25ed012abd3b86e89432f5dfc2f24cad3f63892d85a5007af36d25c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

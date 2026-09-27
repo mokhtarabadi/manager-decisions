@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "mode": "autopilot",
+  "goal_ref": "task-04-autopilot",
+  "verbatim_quote": {
+    "original": "Approved. make sure we always connect to fastest nodes. and fresh, and gool balancer.",
+    "english_translation": "Approved. Make sure we always connect to fastest nodes, and fresh, and good balancer."
+  },
+  "extracted_decision": {
+    "summary": "Balancer selection policy: always prefer fastest known nodes, exclude stale nodes, keep load fair across the pool.",
+    "category": "architecture",
+    "rationale": "Manager wants speed plus freshness plus even balancing, not just any alive node.",
+    "alternatives": [
+      "least-used only without delay tiebreak",
+      "fastest-only without fairness"
+    ],
+    "tradeoffs": "Fastest-first concentrates early picks on top tier; fairness spreads load over full rounds."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-006",
+  "timestamp": "2026-09-27T12:54:56.972996+00:00",
+  "fidelity": "verbatim",
+  "scope": "episode",
+  "fingerprint": "bd21fc867c43a194089cd53879b738158d072f7bcf30bed3c963da86542f36ca",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

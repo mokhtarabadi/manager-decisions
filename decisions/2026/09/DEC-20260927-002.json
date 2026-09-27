@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "verbatim_quote": {
+    "original": "use a place holder for fallback_auth_enabled is fine, in prod i setup it with real data.",
+    "english_translation": "use a place holder for fallback_auth_enabled is fine, in prod i setup it with real data."
+  },
+  "extracted_decision": {
+    "summary": "Keep placeholder fallback_webhook_secret on staging; production carries the real secret. Staging/prod config values intentionally differ.",
+    "category": "architecture",
+    "rationale": "Staging never exercises the real fallback path; prod is configured separately.",
+    "alternatives": [
+      "Unify both environments"
+    ],
+    "tradeoffs": "Staging boot backfill stays aborted by the fail-closed guard until the flag is off or a real secret is set; new defaults need manual PUT."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-002",
+  "timestamp": "2026-09-27T12:38:43.943914+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "14f647121dda4c49412a328e1bfc1b476c5e791d02c4534cb2f22195427a973c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

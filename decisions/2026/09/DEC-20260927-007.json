@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "verbatim_quote": {
+    "original": "it must full automatic and you need install it globaly to my ~/.local/bin or some where i and also i just run it like rotate or something or rr it auto roatte current active.",
+    "english_translation": "It must be fully automatic, and you need to install it globally to my ~/.local/bin or somewhere, and I just run it like rotate or something, or rr — it auto-rotates the current active node."
+  },
+  "extracted_decision": {
+    "summary": "Manual rotate helper must be a global zero-argument command (rr) that auto-detects and rotates the currently active node.",
+    "category": "tooling",
+    "rationale": "Manager hits rate limits mid-work and cannot wait for the timer or look up node names.",
+    "alternatives": [
+      "skip NAME with explicit node name only",
+      "wait for the 5-minute timer"
+    ],
+    "tradeoffs": "Launcher lives outside the repo (home dir), so repo commits carry only the subcommand, not the install."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-007",
+  "timestamp": "2026-09-27T12:54:57.393054+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "4651f0df6d0f6e398d17e07a08599592ea4855bacff0f747ec4aaf5fea325ab5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

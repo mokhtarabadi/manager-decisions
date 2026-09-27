@@ -95,3 +95,12 @@
 | DEC-20260925-006 | release | Approved closure of Task 842 UI audit | `decisions/2026/09/DEC-20260925-006.json` |
 | DEC-20260925-007 | release | Approved closure of Task 840 time ticker | `decisions/2026/09/DEC-20260925-007.json` |
 | DEC-20260925-008 | release | Approved closure of Task 837 analytics fix | `decisions/2026/09/DEC-20260925-008.json` |
+| DEC-20260927-001 | quality-gate | S2 upgrade-path QA skipped: fresh install means no upgrade path exists; revisit when an older build  | `decisions/2026/09/DEC-20260927-001.json` |
+| DEC-20260927-002 | architecture | Keep placeholder fallback_webhook_secret on staging; production carries the real secret. Staging/pro | `decisions/2026/09/DEC-20260927-002.json` |
+| DEC-20260927-003 | tooling | Staging Zarinpal set to sandbox mock (code supports merchant_id=sandbox); parse service recreated to | `decisions/2026/09/DEC-20260927-003.json` |
+| DEC-20260927-004 | process | Search-tab VIP bug: diagnose root cause vs working activity hub, explain, then file a backlog task ( | `decisions/2026/09/DEC-20260927-004.json` |
+| DEC-20260927-005 | quality-gate | S9 verified jointly: agent finds/tests/sets a working public proxy and confirms adapter pickup from  | `decisions/2026/09/DEC-20260927-005.json` |
+| DEC-20260927-006 | architecture | Balancer selection policy: always prefer fastest known nodes, exclude stale nodes, keep load fair ac | `decisions/2026/09/DEC-20260927-006.json` |
+| DEC-20260927-007 | tooling | Manual rotate helper must be a global zero-argument command (rr) that auto-detects and rotates the c | `decisions/2026/09/DEC-20260927-007.json` |
+| DEC-20260927-008 | process | New balancer-adjacent features (e.g. 429 pre-flight check) must be env-configurable and toggleable,  | `decisions/2026/09/DEC-20260927-008.json` |
+| DEC-20260927-009 | process | Small timer-interval tweaks do not need Kanban task tracking; change and reload directly. | `decisions/2026/09/DEC-20260927-009.json` |

@@ -180,3 +180,63 @@ _Source: 30 new decision(s) not yet cited in the sample (2026-09-21)._
 - All new records are verbatim fidelity.
 - No standing scopes in this batch.
 - Merge rule: append a new dated aggregate section to the sample; never edit prior promoted sections in place.
+
+## Generated aggregate — fourth reviewed promotion (2026-09-27, Manager-APPROVED)
+
+_Source: 17 new decision(s) cited in the sample (2026-09-27)._
+
+### Category distribution (new records)
+
+- architecture: 2
+- process: 3
+- quality-gate: 2
+- release: 8
+- tooling: 2
+
+### Ruling clusters (new records)
+
+- **architecture**
+  - DEC-20260927-002: Keep placeholder fallback_webhook_secret on staging; production carries the real secret. Staging/prod config values intentionally differ.
+    Rationale: Staging never exercises the real fallback path; prod is configured separately.
+  - DEC-20260927-006: Balancer selection policy: always prefer fastest known nodes, exclude stale nodes, keep load fair across the pool.
+    Rationale: Manager wants speed plus freshness plus even balancing, not just any alive node.
+- **process**
+  - DEC-20260927-004: Search-tab VIP bug: diagnose root cause vs working activity hub, explain, then file a backlog task (became task 844).
+    Rationale: Bug reports should carry proven diagnosis and land in Kanban rather than ad-hoc fixes.
+  - DEC-20260927-008: New balancer-adjacent features (e.g. 429 pre-flight check) must be env-configurable and toggleable, never hardcoded.
+    Rationale: Manager wants to enable/disable experimental checks without code changes.
+  - DEC-20260927-009: Small timer-interval tweaks do not need Kanban task tracking; change and reload directly.
+    Rationale: Interval tuning is a one-line ops change, not a design task.
+- **quality-gate**
+  - DEC-20260927-001: S2 upgrade-path QA skipped: fresh install means no upgrade path exists; revisit when an older build is available.
+    Rationale: No older build installed, so the What's New once-only sheet cannot be exercised.
+  - DEC-20260927-005: S9 verified jointly: agent finds/tests/sets a working public proxy and confirms adapter pickup from logs; manager triggers a real push from device; agent confirms from server logs.
+    Rationale: Push egress can only be proven end-to-end with a real device trigger plus server-side log evidence.
+- **release**
+  - DEC-20260925-001: Approved closure of Task 841 Phase 1 offline-cache kill-switch
+    Rationale: Phase 1 adds zero new cached reads, only a kill-switch and guardrails. Safe to ship before ads.
+  - DEC-20260925-002: Approved closure of Task 839 typing indicator as static text
+    Rationale: Designer advised static text is stable, readable both languages, no leak risk. Animation adds RTL and TalkBack issues.
+  - DEC-20260925-003: Approved closure of Task 838 billing hardening A1-A6
+    Rationale: A1-A6 fixes prevent paid-but-ungranted and reused receipts. R1-R5 stay as follow-ups.
+  - DEC-20260925-004: Approved closure of Task 579 timezone hardening
+    Rationale: D1+D2-minimal+D5+D6 fix real bugs with minimal risk. Bulk migration parked.
+  - DEC-20260925-005: Approved closure of Task 471 AI research queries
+    Rationale: 20 research queries answered, AI system judged safe, no code needed.
+  - DEC-20260925-006: Approved closure of Task 842 UI audit
+    Rationale: Top-5 screens audited, 2 TalkBack labels + snackbar theming fixed, no color/RTL issues.
+  - DEC-20260925-007: Approved closure of Task 840 time ticker
+    Rationale: 60s ticker with WeakReference, 7 adapters, 10 tests, no schema change.
+  - DEC-20260925-008: Approved closure of Task 837 analytics fix
+    Rationale: System-bot bucket split fixes 68% skew, no backfill, trend step-down noted.
+- **tooling**
+  - DEC-20260927-003: Staging Zarinpal set to sandbox mock (code supports merchant_id=sandbox); parse service recreated to pick up env.
+    Rationale: Staging placeholder merchant ID was rejected by live Zarinpal (422); direct purchases must test without real money.
+  - DEC-20260927-007: Manual rotate helper must be a global zero-argument command (rr) that auto-detects and rotates the currently active node.
+    Rationale: Manager hits rate limits mid-work and cannot wait for the timer or look up node names.
+
+### Dissent / deferred notes
+
+- Non-verbatim records stay training data, excluded from promotion weight: DEC-20260927-008, DEC-20260927-009.
+- No standing scopes in this batch.
+- Merge rule: append a new dated aggregate section to the sample; never edit prior promoted sections in place.

@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "verbatim_quote": {
+    "original": "I can't test, reason is i install fresh apk. i will test it later and ping you, skip for now",
+    "english_translation": "I can't test, reason is i install fresh apk. i will test it later and ping you, skip for now"
+  },
+  "extracted_decision": {
+    "summary": "S2 upgrade-path QA skipped: fresh install means no upgrade path exists; revisit when an older build is available.",
+    "category": "quality-gate",
+    "rationale": "No older build installed, so the What's New once-only sheet cannot be exercised.",
+    "alternatives": [
+      "Reinstall an older build first"
+    ],
+    "tradeoffs": "Leaves one M36 scenario open; tracked in file Evidence."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-001",
+  "timestamp": "2026-09-27T12:38:34.898063+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "06a1e042155de08464ec9ce042996ccf7e833325a53e263567bd86c1f71aa3a9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

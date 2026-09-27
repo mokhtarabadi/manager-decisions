@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "verbatim_quote": {
+    "original": "اون داره خوب کار می‌کنه. فرقشو سعی کن پیدا کنی و به من توضیح بده و بعد از اینکه کامل فهمیدیش، تسکش کن و توی بک‌لاگ بنویسش.",
+    "english_translation": "That one works fine. Try to find the difference and explain it to me, and after you fully understand it, make it a task and write it in the backlog."
+  },
+  "extracted_decision": {
+    "summary": "Search-tab VIP bug: diagnose root cause vs working activity hub, explain, then file a backlog task (became task 844).",
+    "category": "process",
+    "rationale": "Bug reports should carry proven diagnosis and land in Kanban rather than ad-hoc fixes.",
+    "alternatives": [
+      "Hotfix without a task"
+    ],
+    "tradeoffs": "Slightly slower; full traceability in return."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-004",
+  "timestamp": "2026-09-27T12:38:59.578467+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b97a9a3e26badea6adf82fcc5915bb6c32a17adaafc5a759271263e57da3915c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

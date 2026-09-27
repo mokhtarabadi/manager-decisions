@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "(Persian, paraphrased) اینتروال را همین حالا زیاد کن، برای این کار تسک لازم نیست",
+    "english_translation": "Increase the interval right now; no task needed for that."
+  },
+  "extracted_decision": {
+    "summary": "Small timer-interval tweaks do not need Kanban task tracking; change and reload directly.",
+    "category": "process",
+    "rationale": "Interval tuning is a one-line ops change, not a design task.",
+    "alternatives": [
+      "full task file per interval change"
+    ],
+    "tradeoffs": "Less traceability for untracked tweaks; acceptable for single-value ops changes."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-009",
+  "timestamp": "2026-09-27T12:55:17.090275+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c5b0a9778e68721a2742c681deb1e418bc7ec92bf2f34a83f1772aa42e39661c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
