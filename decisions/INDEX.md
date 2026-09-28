@@ -104,3 +104,6 @@
 | DEC-20260927-007 | tooling | Manual rotate helper must be a global zero-argument command (rr) that auto-detects and rotates the c | `decisions/2026/09/DEC-20260927-007.json` |
 | DEC-20260927-008 | process | New balancer-adjacent features (e.g. 429 pre-flight check) must be env-configurable and toggleable,  | `decisions/2026/09/DEC-20260927-008.json` |
 | DEC-20260927-009 | process | Small timer-interval tweaks do not need Kanban task tracking; change and reload directly. | `decisions/2026/09/DEC-20260927-009.json` |
+| DEC-20260927-010 | scope | Rejected chaining Psiphon with WARP (usque MASQUE client) to gain UDP support; chose the simpler TCP | `decisions/2026/09/DEC-20260927-010.json` |
+| DEC-20260927-011 | architecture | Exit node routes only TCP peer traffic through the Psiphon US tunnel; QUIC (UDP/443) is dropped to f | `decisions/2026/09/DEC-20260927-011.json` |
+| DEC-20260927-012 | quality-gate | Accepted peer-side test evidence (browser IP US, STUN-discovered server IP accepted as by-design, DN | `decisions/2026/09/DEC-20260927-012.json` |

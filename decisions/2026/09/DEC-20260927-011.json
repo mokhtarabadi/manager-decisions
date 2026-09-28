@@ -1,0 +1,27 @@
+{
+  "project_name": "tailnet-us-egress",
+  "verbatim_quote": {
+    "original": "ببین، اگر همه اطلاعات رو داری و کامند و داکیومنت و هر چیزی که داری دقیقه، آپ تو دیته، اوکیه. منم قبول دارم. کار رو انجام بده، بعد داکیومنت‌های پروژه رو هم آپدیت کن.",
+    "english_translation": "Look, if all the information, commands, documents, everything you have is precise and up to date, fine. I agree. Do the work, then update the project docs too."
+  },
+  "extracted_decision": {
+    "summary": "Exit node routes only TCP peer traffic through the Psiphon US tunnel; QUIC (UDP/443) is dropped to force browser fallback to TCP; all other UDP (DNS, VoIP, Telegram/WhatsApp calls) exits directly from the server.",
+    "category": "architecture",
+    "rationale": "Manager wanted a US IP for browser/TCP traffic without breaking UDP services; dropping QUIC prevents direct-IP leaks while keeping calls and DNS working at the exit node.",
+    "alternatives": [
+      "Tunnel all traffic including UDP through Psiphon",
+      "Chain Psiphon with WARP/usque for UDP support"
+    ],
+    "tradeoffs": "UDP traffic carries the server's own country instead of US; first page loads may be slightly slower during QUIC-to-TCP fallback."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-011",
+  "timestamp": "2026-09-27T14:34:53.503147+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "6cf5816f45f51b8975ffea220475954c41b654bef224d5e26f581d362160bfbe",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

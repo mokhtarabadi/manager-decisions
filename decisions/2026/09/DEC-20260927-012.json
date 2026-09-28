@@ -1,0 +1,24 @@
+{
+  "project_name": "tailnet-us-egress",
+  "verbatim_quote": {
+    "original": "تلگرام هم بخش تماس صوتیش کار کرد، اوکی بود. حالا بر اساس این اطلاعاتی که بهت دادم، تسک تموم شد، کامل شد.",
+    "english_translation": "Telegram voice calls worked too, it was fine. Now based on the information I gave you, the task is finished, complete."
+  },
+  "extracted_decision": {
+    "summary": "Accepted peer-side test evidence (browser IP US, STUN-discovered server IP accepted as by-design, DNS and Telegram voice working) and declared the TCP-split task complete.",
+    "category": "quality-gate",
+    "rationale": "All acceptance checks passed from the manager's own peer-side testing; docs updated and restart persistence confirmed.",
+    "alternatives": [],
+    "tradeoffs": "WebRTC/STUN IP disclosure accepted as inherent to the direct-UDP design, not a defect."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-012",
+  "timestamp": "2026-09-27T14:34:53.584839+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5a08825548f27c56bd793a5ebecece22db0f042b2f808d0975b80939ec61a44b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "project_name": "tailnet-us-egress",
+  "verbatim_quote": {
+    "original": "نه، به نظرم خیلی پیچیده می‌شه. الان نیاز به انجام دادنش نداریم.",
+    "english_translation": "No, I think it becomes too complicated. We do not need to do it right now."
+  },
+  "extracted_decision": {
+    "summary": "Rejected chaining Psiphon with WARP (usque MASQUE client) to gain UDP support; chose the simpler TCP-only split instead.",
+    "category": "scope",
+    "rationale": "Triple-userspace chain (tun2socks to usque to Psiphon) was judged too complex and unproven for the gain.",
+    "alternatives": [
+      "usque --http2 through Psiphon HTTP proxy for US edge with UDP-over-H2"
+    ],
+    "tradeoffs": "UDP stays on the direct path with server geo; no UDP-over-tunnel capability."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20260927-010",
+  "timestamp": "2026-09-27T14:34:53.250208+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0c35b405be5125a0161c691930a9ec8a78c9a54773ec4ccdf60b7b4e926860dc",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
