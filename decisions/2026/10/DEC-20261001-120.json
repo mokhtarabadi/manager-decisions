@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Keep Step XMLs tight; cite file paths with lines; Hands executes ONLY from this XML.",
+    "english_translation": "Keep Step XMLs tight; cite file paths with lines; Hands executes ONLY from this XML."
+  },
+  "extracted_decision": {
+    "summary": "Implementation must be driven solely by the XML with cited file paths and lines.",
+    "category": "process",
+    "rationale": "Ensure deterministic execution and avoid reliance on external context.",
+    "alternatives": [
+      "Allow Hands to interpret the plan freely"
+    ],
+    "tradeoffs": "Less flexibility for unexpected discoveries."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-120",
+  "timestamp": "2026-10-01T13:27:41.275613+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "d2b70d98ab9911667cd7ce782dbd099c761d09c333bf815fdbc347d1aff0facd",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

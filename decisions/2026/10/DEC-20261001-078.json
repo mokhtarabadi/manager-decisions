@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "All feature verification must run through Docker (`docker run --rm -i`); Firefox/Browsh/html2markdown are not installed on the host.",
+    "english_translation": "All feature verification must run through Docker (`docker run --rm -i`); Firefox/Browsh/html2markdown are not installed on the host."
+  },
+  "extracted_decision": {
+    "summary": "Verify features only through Docker; never run the server on the host.",
+    "category": "tooling",
+    "rationale": "The host lacks Firefox/Browsh/html2markdown, so host runs are meaningless.",
+    "alternatives": [
+      "Install the binaries on the host"
+    ],
+    "tradeoffs": "Slower verification loop, but trustworthy and reproducible."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-078",
+  "timestamp": "2026-10-01T13:13:30.262077+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "422d9f053f7dc4a42b2d6cdc600e4d2b45c43842de36435a572fe26fb8749093",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

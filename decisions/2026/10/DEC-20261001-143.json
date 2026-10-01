@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "keep the single opencode-server (v2.0.19, external serve mode) and single OpenChamber service healthy.",
+    "english_translation": "keep the single opencode-server (v2.0.19, external serve mode) and single OpenChamber service healthy."
+  },
+  "extracted_decision": {
+    "summary": "Manager requires that the existing opencode-server and OpenChamber service remain healthy during the MCP singleton rollout.",
+    "category": "scope",
+    "rationale": "To avoid disrupting the working environment while changing MCP server architecture.",
+    "alternatives": [
+      "Allow restarting or repairing opencode-server as part of the rollout",
+      "Permit OpenChamber to be reconfigured or restarted"
+    ],
+    "tradeoffs": "Constrains implementation options but preserves existing services; May require additional health checks and rollback safeguards"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-143",
+  "timestamp": "2026-10-01T13:27:42.187870+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "44e552a9f92b23a6862f6e8edacab1ac75538ef44977cccbc318a9ed807b065a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

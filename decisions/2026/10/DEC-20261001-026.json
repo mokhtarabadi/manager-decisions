@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "روی حالت خودکار تأیید می‌کنم، کامل تسک‌ها رو کامل کن",
+    "english_translation": "I approve autopilot mode, complete the tasks fully."
+  },
+  "extracted_decision": {
+    "summary": "Locked autopilot and ordered the admin chat-viewer tasks completed fully; every UI/UX part must get a Senior UI/UX Designer verdict and follow current project structure.",
+    "category": "autopilot-cycle",
+    "rationale": "Explicit Manager autopilot order for the admin viewer feature.",
+    "alternatives": [
+      "Supervised step-by-step"
+    ],
+    "tradeoffs": "Speed and delegation over per-step review."
+  },
+  "migrated_from": "dumble/DEC-20261001-006",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-026",
+  "timestamp": "2026-10-01T13:12:39.355408+00:00",
+  "fingerprint": "e65e7e1ad94f9d0bd0318890fc69fde6a6b8891fc318760c847b4a900e35dfe9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

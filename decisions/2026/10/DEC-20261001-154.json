@@ -1,0 +1,30 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "Code Reviewer please re-audit task 272. Your REJECTED verdict judged the stale round-1 diff; the task file is corrected and the Factual Git Diff is re-staged fresh — judge the CURRENT hunks.",
+    "english_translation": "Code Reviewer please re-audit task 272. Your REJECTED verdict judged the stale round-1 diff; the task file is corrected and the Factual Git Diff is re-staged fresh — judge the CURRENT hunks."
+  },
+  "extracted_decision": {
+    "summary": "Ordered re-audit because prior rejection was based on stale round-1 diff; reviewer must judge current hunks after task correction and fresh diff staging.",
+    "category": "process",
+    "rationale": "Avoid carrying forward a stale verdict; evaluate corrected artifacts.",
+    "alternatives": [
+      "Keep prior rejection",
+      "Require full rework",
+      "Defer audit",
+      "Accept old diff"
+    ],
+    "tradeoffs": "Adds extra review cycle; Requires fresh staging; Prevents wrong rejection based on outdated evidence"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-154",
+  "timestamp": "2026-10-01T13:27:42.642667+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1300e00b76377a01c54ef181fa5749e719100298210c16093351b98c97a0d054",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

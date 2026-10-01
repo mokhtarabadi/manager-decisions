@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Hunt for: regressions the new contract could introduce (e.g. placeholder-ban false positives on intentional template slots, version-pin drift, assembler byte-identity breaks, contradictions with the approval-gate/XML-plan rules in prompts/fragments/13-constraints.md or the lite-mode condensed checklist).",
+    "english_translation": "Hunt for: regressions the new contract could introduce (e.g. placeholder-ban false positives on intentional template slots, version-pin drift, assembler byte-identity breaks, contradictions with the approval-gate/XML-plan rules in prompts/fragments/13-constraints.md or the lite-mode condensed checklist)."
+  },
+  "extracted_decision": {
+    "summary": "Manager instructed QA to hunt specific regression classes introduced by the new contract.",
+    "category": "quality-gate",
+    "rationale": "Ensure adversarial coverage of high-risk integration points.",
+    "alternatives": [
+      "Broad exploratory QA without targeted regression classes"
+    ],
+    "tradeoffs": "Focused adversarial hunting may miss unlisted regression classes"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-169",
+  "timestamp": "2026-10-01T13:27:43.263785+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f1575e9601d5376b1b53449f47c06981a159702b5e3f18f866e79e8787be0e37",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

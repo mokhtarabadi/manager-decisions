@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "check codes and see if the claims in the pasted report are real",
+    "english_translation": "check codes and see if the claims in the pasted report are real"
+  },
+  "extracted_decision": {
+    "summary": "Approved a read-only code audit (no code changes) to verify the pasted admin-panel analytics claims before acting.",
+    "category": "process",
+    "rationale": "Manager wanted the report claims checked against real code before any fix.",
+    "alternatives": [
+      "Implement fixes immediately"
+    ],
+    "tradeoffs": "Cheap verification first; defers any fix work."
+  },
+  "migrated_from": "dumble/DEC-20261001-001",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-021",
+  "timestamp": "2026-10-01T13:12:39.033585+00:00",
+  "fingerprint": "8043d17d40a2041f1ac476eb5db7765932a79d726dce62b1e7258d19a1087212",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

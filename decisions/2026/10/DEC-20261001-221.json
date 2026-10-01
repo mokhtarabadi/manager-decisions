@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "session_id": null,
+  "verbatim_quote": {
+    "original": "need a new task and a new release? or not need?",
+    "english_translation": "need a new task and a new release? or not need?"
+  },
+  "extracted_decision": {
+    "summary": "No new task and no new release for the .env version skew, only a quick env update.",
+    "category": "release",
+    "rationale": "All source versions and local images already match 1.52.0, worktree clean, Unreleased empty. Only the ignored .env still pointed at 1.51.0.",
+    "alternatives": [
+      "Create a new Kanban task plus a new versioned release"
+    ],
+    "tradeoffs": "Quick fix leaves no Kanban trace but avoids overhead for a one-line config change."
+  },
+  "migrated_from": "dumble/DEC-20260912-001",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-221",
+  "timestamp": "2026-10-01T13:36:14.338551+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "fd805a18cf173af565de469718150e8865a37b1fa48727663c72dccca7787ee8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

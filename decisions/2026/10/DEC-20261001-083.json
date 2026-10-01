@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "ZAC applies: staging via custom_context_stage_and_inject_diff; commit/push only because the Manager explicitly instructed the push.",
+    "english_translation": "ZAC applies: staging via custom_context_stage_and_inject_diff; commit/push only because the Manager explicitly instructed the push."
+  },
+  "extracted_decision": {
+    "summary": "ZAC holds: stage only via the MCP tool; push only on explicit manager instruction.",
+    "category": "process",
+    "rationale": "Keeps commits scoped and auditable; no blind staging.",
+    "alternatives": [
+      "Blind git add -A",
+      "Auto-commit on completion"
+    ],
+    "tradeoffs": "More manual steps, but no accidental commits."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-083",
+  "timestamp": "2026-10-01T13:13:30.558149+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f5e5c8caeb3ec11a856def3fb12f785e1600c3c841dfbe250e9e4e293c5f5868",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

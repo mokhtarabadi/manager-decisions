@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "F1/F5/F6/F7 AGREED, remain open with recorded reasons (fresh-user live run, upgrades excluded by approval, blowsh external, traceability needs closure commit).",
+    "english_translation": "F1/F5/F6/F7 AGREED, remain open with recorded reasons (fresh-user live run, upgrades excluded by approval, blowsh external, traceability needs closure commit)."
+  },
+  "extracted_decision": {
+    "summary": "Agree F1/F5/F6/F7 remain open with the recorded reasons.",
+    "category": "scope",
+    "rationale": "Fresh-user live run is needed, upgrades were excluded by approval, blowsh is external, and traceability is commit-gated.",
+    "alternatives": [
+      "Close items now with waivers",
+      "Block all progress until each is resolved"
+    ],
+    "tradeoffs": "Accepting known residuals versus blocking closure; Recording reasons versus re-litigating each finding"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-135",
+  "timestamp": "2026-10-01T13:27:41.874417+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a52c5ddad4dce8781ff5fd6e08b3f35d8b409c3bd08671232762bcc5e8a11f9f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

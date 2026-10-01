@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "i approve close task and finish goal",
+    "english_translation": "i approve close task and finish goal"
+  },
+  "extracted_decision": {
+    "summary": "Voice closure approval phrasing accepted as the closure gate.",
+    "category": "quality-gate",
+    "rationale": "Manager used natural voice phrasing to approve closure and goal completion.",
+    "alternatives": [
+      "Require the canonical phrase only"
+    ],
+    "tradeoffs": "Accepts dictation phrasing; later sessions still demanded the exact phrase."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-090",
+  "timestamp": "2026-10-01T13:13:30.957438+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "80728184db4cb374c4d4694163c33de71093f5aa8b5daf49f5fe504591afb9f1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "Manager order (supersedes prior DEFERRED verdicts, recorded in tasks/qa/279 task file): every caller must pass its absolute project path per tool call with a clear field description.",
+    "english_translation": "Manager order (supersedes prior DEFERRED verdicts, recorded in tasks/qa/279 task file): every caller must pass its absolute project path per tool call with a clear field description."
+  },
+  "extracted_decision": {
+    "summary": "Require every caller to pass its absolute project path per tool call with a clear field description.",
+    "category": "architecture",
+    "rationale": "Manager order supersedes prior DEFERRED verdicts and is recorded in the task file.",
+    "alternatives": [
+      "Keep project path deferred",
+      "Use required param with coordinated caller migration",
+      "Use optional param with fallback"
+    ],
+    "tradeoffs": "Strict per-call scoping versus breaking existing callers; Explicit caller migration versus backward compatibility"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-131",
+  "timestamp": "2026-10-01T13:27:41.722710+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "789a02a3c3e073f40dd6f755454551088cd040270dec07fc4b015e60b733d3e2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

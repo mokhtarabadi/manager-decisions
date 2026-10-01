@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "269",
+  "verbatim_quote": {
+    "original": "The Manager asked to SEE the plan before implementation.",
+    "english_translation": "The Manager asked to SEE the plan before implementation."
+  },
+  "extracted_decision": {
+    "summary": "Gate implementation on Manager review and approval of the Blueprint before any file edits.",
+    "category": "quality-gate",
+    "rationale": "The Manager wants to inspect exact edit targets, gap decisions, proposed contract text, and verification plan before implementation starts.",
+    "alternatives": [
+      "Allow implementation directly from the task file",
+      "Rely only on QA and Code Reviewer approvals without a Manager preview"
+    ],
+    "tradeoffs": "Adds one review cycle before implementation; Preserves Manager control over prompt behavior changes and scope"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-182",
+  "timestamp": "2026-10-01T13:27:43.844021+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "8272d6a0fbe03b5e6cc407f6d0c19a026ceb26c337850f2a509abe7d9238a2ea",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

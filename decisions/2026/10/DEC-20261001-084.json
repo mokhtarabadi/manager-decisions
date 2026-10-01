@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Auto-approve closure — skip normal QA/review flow.",
+    "english_translation": "Auto-approve closure — skip normal QA/review flow."
+  },
+  "extracted_decision": {
+    "summary": "Fast-path closure without the normal QA/review flow when the manager orders it.",
+    "category": "quality-gate",
+    "rationale": "The fixes were already verified in the deployed Docker image.",
+    "alternatives": [
+      "Run the full QA/review flow anyway"
+    ],
+    "tradeoffs": "Faster, but bypasses the standard gate by explicit order."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-084",
+  "timestamp": "2026-10-01T13:13:30.615590+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c1efc94abf0520a12df7d7baf4cc9165fad29d068869b37097a4ba317ca3796a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

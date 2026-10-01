@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "read the library docs + source we use (ACRA 5.13.1), implement fully, make 854 100% complete.",
+    "english_translation": "read the library docs + source we use (ACRA 5.13.1), implement fully, make 854 100% complete."
+  },
+  "extracted_decision": {
+    "summary": "Read the ACRA library docs and source, implement the hashed crash reporter ID fully (hash-only, never raw UID), making task 854 100% complete.",
+    "category": "scope",
+    "rationale": "Close the last deferred 854 thread with a privacy-safe identity.",
+    "alternatives": [
+      "Send raw UID",
+      "Skip crash identity"
+    ],
+    "tradeoffs": "Privacy-safe grouping vs full traceability."
+  },
+  "migrated_from": "dumble/DEC-20261001-024",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-044",
+  "timestamp": "2026-10-01T13:12:40.550731+00:00",
+  "fingerprint": "63b4955c10c0ebda3f3a4b4409d8a4f0e9ab5d3b24c5c5673376ba737db027c8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

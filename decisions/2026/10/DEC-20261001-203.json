@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Seats requested: Software Architect + Senior Programmer.",
+    "english_translation": "Seats requested: Software Architect + Senior Programmer."
+  },
+  "extracted_decision": {
+    "summary": "For task 263, request Software Architect and Senior Programmer seats; skip UI/UX Designer, Sprint Strategist, Project Planner, QA Engineer, and Code Reviewer at plan time.",
+    "category": "process",
+    "rationale": "Domain is backend/tooling configuration validation plus prompt-budget enforcement; no UI, sprint scope, or plan-time QA/review call is needed.",
+    "alternatives": [
+      "Request all seats",
+      "Request fewer seats"
+    ],
+    "tradeoffs": "Adds planning overhead but ensures relevant expertise and an auditable seat check"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-203",
+  "timestamp": "2026-10-01T13:27:44.824046+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0fc90a0d77416b7febe24d74213a3e27b008efd0d806f334db5a26facd4767cb",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

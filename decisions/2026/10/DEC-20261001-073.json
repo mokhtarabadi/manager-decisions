@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "on a fresh install with no self-defined filters, Search felt pre-filtered. Requirement: no special default filters - the default state must display all users.",
+    "english_translation": "on a fresh install with no self-defined filters, Search felt pre-filtered. Requirement: no special default filters - the default state must display all users."
+  },
+  "extracted_decision": {
+    "summary": "No special default Search filters - the default state must display all users with no implicit gender or location filtering.",
+    "category": "scope",
+    "rationale": "Fresh installs felt pre-filtered by client-derived defaults.",
+    "alternatives": [
+      "Keep derived defaults"
+    ],
+    "tradeoffs": "Wider first query vs hidden filtering."
+  },
+  "migrated_from": "dumble/DEC-20261001-053",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-073",
+  "timestamp": "2026-10-01T13:12:42.972274+00:00",
+  "fingerprint": "37f1ca57e82b27f7772a8d141b5040d1254362c56471d0eef9f5db66f3c27152",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

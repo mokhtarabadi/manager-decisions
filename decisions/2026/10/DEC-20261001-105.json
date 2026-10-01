@@ -1,0 +1,26 @@
+{
+  "project_name": "apex",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager order: use TelegramMessageClassifier across the project in a safe way, with no breaking changes, and record it in this task.",
+    "english_translation": "Manager order: use TelegramMessageClassifier across the project in a safe way, with no breaking changes, and record it in this task."
+  },
+  "extracted_decision": {
+    "summary": "Adopt the classifier project-wide with no breaking changes.",
+    "category": "process",
+    "rationale": "Unifies message classification across extraction paths.",
+    "alternatives": [
+      "Apply it at one call site only"
+    ],
+    "tradeoffs": "Consistent classification; byte-identical behavior required."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-105",
+  "timestamp": "2026-10-01T13:13:31.791687+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a4e012b35be39ed85126125abcb3e2a3d48aa6197c5e81bbef73685158a531f6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

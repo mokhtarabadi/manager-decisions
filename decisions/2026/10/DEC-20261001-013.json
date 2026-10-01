@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-06",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "Mihomo's delay/health-check API and url-test groups only issue GET requests ... the pre-flight check cannot live inside mihomo. Feasible design: do it in our external script ... select-then-verify.",
+    "english_translation": "Mihomo's delay/health-check API and url-test groups only issue GET requests, so the pre-flight check cannot live inside mihomo. Feasible design: do it in our external Python script as select-then-verify."
+  },
+  "extracted_decision": {
+    "summary": "A POST-triggered 429 cannot be reproduced inside mihomo (GET-only checks); implement the pre-flight as select-then-verify in the external Python balancer.",
+    "category": "architecture",
+    "rationale": "mihomo health checks and the delay API support only GET.",
+    "alternatives": [
+      "mihomo built-in health check",
+      "url-test group"
+    ],
+    "tradeoffs": "Each bad candidate briefly flips live traffic."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-013",
+  "timestamp": "2026-10-01T13:03:54.638009+00:00",
+  "fingerprint": "308635b82c59cf5fee9984c9e8c442ceebf7e1f60034eadd290727ca8df84b97",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

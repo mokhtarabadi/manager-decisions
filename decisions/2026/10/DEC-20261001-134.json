@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "F4 DISPUTED — unit bodies (read these as ground truth): 5 Python services carry 'Environment=MCP_TRANSPORT=streamable-http'; mcp-telegram.service carries MCP_TRANSPORT=http + MCP_HOST=127.0.0.1 + MCP_PORT=8106. No reboot-to-stdio risk.",
+    "english_translation": "F4 DISPUTED — unit bodies (read these as ground truth): 5 Python services carry 'Environment=MCP_TRANSPORT=streamable-http'; mcp-telegram.service carries MCP_TRANSPORT=http + MCP_HOST=127.0.0.1 + MCP_PORT=8106. No reboot-to-stdio risk."
+  },
+  "extracted_decision": {
+    "summary": "Dispute F4; treat the unit bodies as ground truth; no reboot-to-stdio risk exists.",
+    "category": "architecture",
+    "rationale": "The systemd unit bodies explicitly set MCP_TRANSPORT for the five Python services and telegram uses http with loopback host and port.",
+    "alternatives": [
+      "Accept QA's finding of missing transport pins",
+      "Require additional unit evidence"
+    ],
+    "tradeoffs": "Accepting unit configuration as evidence versus demanding live bind proof; Avoiding unnecessary rework versus verifying reboot behavior"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-134",
+  "timestamp": "2026-10-01T13:27:41.837344+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "07288522bf828d3630ab6fb9ed7e7902a35aae0f90bc43ce48aaefae60d7184f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

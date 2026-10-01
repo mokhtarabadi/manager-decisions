@@ -1,0 +1,26 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Brainstorm verdict (7 seats): O1 single mode-parameterized prompt wins unanimously. Manager selected O1 via question tool.",
+    "english_translation": "Brainstorm verdict (7 seats): O1 single mode-parameterized prompt wins unanimously. Manager selected O1 via question tool."
+  },
+  "extracted_decision": {
+    "summary": "Chose one mode-parameterized prompt over two separate prompt files.",
+    "category": "architecture",
+    "rationale": "One prompt with an injected mode parameter avoids duplicated wording drift.",
+    "alternatives": [
+      "Two prompt files (manual/automatic)"
+    ],
+    "tradeoffs": "Single source of truth, at the cost of mode branching in one file."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-100",
+  "timestamp": "2026-10-01T13:13:31.502145+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1f2da6b7601143bf2a5eb4d0d88859cb4826d13e6ef695cd5e4dcf31a8a41389",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

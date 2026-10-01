@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Do NOT check formatting.",
+    "english_translation": "Do NOT check formatting."
+  },
+  "extracted_decision": {
+    "summary": "Manager scoped QA to skip formatting checks.",
+    "category": "scope",
+    "rationale": "Focus QA on regressions and contract behavior instead of formatting.",
+    "alternatives": [
+      "Include formatting checks in QA"
+    ],
+    "tradeoffs": "Formatting issues may remain unchecked"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-164",
+  "timestamp": "2026-10-01T13:27:43.058802+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "24a56b9fa77ce974777355badac0f09257ea019d2d672f91397a7dbe9209509a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

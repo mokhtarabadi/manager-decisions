@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "Return the FINAL implementation plan: transport+port per server, supervision units, config cutover order with rollback, multi-session verification, docs updates.",
+    "english_translation": "Return the FINAL implementation plan: transport+port per server, supervision units, config cutover order with rollback, multi-session verification, docs updates."
+  },
+  "extracted_decision": {
+    "summary": "Manager requires the final implementation plan to include transport and port per server, supervision units, config cutover order with rollback, multi-session verification, and docs updates.",
+    "category": "scope",
+    "rationale": "To define the complete deliverable for task 277.",
+    "alternatives": [
+      "Accept a partial plan",
+      "Allow the architect to decide the final plan structure"
+    ],
+    "tradeoffs": "Ensures all required elements are addressed; May increase plan length and detail"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-149",
+  "timestamp": "2026-10-01T13:27:42.442500+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "300dd69bc2fb20d9f85565ddcdc7ead54269bb2d5b776908986679d504e4ef8e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

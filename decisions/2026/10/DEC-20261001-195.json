@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "265",
+  "verbatim_quote": {
+    "original": "Do not rubber-stamp: check for bypasses of the https guard, regressions in the untouched call paths, and whether the loopback exemption is too permissive.",
+    "english_translation": "Do not rubber-stamp: check for bypasses of the https guard, regressions in the untouched call paths, and whether the loopback exemption is too permissive."
+  },
+  "extracted_decision": {
+    "summary": "QA must adversarially test the HTTPS guard and timeout changes, explicitly checking for guard bypasses, untouched-path regressions, and overly permissive loopback exemption.",
+    "category": "quality-gate",
+    "rationale": "Security-critical change; rubber-stamping risks cleartext Bearer key leak or regressions.",
+    "alternatives": [
+      "Accept implementation summary at face value",
+      "Only run existing tests"
+    ],
+    "tradeoffs": "Requires more QA effort and may surface non-blocking issues, but reduces risk of a false pass."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-195",
+  "timestamp": "2026-10-01T13:27:44.447782+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e66ec673467fba991e312b45764e1aa92cd9d37f48333550b9101bb65d07bdff",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

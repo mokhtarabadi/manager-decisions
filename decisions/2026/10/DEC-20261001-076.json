@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "The manager authorized full execution of the improvement set previously handed over (search, extraction, caching, SSRF, real errors, docs).",
+    "english_translation": "The manager authorized full execution of the improvement set previously handed over (search, extraction, caching, SSRF, real errors, docs)."
+  },
+  "extracted_decision": {
+    "summary": "Manager authorized the full v2.0 improvement set (search, extraction, caching, SSRF, real errors, docs).",
+    "category": "scope",
+    "rationale": "The improvement set was already scoped; the manager wanted all of it shipped.",
+    "alternatives": [
+      "Ship only a subset first",
+      "Defer caching/SSRF to a later release"
+    ],
+    "tradeoffs": "Broad scope in one task, but delivered a coherent v2.0."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-076",
+  "timestamp": "2026-10-01T13:13:30.157139+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "456214642addb00a2651f969327f1471b019a5422ef82745ae81e102d33421ee",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

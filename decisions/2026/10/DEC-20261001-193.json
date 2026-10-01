@@ -1,0 +1,25 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "267",
+  "verbatim_quote": {
+    "original": "Full-automatic standing order is active (manager/full_automatic_mode): the reviewer technical APPROVED + PO_REVIEW_PENDING acts as the Manager closure approval",
+    "english_translation": "Full-automatic standing order is active (manager/full_automatic_mode): the reviewer technical APPROVED + PO_REVIEW_PENDING acts as the Manager closure approval"
+  },
+  "extracted_decision": {
+    "summary": "Under the full-automatic standing order, a reviewer technical APPROVED with PO_REVIEW_PENDING is treated as the Manager closure approval.",
+    "category": "autopilot-cycle",
+    "rationale": "The standing order is active in manager/full_automatic_mode and defines how closure approval is delegated.",
+    "alternatives": [],
+    "tradeoffs": ""
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-193",
+  "timestamp": "2026-10-01T13:27:44.357861+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "71f5449c3096a252567a0dfa25b8fe0e9bc3e49f3d7502e97ba753b04dc466f5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

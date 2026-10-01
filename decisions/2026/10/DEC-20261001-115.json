@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "task Goal/Scope/AC/Execution Log rewritten to the delivered state (single OpenChamber-managed OpenCode instance, zero plugins, docs audit, global install) — no stale 'fixed :4096 external unit' wording remains",
+    "english_translation": "task Goal/Scope/AC/Execution Log rewritten to the delivered state (single OpenChamber-managed OpenCode instance, zero plugins, docs audit, global install) — no stale 'fixed :4096 external unit' wording remains"
+  },
+  "extracted_decision": {
+    "summary": "Update task goal, scope, acceptance criteria, and execution log to reflect delivered architecture: single OpenChamber-managed OpenCode instance, zero plugins, docs audit, global install.",
+    "category": "scope",
+    "rationale": "Maintain traceability and remove stale external-unit requirements.",
+    "alternatives": [
+      "Keep original fixed :4096 external unit goal",
+      "Leave acceptance criteria unchanged"
+    ],
+    "tradeoffs": "Changes original architecture expectation and may conflict with initial task framing."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-115",
+  "timestamp": "2026-10-01T13:27:41.057983+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5f50e6d0e3218f38b0aab862f9e5b715fc7c71ae477114ecde4474720e112f65",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "we have invite links - if truly useful, wire them into the referrer work; make sure utm_source is actually capturable from them; is everything advertising-suitable now?",
+    "english_translation": "we have invite links - if truly useful, wire them into the referrer work; make sure utm_source is actually capturable from them; is everything advertising-suitable now?"
+  },
+  "extracted_decision": {
+    "summary": "If invite links are truly useful, wire them into the referrer work; ensure utm_source is actually capturable; confirm everything is advertising-suitable.",
+    "category": "scope",
+    "rationale": "Decide whether invite links should feed campaign attribution.",
+    "alternatives": [
+      "Leave invites decoupled"
+    ],
+    "tradeoffs": "Adds landing route; improves campaign visibility."
+  },
+  "migrated_from": "dumble/DEC-20261001-023",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-043",
+  "timestamp": "2026-10-01T13:12:40.478777+00:00",
+  "fingerprint": "bd434af57765fad2056cf14d64a1b75eef4de08945373b67d3bd120dea2a6a40",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

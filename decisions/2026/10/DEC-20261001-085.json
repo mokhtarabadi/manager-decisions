@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Commit, tag, and push in one sequence.",
+    "english_translation": "Commit, tag, and push in one sequence."
+  },
+  "extracted_decision": {
+    "summary": "Commit + tag + push as a single release sequence.",
+    "category": "release",
+    "rationale": "Tight release loop for a small bug-fix patch.",
+    "alternatives": [
+      "Separate commits for commit/tag/push"
+    ],
+    "tradeoffs": "Faster release, less granular history."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-085",
+  "timestamp": "2026-10-01T13:13:30.674943+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "7513070b0a299638ff0116d78e9a5d0a9e967cd4234c1fad14df69945143e5b6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

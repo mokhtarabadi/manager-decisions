@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "Produce a concrete implementation plan: (1) transport choice per server (HTTP/SSE shim vs shared gateway) given opencode supports type:remote with url+headers, (2) localhost-only ports, (3) supervision (systemd user units with auto-restart), (4) config cutover order with rollback, (5) multi-session verification steps.",
+    "english_translation": "Produce a concrete implementation plan: (1) transport choice per server (HTTP/SSE shim vs shared gateway) given opencode supports type:remote with url+headers, (2) localhost-only ports, (3) supervision (systemd user units with auto-restart), (4) config cutover order with rollback, (5) multi-session verification steps."
+  },
+  "extracted_decision": {
+    "summary": "Manager defines the required sections of the implementation plan: per-server transport choice, localhost-only ports, systemd supervision, cutover/rollback order, and multi-session verification.",
+    "category": "scope",
+    "rationale": "To ensure the plan covers all critical aspects of the MCP singleton rollout.",
+    "alternatives": [
+      "Allow a narrower plan focused only on transport",
+      "Allow the architect to self-select plan sections"
+    ],
+    "tradeoffs": "Constrains the architect's freedom but ensures completeness; Requires more detailed planning before approval"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-145",
+  "timestamp": "2026-10-01T13:27:42.266568+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "7ac4d373e71efcfbd92663c8a94f54a2eb52eb45ed5458f994fbc7422b418e7e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

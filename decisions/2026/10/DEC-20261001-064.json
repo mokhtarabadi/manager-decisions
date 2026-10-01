@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "build a full context report of all XML layouts plus strings plus styles/themes plus colors, hand it to the UI/UX Designer seat, find the gaps of the current interface versus DESIGN.md, and polish the app UI/UX ... fully automatic on autopilot; Manager decisions replayed from stored rulings, no questions to the Manager.",
+    "english_translation": "build a full context report of all XML layouts plus strings plus styles/themes plus colors, hand it to the UI/UX Designer seat, find the gaps of the current interface versus DESIGN.md, and polish the app UI/UX ... fully automatic on autopilot; Manager decisions replayed from stored rulings, no questions to the Manager."
+  },
+  "extracted_decision": {
+    "summary": "Build a full context report (layouts + strings + styles/themes + colors), hand it to the UI/UX Designer seat, find gaps vs DESIGN.md, and polish the UI/UX; fully automatic on autopilot with stored rulings replayed, no questions to the Manager.",
+    "category": "process",
+    "rationale": "Manager wants an app-wide design-system conformance pass with no interruptions.",
+    "alternatives": [
+      "Per-screen manual review"
+    ],
+    "tradeoffs": "Autonomous sweep vs interactive steering."
+  },
+  "migrated_from": "dumble/DEC-20261001-044",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-064",
+  "timestamp": "2026-10-01T13:12:42.073385+00:00",
+  "fingerprint": "4355af5206b58e1fa2d1983fccc5dd5041d8e3b86012d406b17e227da4c02cd3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

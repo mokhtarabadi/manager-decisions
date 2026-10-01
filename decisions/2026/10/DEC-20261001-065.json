@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved"
+  },
+  "extracted_decision": {
+    "summary": "Plan approval for the UI/UX audit task.",
+    "category": "process",
+    "rationale": "Plan-approval gate passed.",
+    "alternatives": [
+      "Request changes"
+    ],
+    "tradeoffs": "None recorded."
+  },
+  "migrated_from": "dumble/DEC-20261001-045",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-065",
+  "timestamp": "2026-10-01T13:12:42.250601+00:00",
+  "fingerprint": "1e973542094dcac1dfeb3ff39cae7b672c40c8d994541722cd4be667143acf88",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

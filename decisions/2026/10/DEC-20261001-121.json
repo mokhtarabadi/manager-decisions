@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Hard cap 3500 tokens. Lean output, no prose outside the XML.",
+    "english_translation": "Hard cap 3500 tokens. Lean output, no prose outside the XML."
+  },
+  "extracted_decision": {
+    "summary": "Limit re-emitted XML to 3500 tokens and omit prose outside the XML.",
+    "category": "tooling",
+    "rationale": "Reduce verbosity and fit token cap.",
+    "alternatives": [
+      "Allow longer output",
+      "Include explanatory prose"
+    ],
+    "tradeoffs": "May omit necessary detail."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-121",
+  "timestamp": "2026-10-01T13:27:41.318560+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1f4a2dd8f60b2199654bd99aec24ffb3c721fdf8a21eb13b05764a5f548e3692",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

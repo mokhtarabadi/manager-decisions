@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager explicitly authorized: create task -> research -> implement -> build & push image to ghcr -> push code via gh -> track CI/CD -> update docs/README and opencode.jsonc to the prebuilt image.",
+    "english_translation": "Manager explicitly authorized: create task -> research -> implement -> build & push image to ghcr -> push code via gh -> track CI/CD -> update docs/README and opencode.jsonc to the prebuilt image."
+  },
+  "extracted_decision": {
+    "summary": "Authorized the full registry + CI/CD pipeline, including the explicit push.",
+    "category": "release",
+    "rationale": "Distribution via a prebuilt image was the goal; CI/CD validates it end to end.",
+    "alternatives": [
+      "Local image only",
+      "Manual docker push from this machine"
+    ],
+    "tradeoffs": "Explicit push overrides ZAC for this task; token scopes blocked manual push."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-082",
+  "timestamp": "2026-10-01T13:13:30.473189+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ec4c212ce987d0886121629f00cc91b26b494876c4344807d757668f1c6427cc",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

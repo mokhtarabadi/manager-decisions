@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "حواست به داده‌های آنالیز باشه، و داده‌های توی داشبورد و ادمین پنل که سورس‌ها و اینا رو دیگه درست نمایش بده.",
+    "english_translation": "Keep an eye on the analytics data and the dashboard/admin-panel data so the sources display correctly."
+  },
+  "extracted_decision": {
+    "summary": "Dashboard-watch order: keep the analytics/dashboard/admin-panel data showing install sources correctly; report back if a change is needed.",
+    "category": "process",
+    "rationale": "Referrer work changes install_source/campaign data the panel displays.",
+    "alternatives": [
+      "Ignore downstream effects"
+    ],
+    "tradeoffs": "Extra monitoring; catches display regressions."
+  },
+  "migrated_from": "dumble/DEC-20261001-014",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-034",
+  "timestamp": "2026-10-01T13:12:39.893110+00:00",
+  "fingerprint": "c92c4447140c73af4196ed7f63470d9661cea69d8de93664deb3f12ab55721c3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

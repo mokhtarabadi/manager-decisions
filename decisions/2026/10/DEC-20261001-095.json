@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager scope decision (2026-09-29, via question tool): earlier 'comment-only' order for per-call absolute project_path REVERSED — Manager chose 'Add to 279 now'.",
+    "english_translation": "Manager scope decision (2026-09-29, via question tool): earlier 'comment-only' order for per-call absolute project_path REVERSED — Manager chose 'Add to 279 now'."
+  },
+  "extracted_decision": {
+    "summary": "Reversed an earlier comment-only order; project_path work added to task 279 now.",
+    "category": "scope",
+    "rationale": "The manager changed his mind once he saw the need.",
+    "alternatives": [
+      "Keep comment-only",
+      "Defer to a later task"
+    ],
+    "tradeoffs": "Widens task 279; an append-only reversal is recorded rather than an edit."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-095",
+  "timestamp": "2026-10-01T13:13:31.239946+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e5d16abf046a695d0d7826a1f71463817521fcdff70b1a909caa746067238ebf",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

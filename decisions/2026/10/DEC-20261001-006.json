@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-03",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "we need to configure mihomo to test all proxies in balance or other proxy groups with a https link a gstatic or even harder test it filter wrong proxies.",
+    "english_translation": "We need to configure mihomo to test all proxies in balance and other proxy groups with an https link (gstatic or even a harder test) to filter out wrong proxies."
+  },
+  "extracted_decision": {
+    "summary": "Configure mihomo to health-check every proxy in Auto, Load Balance, and Fallback with a strict https test and explicit expected-status so dead nodes are filtered out of rotation.",
+    "category": "architecture",
+    "rationale": "Pinned destinations kept hitting dead nodes, and the checks lacked expected-status so they never discriminated health.",
+    "alternatives": [
+      "test only the top nodes",
+      "leave the default checks unchanged"
+    ],
+    "tradeoffs": "Health-checking all groups increases probe traffic."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-006",
+  "timestamp": "2026-10-01T13:03:54.201320+00:00",
+  "fingerprint": "db579913540300eea5d696abd48e3718c71e37278684f7a7fe3fc20f07867c2c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

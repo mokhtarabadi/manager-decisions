@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "A2 scope: repair fragment 11 — name the seven `<personas>` seats, make step 2 conditional and consistent with fragment 12 L3, and repair the dead `user-prompts/` pointer.",
+    "english_translation": "A2 scope: repair fragment 11 — name the seven `<personas>` seats, make step 2 conditional and consistent with fragment 12 L3, and repair the dead `user-prompts/` pointer."
+  },
+  "extracted_decision": {
+    "summary": "Repair fragment 11 to name seven seats, make step 2 conditional consistent with fragment 12, and fix dead user-prompts/ pointer.",
+    "category": "scope",
+    "rationale": "Eliminate contradiction and stale references in prompt fragments.",
+    "alternatives": [
+      "Leave fragment 11 as-is",
+      "Delete fragment 11"
+    ],
+    "tradeoffs": "Consistency and accuracy versus editing effort."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-188",
+  "timestamp": "2026-10-01T13:27:44.123122+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "51ebbf2f241712b4fab83cc8db19cc052d1ecd60304b763aee380f2601498353",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

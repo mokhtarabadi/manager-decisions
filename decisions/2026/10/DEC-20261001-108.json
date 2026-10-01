@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "reviewer approved = accepted",
+    "english_translation": "reviewer approved = accepted (reviewer technical APPROVED + PO_REVIEW_PENDING counts as Manager acceptance for closure)"
+  },
+  "extracted_decision": {
+    "summary": "Standing order: reviewer technical APPROVED + PO_REVIEW_PENDING counts as Manager acceptance for closure.",
+    "category": "quality-gate",
+    "rationale": "Reduces manager overhead when the reviewer grants technical approval.",
+    "alternatives": [
+      "Require the explicit phrase 'Approved for closure'",
+      "Require separate PO review"
+    ],
+    "tradeoffs": "Faster closure, but the strict approval-word gate later overrode it."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-108",
+  "timestamp": "2026-10-01T13:13:47.176481+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e09ea13ddc628158639ed2a8c7fbc40ced571c4abe554297a93c4e8f2da4bcf5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Scope of the staged diff: repo docs/config/memory/skills/tests only (no server code changed).",
+    "english_translation": "Scope of the staged diff: repo docs/config/memory/skills/tests only (no server code changed)."
+  },
+  "extracted_decision": {
+    "summary": "Limit staged changes to repo docs, config, memory, skills, and tests; do not change server code.",
+    "category": "scope",
+    "rationale": "Keep change focused on configuration and documentation and avoid server code risk.",
+    "alternatives": [
+      "Include server code changes"
+    ],
+    "tradeoffs": "Server-side issues cannot be fixed in this task."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-119",
+  "timestamp": "2026-10-01T13:27:41.230314+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "63e9eb9475d5661158054f375ee22d319c77d07b1cbdef6558bc9236e487582f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Yes, autopilot",
+    "english_translation": "Yes, autopilot"
+  },
+  "extracted_decision": {
+    "summary": "Run the 1.58.0 release cut on autopilot.",
+    "category": "autopilot-cycle",
+    "rationale": "Explicit Manager autopilot lock.",
+    "alternatives": [
+      "Supervised release"
+    ],
+    "tradeoffs": "Autonomy over per-step review."
+  },
+  "migrated_from": "dumble/DEC-20261001-038",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-058",
+  "timestamp": "2026-10-01T13:12:41.592046+00:00",
+  "fingerprint": "be5679fde9f4cafd3847f039884c535afdd98aee920dbb4230d7f2f7c6cbc0cb",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

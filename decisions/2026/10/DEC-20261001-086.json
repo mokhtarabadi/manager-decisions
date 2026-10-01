@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "build a task from the important stress findings, then run on autopilot with Brain planning, execute all steps autonomously, plus a dedicated goal. Autopilot is LOCKED. Scope is exactly the four fixes. No adjacent refactors.",
+    "english_translation": "build a task from the important stress findings, then run on autopilot with Brain planning, execute all steps autonomously, plus a dedicated goal. Autopilot is LOCKED. Scope is exactly the four fixes. No adjacent refactors."
+  },
+  "extracted_decision": {
+    "summary": "Locked autopilot with a dedicated goal and a hard four-fix scope fence.",
+    "category": "autopilot-cycle",
+    "rationale": "Autonomy speeds delivery; a hard fence prevents scope creep.",
+    "alternatives": [
+      "Interactive execution with approvals",
+      "Allow adjacent refactors"
+    ],
+    "tradeoffs": "Fast and focused, but no human checkpoint until closure."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-086",
+  "timestamp": "2026-10-01T13:13:30.727420+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "8faa35a10b45a2f0ac6b05e27722e8576b76ff938fef848c84dc516235a366e0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Waive, ship it",
+    "english_translation": "Waive, ship it"
+  },
+  "extracted_decision": {
+    "summary": "QA BDD waiver for release 1.58.0 - standing BDD debt carried to a staging pass.",
+    "category": "release",
+    "rationale": "BDD needs staging + device; cannot run headless.",
+    "alternatives": [
+      "Block release on BDD"
+    ],
+    "tradeoffs": "Ship now with carried debt."
+  },
+  "migrated_from": "dumble/DEC-20261001-037",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-057",
+  "timestamp": "2026-10-01T13:12:41.521466+00:00",
+  "fingerprint": "3ff6f45de5c9c6ff426070a34715f9df40531ab034cee7ec0c24c1a5325190c9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

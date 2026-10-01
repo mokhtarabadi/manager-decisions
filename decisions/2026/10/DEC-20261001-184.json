@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "269",
+  "verbatim_quote": {
+    "original": "Treat conflict C1 (English-only vs answer-in-the-user's-language) as a Manager decision, not an auto-fix.",
+    "english_translation": "Treat conflict C1 (English-only vs answer-in-the-user's-language) as a Manager decision, not an auto-fix."
+  },
+  "extracted_decision": {
+    "summary": "Reserve conflict C1 for explicit Manager choice; do not auto-switch language or auto-resolve it during implementation.",
+    "category": "process",
+    "rationale": "The stored English-only rule conflicts with user-language adaptability; this affects policy and must be decided by the Manager, not by an implementation-side default.",
+    "alternatives": [
+      "Auto-switch to the user's language",
+      "Keep English-only without escalating C1"
+    ],
+    "tradeoffs": "Leaves C1 unresolved until the Manager decides; Prevents policy drift and preserves auditability of language rules"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-184",
+  "timestamp": "2026-10-01T13:27:43.934968+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c425d082855dd0233a0873d5c412c44c7ff95d2349b33098ffa0c574dd88b2b2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

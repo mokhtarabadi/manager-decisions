@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-05",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "also i see in balaner a proxy with named `PROXY` selected what is it? it a bug? crate task and handle both of them",
+    "english_translation": "Also I see in the balancer a proxy named `PROXY` selected — what is it? Is it a bug? Create a task and handle both of them."
+  },
+  "extracted_decision": {
+    "summary": "The `PROXY` entry seen in the balancer is the select group's own name, not a node or bug; answer with evidence (DB rows plus controller lookup).",
+    "category": "other",
+    "rationale": "Evidence showed 0 nodes named PROXY and GET /proxies/PROXY returns a Selector group.",
+    "alternatives": [
+      "treat it as a node bug"
+    ],
+    "tradeoffs": "None; clarifies the manager's mental model."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-011",
+  "timestamp": "2026-10-01T13:03:54.483581+00:00",
+  "fingerprint": "84a92a5297b41c59d1252af110eef980e2e4175b1355743ad79895dc7e780384",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

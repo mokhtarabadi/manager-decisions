@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "282",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "extracted_decision": {
+    "summary": "Manager approved final closure of task 282 after QA passed twice and Code Reviewer approved.",
+    "category": "process",
+    "rationale": "All quality gates passed: QA_PASSED twice, Code Reviewer APPROVED, PO_REVIEW_PENDING logged, and no blocking vulnerabilities. Code Reviewer recommended keeping as-is for closure with low-severity R1/R2 deferred to a follow-up docs task.",
+    "alternatives": [
+      "Keep task open to clean up package-lock.json diff noise and hardcoded README path before closure.",
+      "Reject closure due to low-severity issues R1 and R2."
+    ],
+    "tradeoffs": "Closed now with known low-severity review noise (large package-lock, hardcoded path) accepted; follow-up docs cleanup deferred."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-122",
+  "timestamp": "2026-10-01T13:27:41.356424+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "8286d6b374d552ceb1432408b554d048267375c92fb83bacd56b1a1b24592da0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

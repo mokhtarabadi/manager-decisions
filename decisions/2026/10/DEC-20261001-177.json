@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "می‌خوام یه حالتی ویرایش کنی همه‌رو، ادیت کنی همه‌رو، که وقتی یه پروژه جدید با استفاده از این ورک‌فلو که الان داریم ازش استفاده می‌کنم داریم از این اسکیل تمپلت‌ها وقتی استفاده می‌کنه توی حالا هر بخشی شدیدترین حالت لینت و ابزارهای موجود روی اون پروژه اون استک استفاده بشه که تا حد خیلی فوق‌العاده بالایی از توهم و خطا هوش مصنوعی جلوگیری بشه و لینتر و ابزارها همیشه هوش مصنوعی رو در ایجنت‌های هوش مصنوعی رو تو راستای درست جلو ببرن.",
+    "english_translation": "I want you to edit them all, edit them all, so that when a new project uses this workflow we currently use, when it uses these skill templates, in every part the strictest lint and available tooling for that project's stack is used, to prevent AI hallucination and error to a very high degree, and linters and tools always guide the AI in the correct direction in the AI agents."
+  },
+  "extracted_decision": {
+    "summary": "Edit every stack skill so new projects enforce the strictest lint and available tooling for that stack, suppressing AI hallucination and steering AI agents correctly.",
+    "category": "quality-gate",
+    "rationale": "Machine-enforced strict tooling reduces AI hallucination and error.",
+    "alternatives": [
+      "Lighter lint/tooling",
+      "Optional guidance only"
+    ],
+    "tradeoffs": "Stricter gates may increase friction but improve correctness"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-177",
+  "timestamp": "2026-10-01T13:27:43.615109+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e797c9bdecddde710dcfec1ee8c50085115dc3b432deebcef5a18a95a98f11de",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

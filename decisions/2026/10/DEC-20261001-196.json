@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "265",
+  "verbatim_quote": {
+    "original": "If the change is technically sound, issue the technical approval with the usual notice that final closure still requires the Manager's explicit words.",
+    "english_translation": "If the change is technically sound, issue the technical approval with the usual notice that final closure still requires the Manager's explicit words."
+  },
+  "extracted_decision": {
+    "summary": "Code Reviewer may grant technical approval, but final closure requires the Manager's explicit words.",
+    "category": "process",
+    "rationale": "Separation of duties; technical approval alone is not closure authorization.",
+    "alternatives": [
+      "Allow Code Reviewer to close the task",
+      "Treat technical approval as final"
+    ],
+    "tradeoffs": "Adds a Manager approval step, but preserves governance and explicit acceptance."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-196",
+  "timestamp": "2026-10-01T13:27:44.493341+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "509028ebb179fb02c7782a9aa768415e6a1fd52c97bc310abbad9bdc43831c08",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

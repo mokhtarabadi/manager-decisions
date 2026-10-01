@@ -1,0 +1,26 @@
+{
+  "project_name": "apex",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Debug harness per manager order: deleted all 5 legacy debug controllers + 2 test files (no prod/UI refs found).",
+    "english_translation": "Debug harness per manager order: deleted all 5 legacy debug controllers + 2 test files (no prod/UI refs found)."
+  },
+  "extracted_decision": {
+    "summary": "Ordered a single debug harness; legacy debug controllers deleted after proving no prod refs.",
+    "category": "process",
+    "rationale": "Five legacy controllers were dead weight; one harness replaces them.",
+    "alternatives": [
+      "Keep the legacy controllers"
+    ],
+    "tradeoffs": "Cleaner surface; deletion gated on a zero-reference grep."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-104",
+  "timestamp": "2026-10-01T13:13:31.737949+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "33c5bec2f35f4ea47ddb151e08611d9182cbea96ab46a163609da3e5246838bd",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

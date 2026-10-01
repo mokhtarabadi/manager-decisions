@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "collect all other non fixed logs from admin panel check more logs i see some non fixed crached i mean crached, create new task and fix them in auto pilot too. a goal required",
+    "english_translation": "collect all other non fixed logs from admin panel check more logs i see some non fixed crached i mean crached, create new task and fix them in auto pilot too. a goal required"
+  },
+  "extracted_decision": {
+    "summary": "Collect all remaining non-fixed crash logs from the admin panel, fix them in autopilot with a goal required.",
+    "category": "process",
+    "rationale": "Manager wants remaining prod crashes cleared under an autopilot goal.",
+    "alternatives": [
+      "Triage without a goal"
+    ],
+    "tradeoffs": "Goal overhead vs tracked autopilot run."
+  },
+  "migrated_from": "dumble/DEC-20261001-034",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-054",
+  "timestamp": "2026-10-01T13:12:41.302293+00:00",
+  "fingerprint": "ff3849444721e2f2a3515c4d8798471fbad31591a01b57d208f1f4455463e86e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "re-verify the exact field name, audit all usages (migration/CLP/index scripts and elsewhere), document it, and write it into project rules if needed.",
+    "english_translation": "re-verify the exact field name, audit all usages (migration/CLP/index scripts and elsewhere), document it, and write it into project rules if needed."
+  },
+  "extracted_decision": {
+    "summary": "Re-verify the auto-created Parse Created-at field name, audit all usages, document the rule, and write it into project rules if needed.",
+    "category": "process",
+    "rationale": "Past incident with wrong createdAt spelling; lock the rule after a live DB check.",
+    "alternatives": [
+      "Fix only the live bug"
+    ],
+    "tradeoffs": "Docs/rule cost vs recurrence prevention."
+  },
+  "migrated_from": "dumble/DEC-20261001-022",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-042",
+  "timestamp": "2026-10-01T13:12:40.414358+00:00",
+  "fingerprint": "0793cecea32c9c2b5c562e32634d101ab7b495ed852b6353c39f3b27abc6e3e2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

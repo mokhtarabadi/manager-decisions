@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "When the joined text exceeds the cap, cut it and append an explicit note stating the dropped character count, in the same spirit as the brain bridge's `[...truncated at N chars]` markers.",
+    "english_translation": "When the joined text exceeds the cap, cut it and append an explicit note stating the dropped character count, in the same spirit as the brain bridge's `[...truncated at N chars]` markers."
+  },
+  "extracted_decision": {
+    "summary": "Truncate oversized joined transcript text and append an explicit marker stating the dropped character count.",
+    "category": "quality-gate",
+    "rationale": "The model must never be asked to extract from a silently partial transcript.",
+    "alternatives": [
+      "Silent truncation without note",
+      "No truncation"
+    ],
+    "tradeoffs": "Marker makes truncation visible but its wording can be read as retained size rather than dropped size"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-206",
+  "timestamp": "2026-10-01T13:27:44.967394+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b66731fd3388145be7dcdbeb83a69fde99d896f72e6f8148b1dbab708ca82422",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

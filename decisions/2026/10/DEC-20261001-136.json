@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "window residuals (M1-M4, M5 blowsh, M6 traceability, list-tool notice, locking) are Manager-accepted O3 items, not review blockers.",
+    "english_translation": "window residuals (M1-M4, M5 blowsh, M6 traceability, list-tool notice, locking) are Manager-accepted O3 items, not review blockers."
+  },
+  "extracted_decision": {
+    "summary": "Accept window residuals M1-M4, M5 blowsh, M6 traceability, list-tool notice, and locking as O3 items, not review blockers.",
+    "category": "release",
+    "rationale": "Manager accepted these as maintenance-window items rather than blockers for the current review.",
+    "alternatives": [
+      "Treat residuals as review blockers",
+      "Close task without naming residuals"
+    ],
+    "tradeoffs": "Proceeding with known residuals versus delaying for live proofs; Explicitly parking work versus silently dropping it"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-136",
+  "timestamp": "2026-10-01T13:27:41.912314+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "dfaa13301de3f741597a46b0eda35de865751ec1aa5365e4433dd6421be3df70",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

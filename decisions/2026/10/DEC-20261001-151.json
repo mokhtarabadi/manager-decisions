@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "276",
+  "verbatim_quote": {
+    "original": "ORDER 2: fix brainstorming not auto-loading — the Manager must mention it each time. Suspects: fragment 11 line 11 trigger check exists but may be easy to skip; fragment 05 line 21 trigger lives in user-input processing which may not run on autopilot/XML paths; no auto-load enforcement ties trigger evaluation to every planning turn.",
+    "english_translation": "ORDER 2: fix brainstorming not auto-loading — the Manager must mention it each time. Suspects: fragment 11 line 11 trigger check exists but may be easy to skip; fragment 05 line 21 trigger lives in user-input processing which may not run on autopilot/XML paths; no auto-load enforcement ties trigger evaluation to every planning turn."
+  },
+  "extracted_decision": {
+    "summary": "Make brainstorming trigger evaluation automatic on every planning turn, including autopilot/XML paths, without Manager mention.",
+    "category": "process",
+    "rationale": "Trigger currently lives in user-input processing or passive checks and can be skipped; no enforcement ties evaluation to every planning turn.",
+    "alternatives": [
+      "Keep Manager-mention requirement",
+      "Leave trigger only in user-input processing",
+      "Add passive check in Step 2 only"
+    ],
+    "tradeoffs": "Adds evaluation overhead every planning turn; Requires consistent logging of trigger words or explicit miss; Must update multiple fragments and executor Seat Check"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-151",
+  "timestamp": "2026-10-01T13:27:42.522230+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b0192d5a3f7ba51c146d811de9ac28b1dcbd810202e67dd7fcaa20d90fb9b119",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

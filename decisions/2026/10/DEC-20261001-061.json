@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "lock M1 + M2 approved",
+    "english_translation": "lock M1 + M2 approved"
+  },
+  "extracted_decision": {
+    "summary": "Plan approval for the time-display task.",
+    "category": "release",
+    "rationale": "Plan-approval gate passed.",
+    "alternatives": [
+      "Request changes"
+    ],
+    "tradeoffs": "None recorded."
+  },
+  "migrated_from": "dumble/DEC-20261001-041",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-061",
+  "timestamp": "2026-10-01T13:12:41.816217+00:00",
+  "fingerprint": "9767443fdeba36998b59dc105258569d26af64d570bef51e49810c8f74af6db5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

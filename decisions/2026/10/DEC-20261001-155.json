@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "If approved, note it as technical approval (PO_REVIEW_PENDING path).",
+    "english_translation": "If approved, note it as technical approval (PO_REVIEW_PENDING path)."
+  },
+  "extracted_decision": {
+    "summary": "Ruled that Code Reviewer approval is technical approval only and task must enter PO_REVIEW_PENDING path.",
+    "category": "release",
+    "rationale": "Separate technical sign-off from product owner review.",
+    "alternatives": [
+      "Direct closure",
+      "Require PO review before technical approval",
+      "Skip PO review"
+    ],
+    "tradeoffs": "Adds PO review step and delays final closure; Maintains governance and separation of duties"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-155",
+  "timestamp": "2026-10-01T13:27:42.682509+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c4149a69507ad7e6a697b69ac2f93b8f42cb940ec71aa7eeb61f27ca3c1f722c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

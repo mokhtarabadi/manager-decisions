@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-07",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "many OpenRay subscription proxies are duplicates by host/IP ... add a new argument ... when the unique-host/unique-IP option is active, parsing must never register a duplicate host or domain ... Output must report how many duplicates vs how many unique came out.",
+    "english_translation": "Many OpenRay subscription proxies are duplicates by host/IP. Add a new argument: when the unique-host/unique-IP option is active, parsing must never register a duplicate host or domain, and the output must report how many duplicates versus how many unique proxies came out."
+  },
+  "extracted_decision": {
+    "summary": "Add a unique-host/unique-IP dedup argument (off by default): the parser never registers duplicate hosts, and each run reports duplicate versus unique counts.",
+    "category": "architecture",
+    "rationale": "The OpenRay feed carries many same-host duplicates and unique IPs are what matter.",
+    "alternatives": [
+      "always-on dedup",
+      "dedup at output stage only"
+    ],
+    "tradeoffs": "Distinct nodes sharing a host are dropped when the flag is on."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-015",
+  "timestamp": "2026-10-01T13:03:54.756359+00:00",
+  "fingerprint": "7a6aa65298bdb98c1fb92fa0956e8b7353b6e78b547cce903b7e2318ef7da497",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "`DESIGN.md`, `docs/architecture.md` and `docs/data_model.md` do not exist in this repository and are skipped by policy, so the default above is the authority, not a missing document.",
+    "english_translation": "`DESIGN.md`, `docs/architecture.md` and `docs/data_model.md` do not exist in this repository and are skipped by policy, so the default above is the authority, not a missing document."
+  },
+  "extracted_decision": {
+    "summary": "Skip missing DESIGN.md, docs/architecture.md, and docs/data_model.md; treat the provided default as authoritative.",
+    "category": "process",
+    "rationale": "Those documents do not exist in the repository and are skipped by policy.",
+    "alternatives": [
+      "Halt for missing documentation",
+      "Create those documents"
+    ],
+    "tradeoffs": "Avoids blocking on nonexistent docs but relies on the stated default as authority"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-209",
+  "timestamp": "2026-10-01T13:27:45.113034+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0269a71757d97589fcca43d91f26110454b54f4a803a9c11d7764ab6415b34e9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

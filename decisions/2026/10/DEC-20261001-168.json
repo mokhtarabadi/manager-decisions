@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Seat Check: domains are prompt contract for implementation handoffs (Software Architect) and Hands execution authoring (Senior Programmer); UI/UX Designer skipped (no user-visible surface). Requested seats: Software Architect + Senior Programmer. Skipped: UI/UX Designer, QA Engineer, Code Reviewer (verification comes later, not planning).",
+    "english_translation": "Seat Check: domains are prompt contract for implementation handoffs (Software Architect) and Hands execution authoring (Senior Programmer); UI/UX Designer skipped (no user-visible surface). Requested seats: Software Architect + Senior Programmer. Skipped: UI/UX Designer, QA Engineer, Code Reviewer (verification comes later, not planning)."
+  },
+  "extracted_decision": {
+    "summary": "Manager selected Software Architect + Senior Programmer for planning and skipped UI/UX, QA, and Code Reviewer.",
+    "category": "process",
+    "rationale": "Domains involve prompt contract and Hands execution authoring; no user-visible surface; verification occurs later.",
+    "alternatives": [
+      "Include QA Engineer in planning",
+      "Include Code Reviewer in planning",
+      "Include UI/UX Designer in planning"
+    ],
+    "tradeoffs": "Skipping review seats may miss early quality input"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-168",
+  "timestamp": "2026-10-01T13:27:43.221631+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "926f186733575824c5d1fb9145b842e9ac9aebe4c65fb8f153271b891ecc1624",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

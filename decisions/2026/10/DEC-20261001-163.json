@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "only the exact phrases \"Approved for closure\" or \"Close task\" count as the approval word",
+    "english_translation": "only the exact phrases \"Approved for closure\" or \"Close task\" count as the approval word"
+  },
+  "extracted_decision": {
+    "summary": "Manager mandated that only exact phrases count as approval for closure.",
+    "category": "process",
+    "rationale": "Ensures explicit, unambiguous manager/PO approval before task closure.",
+    "alternatives": [
+      "Allow implied approval from technical review",
+      "Accept equivalent approval wording"
+    ],
+    "tradeoffs": "Strict phrase matching can delay closure if wording differs"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-163",
+  "timestamp": "2026-10-01T13:27:43.015992+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ac46fa5bbe4a4ec7ce752367fc737da612216e37332c2504e309f21a6f8c8099",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

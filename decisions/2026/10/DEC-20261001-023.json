@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "complete 854",
+    "english_translation": "complete 854"
+  },
+  "extracted_decision": {
+    "summary": "Ordered closure of task 854 once all child tasks (857-863) were closed.",
+    "category": "release",
+    "rationale": "Audit findings and follow-ups complete.",
+    "alternatives": [
+      "Hold open"
+    ],
+    "tradeoffs": "None recorded."
+  },
+  "migrated_from": "dumble/DEC-20261001-003",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-023",
+  "timestamp": "2026-10-01T13:12:39.164889+00:00",
+  "fingerprint": "ecaeecb4c39282d6b6365228ffa3954b9c289179653817a427fff2714925c26e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

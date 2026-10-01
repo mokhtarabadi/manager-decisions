@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Scope cut per Manager: free-tier 429s ONLY.",
+    "english_translation": "Scope cut per Manager: free-tier 429s ONLY."
+  },
+  "extracted_decision": {
+    "summary": "Rate-limit rescue plugin fires only on free-tier 429s.",
+    "category": "scope",
+    "rationale": "Narrow trigger avoids interfering with other error handling.",
+    "alternatives": [
+      "Handle all errors",
+      "Handle all 429s"
+    ],
+    "tradeoffs": "Safer and precise, but ignores other failure classes."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-099",
+  "timestamp": "2026-10-01T13:13:31.449284+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c1aacb6734c96fb8422458737308f3dc7d0c9af2651f9c7174294cdfcbf6037b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "278",
+  "verbatim_quote": {
+    "original": "If repo data is needed first, return a discovery task.",
+    "english_translation": "If repo data is needed first, return a discovery task."
+  },
+  "extracted_decision": {
+    "summary": "Manager instructed that if repository data is needed before planning, the architect should return a discovery task.",
+    "category": "process",
+    "rationale": "Avoid planning from assumptions and ensure blueprint is grounded in repo truth.",
+    "alternatives": [
+      "Proceed without discovery",
+      "Make assumptions and plan immediately"
+    ],
+    "tradeoffs": "Adds a round-trip but reduces risk of contradicting live state or hallucinating paths."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-140",
+  "timestamp": "2026-10-01T13:27:42.066381+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "7a5dd7828e1bedeaf43e1701cfb86ccafc608db1d5706af5e706cd5f2080bc86",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "278",
+  "verbatim_quote": {
+    "original": "Task 278 goal: (1) all repo docs + LLM.txt updated so a NEW user can full-setup from LLM.txt; (2) memory workflow updated so EXISTING users migrate stdio->singleton; (3) all docs/skills validated against the opencode 2 config schema (planner: cite exact v2 remote-entry fields); (4) upgrade global installation (opencode/openchamber/deps) + memory server currency + index rebuild; (5) service files for Linux systemd + macOS launchd + Windows scheduled-task, documented (Linux testable here; mac/Windows marked untested); (6) blowsh repo task 10: stdio+http+SSE all on by default and env-manageable, docs/readme/dockerfile updated.",
+    "english_translation": "Task 278 goal: (1) all repo docs + LLM.txt updated so a NEW user can full-setup from LLM.txt; (2) memory workflow updated so EXISTING users migrate stdio->singleton; (3) all docs/skills validated against the opencode 2 config schema (planner: cite exact v2 remote-entry fields); (4) upgrade global installation (opencode/openchamber/deps) + memory server currency + index rebuild; (5) service files for Linux systemd + macOS launchd + Windows scheduled-task, documented (Linux testable here; mac/Windows marked untested); (6) blowsh repo task 10: stdio+http+SSE all on by default and env-manageable, docs/readme/dockerfile updated."
+  },
+  "extracted_decision": {
+    "summary": "Manager defined Task 278 scope: update repo docs and LLM.txt for new-user setup; update memory workflow for stdio-to-singleton migration; validate docs/skills against opencode 2 schema; upgrade global installation and memory server/index; document Linux/macOS/Windows service files; and update blowsh task 10 for triple transports.",
+    "category": "scope",
+    "rationale": "Complete the singleton rollout by aligning documentation, migration, upgrades, cross-platform services, and blowsh transport defaults.",
+    "alternatives": [
+      "Limit to docs only",
+      "Defer upgrades or cross-platform service files",
+      "Keep blowsh stdio-only"
+    ],
+    "tradeoffs": "Broad scope increases coordination and risk; macOS/Windows files will be untested in this environment; upgrades could disrupt live 7/7 setup."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-139",
+  "timestamp": "2026-10-01T13:27:42.028396+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "3c126f7f0bedf45643ebaa7d4e60ec86c7aba88baa5b824de2acbc892932d7d7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

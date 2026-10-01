@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Out of scope: attachment caps, numbered parts/resume, append-only transcript storage, diff-extractor work, and any change to the Responses API shape.",
+    "english_translation": "Out of scope: attachment caps, numbered parts/resume, append-only transcript storage, diff-extractor work, and any change to the Responses API shape."
+  },
+  "extracted_decision": {
+    "summary": "Exclude attachment caps, numbered parts/resume, append-only transcript storage, diff-extractor work, and Responses API shape changes from task 263.",
+    "category": "scope",
+    "rationale": "Keep the task focused on the transcript cap and config validation.",
+    "alternatives": [
+      "Include adjacent attachment, transcript, or API work"
+    ],
+    "tradeoffs": "Narrower scope reduces risk but leaves adjacent issues for later tasks"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-211",
+  "timestamp": "2026-10-01T13:27:45.210404+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "186c8c32f773c1c923725930376096abcaf2396608a298d29d6aa3071e3158b8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

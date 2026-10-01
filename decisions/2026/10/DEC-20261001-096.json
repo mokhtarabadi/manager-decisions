@@ -1,0 +1,26 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager approved the plan without picking O1/O2; O2 chosen as the honest option since no authoritative date exists.",
+    "english_translation": "Manager approved the plan without picking O1/O2; O2 chosen as the honest option since no authoritative date exists."
+  },
+  "extracted_decision": {
+    "summary": "Approved a plan without an explicit option pick; the honest default was chosen.",
+    "category": "process",
+    "rationale": "No authoritative date existed, so the explicit-unverified marker was safest.",
+    "alternatives": [
+      "Guess a cutoff date (O1)"
+    ],
+    "tradeoffs": "Ships an honest marker instead of a fabricated date."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-096",
+  "timestamp": "2026-10-01T13:13:31.292199+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "708ca09bb31dfc1fd8e695d0da0879c3061ac6638b8bed37cbcd33bec0ac0033",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

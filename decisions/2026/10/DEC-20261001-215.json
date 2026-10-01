@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Code Reviewer seat, task 263 — RE-REVIEW after the round-1 fix. The change set is in the attached `[changed-hunks:263]` block.",
+    "english_translation": "Code Reviewer seat, task 263 — RE-REVIEW after the round-1 fix. The change set is in the attached `[changed-hunks:263]` block."
+  },
+  "extracted_decision": {
+    "summary": "Re-review task 263 after the round-1 documentation fix.",
+    "category": "quality-gate",
+    "rationale": "Round-1 blocking finding was fixed; re-review verifies closure.",
+    "alternatives": [
+      "Close after fix without re-review"
+    ],
+    "tradeoffs": "Extra review round ensures the blocking finding is actually resolved"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-215",
+  "timestamp": "2026-10-01T13:27:45.409697+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ee3d800765b6f754359bf86169f0d53ff5e5aaeafeb66ff281f42077c817ee0d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "If technically approved, output status as PO_REVIEW_PENDING with the notice that only the exact phrases \"Approved for closure\" or \"Close task\" count as the approval word.",
+    "english_translation": "If technically approved, output status as PO_REVIEW_PENDING with the notice that only the exact phrases \"Approved for closure\" or \"Close task\" count as the approval word."
+  },
+  "extracted_decision": {
+    "summary": "Manager instructed Code Reviewer to use PO_REVIEW_PENDING and include strict approval-phrase notice.",
+    "category": "process",
+    "rationale": "Ensure explicit PO approval before closure.",
+    "alternatives": [
+      "Allow technical approval to close the task"
+    ],
+    "tradeoffs": "PO_REVIEW_PENDING delays closure until explicit approval"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-171",
+  "timestamp": "2026-10-01T13:27:43.350423+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "96dd6c9fb035822796a8540156c71de471e2ab89941af29bba91e82297127b67",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

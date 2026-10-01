@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "the suite was RED at HEAD with 9 pre-existing failures unrelated to the release (Manager approved fixing them first).",
+    "english_translation": "the suite was RED at HEAD with 9 pre-existing failures unrelated to the release (Manager approved fixing them first)."
+  },
+  "extracted_decision": {
+    "summary": "Fix pre-existing test failures before releasing.",
+    "category": "quality-gate",
+    "rationale": "A red suite blocks a trustworthy release even if failures predate it.",
+    "alternatives": [
+      "Release over a red suite",
+      "Skip the failing tests"
+    ],
+    "tradeoffs": "Delays the release, but keeps the gate meaningful."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-097",
+  "timestamp": "2026-10-01T13:13:31.346843+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "d41196f037ded673daaf01c33522151877fb33c8447b04620a4a18a92664d35a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

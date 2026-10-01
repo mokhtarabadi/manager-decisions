@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Judge the actual staged diff; if a later part is truncated, say so explicitly and judge what is present.",
+    "english_translation": "Judge the actual staged diff; if a later part is truncated, say so explicitly and judge what is present."
+  },
+  "extracted_decision": {
+    "summary": "QA must judge the actual staged diff and explicitly state any truncation rather than rejecting solely on partial evidence.",
+    "category": "quality-gate",
+    "rationale": "Avoid blocking on truncated attachments and focus review on available evidence.",
+    "alternatives": [
+      "Reject immediately on truncated diff",
+      "Wait for full diff"
+    ],
+    "tradeoffs": "May miss defects in unseen later parts."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-116",
+  "timestamp": "2026-10-01T13:27:41.107010+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b64cd5e4927a41445d840b454657f408fc7e5979da378bd865f62bd874348fa7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

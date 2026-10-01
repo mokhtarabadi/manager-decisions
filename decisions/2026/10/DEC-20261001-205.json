@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Use an environment variable named `DECISION_TRANSCRIPT_MAX_CHARS`, documented default `131072` (characters), blank-means-unset, with a positive-integer guard that raises `ValueError` on a malformed, zero or negative value.",
+    "english_translation": "Use an environment variable named `DECISION_TRANSCRIPT_MAX_CHARS`, documented default `131072` (characters), blank-means-unset, with a positive-integer guard that raises `ValueError` on a malformed, zero or negative value."
+  },
+  "extracted_decision": {
+    "summary": "Adopt DECISION_TRANSCRIPT_MAX_CHARS with default 131072 characters, blank-means-unset, and ValueError on malformed, zero, or negative values.",
+    "category": "tooling",
+    "rationale": "Every other cap on the platform bounds characters, and the capped object is the joined prompt text, not file bytes.",
+    "alternatives": [
+      "DECISION_TRANSCRIPT_MAX_BYTES with a byte-based default",
+      "No cap",
+      "Silent fallback on invalid values"
+    ],
+    "tradeoffs": "Character-based cap is platform-consistent but does not directly bound file bytes; Loud validation improves safety but can break misconfigured runs"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-205",
+  "timestamp": "2026-10-01T13:27:44.920193+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "2e0703934271eb40c8ce48e98038e47018a2e7d00449b4000fe4064b33bce7cf",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

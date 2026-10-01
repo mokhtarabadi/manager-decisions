@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Waive, ship it",
+    "english_translation": "Waive, ship it"
+  },
+  "extracted_decision": {
+    "summary": "QA BDD waiver for release 1.56.0 - admin-dashboard/style/device scenarios deferred to a staging pass.",
+    "category": "release",
+    "rationale": "BDD scenarios need staging + a device, cannot run headless.",
+    "alternatives": [
+      "Block release on BDD"
+    ],
+    "tradeoffs": "Ship now with carried BDD debt."
+  },
+  "migrated_from": "dumble/DEC-20261001-028",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-048",
+  "timestamp": "2026-10-01T13:12:40.833755+00:00",
+  "fingerprint": "9dfad88ee22b8d6b3d1d8c33453edc7dc03bebc4ad00703f3a0ac9ed2395697c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

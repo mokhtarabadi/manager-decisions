@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Code Reviewer seat, task 263. Audit the attached change set against the task file's Goal and acceptance criteria. This is the review gate, not QA.",
+    "english_translation": "Code Reviewer seat, task 263. Audit the attached change set against the task file's Goal and acceptance criteria. This is the review gate, not QA."
+  },
+  "extracted_decision": {
+    "summary": "Run the Code Reviewer gate after QA to audit the change set against goal and acceptance criteria.",
+    "category": "quality-gate",
+    "rationale": "Separate review gate from QA; ensure standards and completeness.",
+    "alternatives": [
+      "Treat QA as sufficient",
+      "Skip code review"
+    ],
+    "tradeoffs": "Adds review latency but provides an independent completeness audit"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-214",
+  "timestamp": "2026-10-01T13:27:45.357849+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5d8eaaee3ed0c3899aa0bd910c582797c18152c5610128eddbef532c6e829bca",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

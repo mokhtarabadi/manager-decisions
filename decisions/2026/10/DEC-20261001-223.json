@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "session_id": null,
+  "verbatim_quote": {
+    "original": "i approved. uipdate .env, and also create a milsestore, but load memorues about them first to learn. also save my descstions",
+    "english_translation": "i approved. update .env, and also create a milestone, but load memories about them first to learn. also save my decisions"
+  },
+  "extracted_decision": {
+    "summary": "Approved creating milestone-33 summary and archiving completed tasks 812-815.",
+    "category": "process",
+    "rationale": "Completed held 4 closed tasks 812-815. Milestone 33 compacts them into docs/history and archives them, matching the archive-tasks workflow and release memories.",
+    "alternatives": [
+      "Leave completed tasks in place until a later milestone"
+    ],
+    "tradeoffs": "Archive moves are staged via git mv and wait for manager review and commit."
+  },
+  "migrated_from": "dumble/DEC-20260912-003",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-223",
+  "timestamp": "2026-10-01T13:36:14.442261+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "99415cae9d08a7520573460d2de65ca0123bdbed661ce56d9e1622fe644292cf",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

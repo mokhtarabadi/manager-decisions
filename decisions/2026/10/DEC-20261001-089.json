@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "i chose option 2",
+    "english_translation": "i chose option 2"
+  },
+  "extracted_decision": {
+    "summary": "A3 wide-screen goal transferred to a follow-up task; A3 stays unchecked in task 08.",
+    "category": "scope",
+    "rationale": "Keeps task 08 honest instead of claiming an unmet goal.",
+    "alternatives": [
+      "Force A3 into task 08",
+      "Drop A3 entirely"
+    ],
+    "tradeoffs": "An honest unchecked box plus a new follow-up task."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-089",
+  "timestamp": "2026-10-01T13:13:30.904653+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "00436bd72e8ce92b7e0173a9f2aa37e55fd20ebad37cf283dc991cafacb915cc",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

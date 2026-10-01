@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "269",
+  "verbatim_quote": {
+    "original": "Do not just fix the prompt; study what the top tools do, learn the lessons, then find our gaps.",
+    "english_translation": "Do not just fix the prompt; study what the top tools do, learn the lessons, then find our gaps."
+  },
+  "extracted_decision": {
+    "summary": "Use an evidence-based gap-analysis approach: research external top-tool practices, weigh them against house constraints, then propose prompt changes only for identified gaps.",
+    "category": "scope",
+    "rationale": "The Manager wants lessons from leading tools rather than a local patch, but external advice must be tested against evidence discipline, no-sycophancy, professional register, English-only rule, and reviewability.",
+    "alternatives": [
+      "Directly patch the known style issues without external research",
+      "Copy top-tool style guidance wholesale without gap analysis"
+    ],
+    "tradeoffs": "Adds research and rejection-analysis burden; Improves root-cause fixes without importing incompatible external norms"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-183",
+  "timestamp": "2026-10-01T13:27:43.889327+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "2a31b900aa64efe52ed8451a742c766589d75072fb4456105514229ea34828e5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

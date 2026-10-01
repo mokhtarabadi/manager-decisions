@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-07",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "create the task and run the autopilot stages including Brain QA and Brain reviewer.",
+    "english_translation": "Create the task and run the autopilot stages including Brain QA and Brain reviewer."
+  },
+  "extracted_decision": {
+    "summary": "Tasked work runs the full autopilot stages including Brain-driven QA and Brain reviewer.",
+    "category": "process",
+    "rationale": "Manager wants automated QA and review coverage on tasked changes.",
+    "alternatives": [
+      "skip QA/review for small changes"
+    ],
+    "tradeoffs": "More cycles per task."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-016",
+  "timestamp": "2026-10-01T13:03:54.803786+00:00",
+  "fingerprint": "74b5a943a50fa9cabeb0be58f65e31a50392fb427d32c73e16341ff3e14697d0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

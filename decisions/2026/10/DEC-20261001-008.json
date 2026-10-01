@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-04",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "ببین می‌تونی این قابلیت و توسعه بدی؟ خب؟ این‌جوری. از کلاً حالت سلکت میهومو یا همون کلش استفاده کنیم، خب؟ کاری با حالت اتوبالانس و این مواردش نداشته باشیم. بعد یک اسکریپت پایتون بنویسی با ای‌پی‌آی کلش. بعد یه دیتابیس لوکال اس‌کی‌لایت هم داشته باشی ترک کنی پروکسی‌ها رو بر اساس نیمشون، اینا یونیک‌ان. پروکسی‌ها رو تست کنی ... اگه کار کرد پینگش رو ذخیره کنی ... هر چند ثانیه یه بار ... ترافیک رو روی پروکسی‌هایی که واقعاً کار می‌کنن و پینگ دارن بالانس کنی ... به‌صورت یکسان هندل کنی ... پروکسی‌های مرده هم هر چند وقت یک‌بار یک‌بار دیگه تست بشن اگر زنده شده باشن دوباره برگردونی به سیستم ... یک ران‌روبین واقعی به‌اضافه‌ی یک هش‌ویت لود بالانس ... دیتات هم باید توی اس‌کی‌لایت ذخیره کنی، که بر اساس دیتای خودمون هندل کنیم، نه دیتای کلش.",
+    "english_translation": "Can you develop this feature? Use mihomo/Clash in select mode only — do not touch auto-balance. Write a Python script using the Clash API plus a local SQLite DB tracking proxies by their unique names. Test each proxy (via Clash), store ping for alive ones. Every few seconds, truly round-robin traffic across proxies that actually work and have ping, and equalize load across them by usage. Retest dead proxies periodically and readmit revived ones. I want a true round-robin plus hash-weighted load balancing, with the data stored in SQLite and driven by our own data, not Clash's."
+  },
+  "extracted_decision": {
+    "summary": "Keep the PROXY group in select mode and ignore mihomo auto-balance; an external Python script using the Clash API plus a local SQLite DB (keyed by unique proxy names) owns per-node testing, round-robin rotation, usage-equalized balancing, and dead-node retest/readmission.",
+    "category": "architecture",
+    "rationale": "Manager wants true round-robin plus hash-weighted load balancing driven by our own data, not Clash internals.",
+    "alternatives": [
+      "mihomo auto-balance / url-test groups"
+    ],
+    "tradeoffs": "External state must be maintained and Clash's built-in balancing is bypassed."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-008",
+  "timestamp": "2026-10-01T13:03:54.309832+00:00",
+  "fingerprint": "56f4ad03699ce12ffdfe73d5b3ca70127c1f8e3dd53204ab3bb2aad7055f5ff3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

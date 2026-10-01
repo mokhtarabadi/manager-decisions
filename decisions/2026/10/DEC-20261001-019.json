@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-08",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "stale-after 3600 to 7200, batch 250 to 500; coverage ~3.8h vs ~14.5h before.",
+    "english_translation": "Stale window 3600 to 7200 seconds, retest batch 250 to 500; coverage drops from about 14.5h to about 3.8h."
+  },
+  "extracted_decision": {
+    "summary": "Dedup roughly halves the live pool (about 7230 to 3770) and the retest batch is raised to 500, cutting full coverage from about 14.5h to about 3.8h, with the stale window doubled to 2h.",
+    "category": "architecture",
+    "rationale": "The freshness window must not exceed retest coverage, or rotation hits empty-pool no-ops.",
+    "alternatives": [
+      "keep batch 250 and 1h stale window"
+    ],
+    "tradeoffs": "Larger batch per run, in exchange for a thicker freshness margin."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-019",
+  "timestamp": "2026-10-01T13:03:54.968250+00:00",
+  "fingerprint": "af4f8a37e32bcee6b6d721d8504a372dfba823db441fcc89f26affb3f9897cac",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

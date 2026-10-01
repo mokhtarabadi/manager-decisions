@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "Approval relay-pause does not apply in autopilot — record the verdict, do not ask the human.",
+    "english_translation": "Approval relay-pause does not apply in autopilot — record the verdict, do not ask the human."
+  },
+  "extracted_decision": {
+    "summary": "In autopilot mode, do not use approval relay-pause; record the verdict and do not ask the human.",
+    "category": "autopilot-cycle",
+    "rationale": "Autopilot sessions must proceed autonomously without human relay pauses.",
+    "alternatives": [
+      "Pause and ask the human for approval",
+      "Switch to manual mode"
+    ],
+    "tradeoffs": "Autonomous progression versus human oversight; Speed versus approval certainty"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-137",
+  "timestamp": "2026-10-01T13:27:41.950795+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "12b1fa914ee61e71ce623ff090a0c45bd5ff641d91560dc33b8499458bd624f5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

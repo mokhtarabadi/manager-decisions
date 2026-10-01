@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "create a task and start full upgrade our system workflow and everything to new versions. search and find everyplace and upgrade. finally when done. upgrade our global installation too.",
+    "english_translation": "create a task and start full upgrade our system workflow and everything to new versions. search and find everyplace and upgrade. finally when done. upgrade our global installation too."
+  },
+  "extracted_decision": {
+    "summary": "Full system-workflow upgrade to new versions, plus the global install.",
+    "category": "process",
+    "rationale": "Keep the whole toolchain on current versions in one sweep.",
+    "alternatives": [
+      "Upgrade piecemeal",
+      "Stay on current versions"
+    ],
+    "tradeoffs": "Broad, risky sweep, but eliminates version drift."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-098",
+  "timestamp": "2026-10-01T13:13:31.397948+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a8ed1da033169d22ae3d5170b8baf2a4c66f7f411e173f84a04bb8179517ead3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

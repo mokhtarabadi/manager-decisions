@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "produce an implementation plan (no code changes, plan only) for the task file below (task_id 283).",
+    "english_translation": "produce an implementation plan (no code changes, plan only) for the task file below (task_id 283)."
+  },
+  "extracted_decision": {
+    "summary": "Require an architect implementation plan with no code changes.",
+    "category": "process",
+    "rationale": "Non-trivial infrastructure change needs planning before execution.",
+    "alternatives": [
+      "Direct implementation",
+      "Skip planning"
+    ],
+    "tradeoffs": "Adds a planning round and delays execution."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-117",
+  "timestamp": "2026-10-01T13:27:41.152423+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "3dae3f365414d4aca196f6e6a71bb3f11e4a8bdf543dd08b0cb661c81c891b9f",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

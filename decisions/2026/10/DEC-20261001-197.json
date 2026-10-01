@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "265",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "extracted_decision": {
+    "summary": "Manager approves closure of Task 265.",
+    "category": "release",
+    "rationale": "Both QA and technical review gates passed; Manager accepts the work for closure.",
+    "alternatives": [
+      "Request changes",
+      "Defer closure"
+    ],
+    "tradeoffs": "Closes the task and triggers commit, but ends further review of this change."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-197",
+  "timestamp": "2026-10-01T13:27:44.538091+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "63e839fb22bc37ab847b0b0b2d55ef08721e78eff86880875f4b0603e88ef143",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

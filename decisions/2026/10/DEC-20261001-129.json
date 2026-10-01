@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "280",
+  "verbatim_quote": {
+    "original": "You are the Code Reviewer seat. Final review of task 280 (QA_PASSED). Changes: executor.md approval-routing fix, fragment cutoff O2 marker, version 9.48.0, rebuilt system-prompt.md (byte-identical proven), CHANGELOG entry. Audit the factual diff vs the approved plan and conventions. Return exactly one verdict: APPROVED or APPROVED_WITH_CHANGES (exact items) or REJECTED_NEEDS_FIXES.",
+    "english_translation": "You are the Code Reviewer seat. Final review of task 280 (QA_PASSED). Changes: executor.md approval-routing fix, fragment cutoff O2 marker, version 9.48.0, rebuilt system-prompt.md (byte-identical proven), CHANGELOG entry. Audit the factual diff vs the approved plan and conventions. Return exactly one verdict: APPROVED or APPROVED_WITH_CHANGES (exact items) or REJECTED_NEEDS_FIXES."
+  },
+  "extracted_decision": {
+    "summary": "Assign Code Reviewer to perform final technical review of task 280 after QA_PASSED, auditing the diff against the approved plan and conventions, and returning exactly one of three verdicts.",
+    "category": "quality-gate",
+    "rationale": "Final technical gate ensures changes align with approved plan and project conventions before closure.",
+    "alternatives": [
+      "Accept QA_PASSED as sufficient",
+      "Proceed directly to closure without code review"
+    ],
+    "tradeoffs": "Extra review step delays closure but provides assurance against plan drift or convention violations"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-129",
+  "timestamp": "2026-10-01T13:27:41.642485+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9856b722ba4faab5aee256ef4126ef5c28fc297f457ede09526a97581946b9cb",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

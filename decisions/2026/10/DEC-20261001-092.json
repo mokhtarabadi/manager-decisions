@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager agreed to 2.4.0 and ordered a task file with current working-tree changes injected.",
+    "english_translation": "Manager agreed to 2.4.0 and ordered a task file with current working-tree changes injected."
+  },
+  "extracted_decision": {
+    "summary": "Release 2.4.0 agreed; the task file carries the working-tree diff.",
+    "category": "release",
+    "rationale": "Pins the exact changes under review into the task artifact.",
+    "alternatives": [
+      "Create the task without the diff"
+    ],
+    "tradeoffs": "Reviewable diff inside the task, but a larger task file."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-092",
+  "timestamp": "2026-10-01T13:13:31.060078+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1769912a233020ae4d13580a8321813d58c8bd712c0b3754eeca14417eed1096",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

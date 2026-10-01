@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "بعد تمام اسکیل‌هایی که داریم رو نگاه کن، اسکیل‌هایی که مربوط به فریم ورک‌ها و زبان‌های برنامه‌نویسیه. برای هر کدومش شروع کن یک ایجنت باز کن برای تحقیقات کن در مورد اون زبان و فریم ورک و جمع‌آوری داده از سطح اینترنت.",
+    "english_translation": "Then look at all the skills we have—the skills related to frameworks and programming languages. For each one, start and open an agent to research that language and framework and gather data from the internet."
+  },
+  "extracted_decision": {
+    "summary": "Review all language/framework skills; for each, launch a research agent to gather internet data about that language/framework.",
+    "category": "process",
+    "rationale": "Gather current external information per stack.",
+    "alternatives": [
+      "No research",
+      "Manual research only"
+    ],
+    "tradeoffs": "Research adds time but improves accuracy"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-176",
+  "timestamp": "2026-10-01T13:27:43.568827+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "aa4b67ac2eb55bb94f2e2ddd50ae5b3c2bc492e1bfe584700386435188498fa7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

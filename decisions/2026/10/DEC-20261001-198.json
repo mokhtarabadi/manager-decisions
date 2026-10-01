@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "265",
+  "verbatim_quote": {
+    "original": "Please issue the final closure XML so the Hands can execute the closure sequence exactly once: move the task file to tasks/completed/, set Status: closed, update the **File:** header to the completed path, re-lint, and commit via custom_context_commit_and_clean_task (the only commit path; ZAC forbids git commit).",
+    "english_translation": "Please issue the final closure XML so the Hands can execute the closure sequence exactly once: move the task file to tasks/completed/, set Status: closed, update the **File:** header to the completed path, re-lint, and commit via custom_context_commit_and_clean_task (the only commit path; ZAC forbids git commit)."
+  },
+  "extracted_decision": {
+    "summary": "Execute the closure sequence exactly once: move task file to tasks/completed/, set Status: closed, update File header to completed path, re-lint, and commit only via custom_context_commit_and_clean_task; ZAC forbids git commit.",
+    "category": "process",
+    "rationale": "Ensure closure is atomic, compliant with Zero-Autonomous-Commit (ZAC), and uses the approved MCP commit path rather than raw git.",
+    "alternatives": [
+      "Run git commit manually",
+      "Execute closure steps multiple times",
+      "Skip re-lint"
+    ],
+    "tradeoffs": "Restricts Hands to one commit path and one execution, reducing risk of duplicate or non-compliant commits, but requires precise step ordering."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-198",
+  "timestamp": "2026-10-01T13:27:44.584344+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9ab73b49d9c4614fa9cadb5a75dabc19ff37ed09a4158f7c72134d001178c134",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

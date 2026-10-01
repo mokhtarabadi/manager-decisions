@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-09",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "خب این کار رو بکن وقتی پروکسی عوض میشه کانکشن های قدیمی رو ببند هم حالت rr و هم حالت خودکار این رو تسکش کن و انجامش بده خودکار",
+    "english_translation": "Do this: when the proxy changes, close the old connections — both in rr mode and automatic mode. Task it and do it automatically."
+  },
+  "extracted_decision": {
+    "summary": "On every balancer selection change, close connections still chained to the previous node, in both the manual (rr/skip) and automatic (timer) paths, through one shared code path.",
+    "category": "architecture",
+    "rationale": "Traffic must move to the new proxy immediately instead of waiting for old connections to drain.",
+    "alternatives": [
+      "close all connections",
+      "let connections drain naturally"
+    ],
+    "tradeoffs": "Closing connections causes a brief traffic blip; surgical per-id close limits it."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-020",
+  "timestamp": "2026-10-01T13:03:55.023136+00:00",
+  "fingerprint": "15a97a34f9dda5f36e7d4593ad240313ff48c0b1a2c06a40963fd5ce67ffc955",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "269",
+  "verbatim_quote": {
+    "original": "The Manager explicitly requested brainstorming for this task.",
+    "english_translation": "The Manager explicitly requested brainstorming for this task."
+  },
+  "extracted_decision": {
+    "summary": "Require a full seven-seat brainstorming report for task 269 before planning proceeds.",
+    "category": "process",
+    "rationale": "The Manager's explicit request triggers the brainstorming protocol, making the full panel mandatory rather than optional.",
+    "alternatives": [
+      "Skip brainstorming because the task is a prompt/style-contract change",
+      "Use only the Software Architect seat and omit the full seven-seat panel"
+    ],
+    "tradeoffs": "Adds planning overhead and report length; Reduces risk of missing cross-disciplinary issues in output-style design"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-181",
+  "timestamp": "2026-10-01T13:27:43.797580+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9c4661099e854b8e5c6277f69e85da3f30788bc3f380f85c8286839c030f20f0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

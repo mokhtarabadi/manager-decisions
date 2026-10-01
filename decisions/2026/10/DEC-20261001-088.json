@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "start auto pilot for the task.",
+    "english_translation": "start auto pilot for the task."
+  },
+  "extracted_decision": {
+    "summary": "One-line autopilot lock order for a hardening task.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager cedes approval pauses to the Hand for a well-scoped task.",
+    "alternatives": [
+      "Run interactively"
+    ],
+    "tradeoffs": "Zero approval pauses until a hard blocker or Relay question."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-088",
+  "timestamp": "2026-10-01T13:13:30.852260+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "77c6241bb4612cc351d74a5597799c5d8ba065dd7c9f644be0db095ee3e34bb7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

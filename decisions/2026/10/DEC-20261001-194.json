@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "265",
+  "verbatim_quote": {
+    "original": "Findings R3-R7 were deliberately deferred and are out of scope — do not expand scope.",
+    "english_translation": "Findings R3-R7 were deliberately deferred and are out of scope — do not expand scope."
+  },
+  "extracted_decision": {
+    "summary": "Deferred audit findings R3-R7 are out of scope for Task 265; do not expand scope.",
+    "category": "scope",
+    "rationale": "To keep Task 265 focused on closing R1 and R2 only, avoiding scope creep and unplanned work.",
+    "alternatives": [
+      "Include R3-R7 in this task",
+      "Open separate tasks for R3-R7 now"
+    ],
+    "tradeoffs": "Leaves known audit findings R3-R7 unresolved for now, but keeps the change small and reviewable."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-194",
+  "timestamp": "2026-10-01T13:27:44.402604+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9f5c68e5b0726fb44d742954eea5c32b2fb60b1021654af90162fda9b8c02724",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

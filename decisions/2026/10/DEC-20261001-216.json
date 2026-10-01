@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": null,
+  "verbatim_quote": {
+    "original": "تو نباید سولو کار کنی؛ باید همه پرسوناهای برین را کانسالت کنی",
+    "english_translation": "You must not work solo; you must consult all of the Brain personas."
+  },
+  "extracted_decision": {
+    "summary": "In autopilot, the Hands must consult all Brain personas (QA, Planner, Designer, Strategist, Programmer) instead of working solo.",
+    "category": "process",
+    "rationale": "Solo autopilot work misses cross-disciplinary verdicts; the Manager rebuked it and ordered full persona consultation.",
+    "alternatives": [
+      "Continue solo autopilot and report at the end"
+    ],
+    "tradeoffs": "More Brain turns per task, but verdicts catch debt early."
+  },
+  "migrated_from": "cognitive-lead-hq/DEC-20260914-001",
+  "fidelity": "reconstructed",
+  "mode": "autopilot",
+  "scope": "standing",
+  "goal_ref": "",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-216",
+  "timestamp": "2026-10-01T13:36:14.086825+00:00",
+  "fingerprint": "329e5b410918469815ae732f80afa9909c0e8b3ff2f9912d6218e0bf0eb20988",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

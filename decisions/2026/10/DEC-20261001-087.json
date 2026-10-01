@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager picked Brain options 2 (persistent profile), 4 (warm reuse), 5 (larger viewport), plus guard-signal detection and logging.",
+    "english_translation": "Manager picked Brain options 2 (persistent profile), 4 (warm reuse), 5 (larger viewport), plus guard-signal detection and logging."
+  },
+  "extracted_decision": {
+    "summary": "Chose persistent profile + warm reuse + larger viewport + guard detection.",
+    "category": "architecture",
+    "rationale": "Hardens the browser backend against bot detection with zero tool-shape change.",
+    "alternatives": [
+      "Proxies / sidecar / captcha solving (explicitly excluded)"
+    ],
+    "tradeoffs": "Phase 1 only; proxied detection deferred, keeping the tool shape stable."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-087",
+  "timestamp": "2026-10-01T13:13:30.799466+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "7ef34141a58c897ba1aed15c0025e37cd656db0612546b7eb6944aeb3b2ee570",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

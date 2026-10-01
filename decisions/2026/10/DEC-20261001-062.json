@@ -1,0 +1,29 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Approved scope (per-layer verdicts - implement exactly this) ... with per-query labels (never class-wide) ... financial reads excluded ... kill-switch.",
+    "english_translation": "Approved scope (per-layer verdicts - implement exactly this) ... with per-query labels (never class-wide) ... financial reads excluded ... kill-switch."
+  },
+  "extracted_decision": {
+    "summary": "Investigate enabling caching on the SDK forks; approved 3-layer scope - labeled-pin SDK cache (feeds, one-shot social reads; no CachePolicy disk cache), Room mirror for LiveQuery snapshots, response cache for cloud-function reads; user_coins/packages never from client cache; kill-switch mandatory; no class-wide unpinAll.",
+    "category": "architecture",
+    "rationale": "Restore offline content without reviving the four historical cache failure modes.",
+    "alternatives": [
+      "Full custom cache",
+      "CachePolicy disk cache",
+      "Class-wide unpinAll"
+    ],
+    "tradeoffs": "Proven labeled-pin pattern vs new-cache risk."
+  },
+  "migrated_from": "dumble/DEC-20261001-042",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-062",
+  "timestamp": "2026-10-01T13:12:41.901404+00:00",
+  "fingerprint": "4ffdf3ae240b66f8e4f8bea23ce45d1e0d7d180da8c8292ef17b5d479b70474a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

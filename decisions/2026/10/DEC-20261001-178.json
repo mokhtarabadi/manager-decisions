@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "ببین حواست باشه ما چند تمپلت داریم، همه‌رو در بر بگیر، چیزی فراموش نکنی.",
+    "english_translation": "Look, be careful—we have several templates; cover them all, don't forget anything."
+  },
+  "extracted_decision": {
+    "summary": "Ensure complete coverage of all templates; nothing skipped.",
+    "category": "scope",
+    "rationale": "Completeness requirement.",
+    "alternatives": [
+      "Partial coverage"
+    ],
+    "tradeoffs": "Larger effort but no missed stacks"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-178",
+  "timestamp": "2026-10-01T13:27:43.661187+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "51e6b3506b3736573e6004cd1b07e4b3e9232ef47eb75623095a577d59ad93fd",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

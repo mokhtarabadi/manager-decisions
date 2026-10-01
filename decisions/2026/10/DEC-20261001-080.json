@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Production path must stay throw-FetchError-based; never return error strings as successes. Every new direct HTTP path must pass assertSafeUrl.",
+    "english_translation": "Production path must stay throw-FetchError-based; never return error strings as successes. Every new direct HTTP path must pass assertSafeUrl."
+  },
+  "extracted_decision": {
+    "summary": "Errors throw FetchError (isError:true); every new HTTP path passes the SSRF guard.",
+    "category": "quality-gate",
+    "rationale": "Silent success strings hide failures from agents; unguarded URLs enable SSRF.",
+    "alternatives": [
+      "Return error strings as normal results",
+      "Skip the guard for internal URLs"
+    ],
+    "tradeoffs": "Strict error handling may surface more failures, but never falsely succeeds."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-080",
+  "timestamp": "2026-10-01T13:13:30.368234+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "79a1bcd544cd03a077542891f867b8e1552bdcf0cc949781a6f7c44ff141d8d7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

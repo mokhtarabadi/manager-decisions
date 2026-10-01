@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "GROUND your plan in it and cite file paths with lines.",
+    "english_translation": "GROUND your plan in it and cite file paths with lines."
+  },
+  "extracted_decision": {
+    "summary": "Manager requires the final plan to be grounded in the discovery report and to cite file paths with line numbers.",
+    "category": "quality-gate",
+    "rationale": "To enforce evidence-based architectural decisions and traceability.",
+    "alternatives": [
+      "Allow uncited plans based on general knowledge",
+      "Permit citations only at a high level"
+    ],
+    "tradeoffs": "Slower to produce but higher confidence; May be difficult if discovery report lacks exact line numbers"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-146",
+  "timestamp": "2026-10-01T13:27:42.305202+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "cf6c2ab8df547d9319ece6374b3f08375ed2dff2d8e8f5796207164639533b31",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

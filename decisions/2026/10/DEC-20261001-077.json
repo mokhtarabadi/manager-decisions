@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Requirement: forward-reporting of results via the MCP stdio transport; no ports exposed.",
+    "english_translation": "Requirement: forward-reporting of results via the MCP stdio transport; no ports exposed."
+  },
+  "extracted_decision": {
+    "summary": "Expose blowsh only over MCP stdio transport, with no network ports.",
+    "category": "architecture",
+    "rationale": "Keeps the server local-only and avoids an attack surface.",
+    "alternatives": [
+      "Expose an HTTP port for convenience"
+    ],
+    "tradeoffs": "No remote access without an added transport, in exchange for safety."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-077",
+  "timestamp": "2026-10-01T13:13:30.210014+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "cee7f087e9d421aec3bcb069a2e2a5cc0bd2a8d63ebf4ce6a32d60910086992e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

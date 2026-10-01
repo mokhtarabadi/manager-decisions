@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "F3 DISPUTED — OPTIONAL project_root is the Manager-approved Architect plan (explicit Approved on record), superseding the required-path note.",
+    "english_translation": "F3 DISPUTED — OPTIONAL project_root is the Manager-approved Architect plan (explicit Approved on record), superseding the required-path note."
+  },
+  "extracted_decision": {
+    "summary": "Approve the Architect plan using OPTIONAL project_root with fallback, superseding the required-path note.",
+    "category": "architecture",
+    "rationale": "Manager explicitly approved the Architect plan; optional-with-fallback avoids breaking all current callers at once.",
+    "alternatives": [
+      "Required project_root with coordinated caller migration",
+      "Keep project_path deferred"
+    ],
+    "tradeoffs": "Backward compatibility versus silent cwd fallback risk; Zero caller breakage versus stricter enforcement"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-132",
+  "timestamp": "2026-10-01T13:27:41.761778+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "4fc38b3d4abe795b7c81c0179c3c60f462e01db101add93a8a032e5e5c71ecbe",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Do NOT create a new task file or a new task number — work inside task 263.",
+    "english_translation": "Do NOT create a new task file or a new task number — work inside task 263."
+  },
+  "extracted_decision": {
+    "summary": "Keep the transcript-cap and config-validation work inside existing task 263; do not create a new task file or number.",
+    "category": "scope",
+    "rationale": "Task 263 already exists and the fixes fit within it.",
+    "alternatives": [
+      "Create a new task file/number for the fix"
+    ],
+    "tradeoffs": "Avoids task proliferation but concentrates multiple defects in one task"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-204",
+  "timestamp": "2026-10-01T13:27:44.872612+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "bef5d904ba28b5ff5e44ee68112e07ad00d0d149daa6bdbd31a43de6433f939d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

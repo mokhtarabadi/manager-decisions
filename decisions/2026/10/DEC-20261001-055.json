@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "After each verified fix, set the signature group fixed via the admin panel.",
+    "english_translation": "After each verified fix, set the signature group fixed via the admin panel."
+  },
+  "extracted_decision": {
+    "summary": "Mark guard-covered crash groups fixed post-ship; leave the Inflate (1.53) and OOM (1.36) singletons open with recorded reasons.",
+    "category": "quality-gate",
+    "rationale": "Only mark groups that are truly fixed; unreproducible singletons stay open with notes.",
+    "alternatives": [
+      "Mark all fixed"
+    ],
+    "tradeoffs": "Honest panel state vs a clean-looking list."
+  },
+  "migrated_from": "dumble/DEC-20261001-035",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-055",
+  "timestamp": "2026-10-01T13:12:41.375163+00:00",
+  "fingerprint": "28a08f307fb06e8a4b246a61a0870bc74afc2aa70013cac9ebe89ab2c56aa255",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

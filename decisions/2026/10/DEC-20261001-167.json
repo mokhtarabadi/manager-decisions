@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Use the manager decisions already consulted: Brain plans, Hands implement, Brain performs QA and review, autopilot calls Brain directly, and full automatic work consults all relevant Brain personas.",
+    "english_translation": "Use the manager decisions already consulted: Brain plans, Hands implement, Brain performs QA and review, autopilot calls Brain directly, and full automatic work consults all relevant Brain personas."
+  },
+  "extracted_decision": {
+    "summary": "Manager reaffirmed role separation: Brain plans, Hands implement, Brain performs QA/review, autopilot calls Brain directly, and full automatic work consults relevant Brain personas.",
+    "category": "process",
+    "rationale": "Preserve established workflow and persona consultation rules.",
+    "alternatives": [
+      "Allow a single seat to plan and implement",
+      "Bypass Brain for direct autopilot execution"
+    ],
+    "tradeoffs": "Role separation may add handoff latency"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-167",
+  "timestamp": "2026-10-01T13:27:43.180973+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "8a673ca84e7c507a54b8e4d8734d74dc3c8b5f27d38d575ac2f5eb1aae1319c2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Approved design (from the 2026-09-22 read-only investigation - implement this, do not re-plan without cause).",
+    "english_translation": "Approved design (from the 2026-09-22 read-only investigation - implement this, do not re-plan without cause)."
+  },
+  "extracted_decision": {
+    "summary": "Implement the approved 2026-09-22 time-display design (single shared TimeTicker singleton, 60s, lifecycle-gated, in-place visible-holder rebind, no notifyDataSetChanged, formatting stays in DateUtils); do not re-plan without cause; add NO new dependency.",
+    "category": "architecture",
+    "rationale": "Investigation already settled the design; avoid churn and dependency bloat.",
+    "alternatives": [
+      "Per-row timers",
+      "Third-party relative-time library"
+    ],
+    "tradeoffs": "One shared 60s ticker vs many wake-ups."
+  },
+  "migrated_from": "dumble/DEC-20261001-040",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-060",
+  "timestamp": "2026-10-01T13:12:41.735403+00:00",
+  "fingerprint": "c7e9d5791078c5e39b75e9d5d0ff433ed8bad87a2dc232a980fbebc8673b9ff1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

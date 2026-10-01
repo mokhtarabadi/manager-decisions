@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Scope: (1) OpenCode serve-mode-only (:4096 unit), never background service; OpenChamber always uses existing server. (2) Remove @tarquinen/opencode-dcp repo+global+cli.json. (3) NEW: audit entire project + system-prompt fragments against LATEST OpenCode 2 docs (fetch https://opencode.ai/v2/docs/ + config/plugins/mcp/agent-frontmatter/service guides as ground truth, never from memory) and fix deviations.",
+    "english_translation": "Scope: (1) OpenCode serve-mode-only (:4096 unit), never background service; OpenChamber always uses existing server. (2) Remove @tarquinen/opencode-dcp repo+global+cli.json. (3) NEW: audit entire project + system-prompt fragments against LATEST OpenCode 2 docs (fetch https://opencode.ai/v2/docs/ + config/plugins/mcp/agent-frontmatter/service guides as ground truth, never from memory) and fix deviations."
+  },
+  "extracted_decision": {
+    "summary": "Add a full project and system-prompt audit against the latest OpenCode 2 docs to task 283 while reaffirming serve-only operation and DCP removal.",
+    "category": "scope",
+    "rationale": "Use live docs as ground truth to avoid memory-based syntax and configuration deviations.",
+    "alternatives": [
+      "Skip the audit",
+      "Audit only configs",
+      "Rely on existing knowledge"
+    ],
+    "tradeoffs": "Expands task scope, increases review surface, and may surface additional deviations requiring fixes."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-112",
+  "timestamp": "2026-10-01T13:27:40.922671+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "2c73965ed69413d23ac9a200cd38a396c46318d9c4c19cdb4ff4be1e0c871197",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

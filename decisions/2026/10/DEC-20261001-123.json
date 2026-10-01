@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "281",
+  "verbatim_quote": {
+    "original": "The Manager selects the winner afterward — do NOT implement, report only.",
+    "english_translation": "The Manager selects the winner afterward — do NOT implement, report only."
+  },
+  "extracted_decision": {
+    "summary": "Reserved winner selection for the Manager and prohibited implementation during the seven-seat brainstorm; the session was to report only.",
+    "category": "process",
+    "rationale": "Keeps the brainstorm advisory and prevents unapproved changes before the Manager chooses between prompt variants.",
+    "alternatives": [
+      "Allow the team or Architect to choose the winner immediately",
+      "Proceed to implementation during the brainstorm"
+    ],
+    "tradeoffs": "Creates a safer approval boundary and avoids rework, but delays implementation until Manager selection"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-123",
+  "timestamp": "2026-10-01T13:27:41.396455+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "3c0b650abbdb070a2c789cb3012d51c69c07f95dc2c42d7759816fc70dafbcc8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

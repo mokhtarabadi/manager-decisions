@@ -1,0 +1,26 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "در کل میخوام طوری باشه یه instance از opencode بالا باشه و همه mcp ها هم فقط یک instance داشته باشن و و یک instance از openchamber هم باشه دیگه بین همه سشن ها و پروژها مشتکر باشه mcp سرورها",
+    "english_translation": "In general I want one instance of opencode running, all MCPs having only a single instance, and one openchamber instance too — shared across all sessions and projects, the MCP servers."
+  },
+  "extracted_decision": {
+    "summary": "One shared OpenCode instance + one MCP-server instance per server + one OpenChamber instance across all sessions/projects.",
+    "category": "architecture",
+    "rationale": "Avoids per-session server duplication and resource waste across the workspace.",
+    "alternatives": [
+      "Keep per-session MCP processes (status quo)"
+    ],
+    "tradeoffs": "Major consolidation; requires a remote/singleton transport rollout."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-110",
+  "timestamp": "2026-10-01T13:13:47.294946+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "7f1637a2b79ff01bbadc214a243173cae2b4a23a34bea3758f596f9aa9ae490d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

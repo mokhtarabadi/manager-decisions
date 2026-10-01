@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "[Code Reviewer], please perform the final review of task 272. Round 6 applied your one-word hotfix (AC4 plugin→plugins plural, line 41, grep-verified single match, no other lines touched), lint passes, re-staged in tasks/qa/ with fresh diff. Confirm final verdict: APPROVED with PO_REVIEW_PENDING technical approval, or cite any remaining defect.",
+    "english_translation": "[Code Reviewer], please perform the final review of task 272. Round 6 applied your one-word hotfix (AC4 plugin→plugins plural, line 41, grep-verified single match, no other lines touched), lint passes, re-staged in tasks/qa/ with fresh diff. Confirm final verdict: APPROVED with PO_REVIEW_PENDING technical approval, or cite any remaining defect."
+  },
+  "extracted_decision": {
+    "summary": "Requested final confirmation after one-word AC hotfix; expected APPROVED with PO_REVIEW_PENDING or defect citation.",
+    "category": "quality-gate",
+    "rationale": "Ensure final fix is correct and task is ready for technical approval.",
+    "alternatives": [
+      "Accept prior approval",
+      "Skip final confirmation",
+      "Reopen full review"
+    ],
+    "tradeoffs": "Minor review overhead; Prevents approval with remaining defect; Delays closure if defect found"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-157",
+  "timestamp": "2026-10-01T13:27:42.766696+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "84cabac17de5dd3c73e7a94f48e51a20fc9996ef7ce3554da8ac1720b402aa34",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

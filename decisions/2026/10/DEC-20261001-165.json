@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Do not implement code in this turn.",
+    "english_translation": "Do not implement code in this turn."
+  },
+  "extracted_decision": {
+    "summary": "Manager forbade implementation during the planning turn.",
+    "category": "process",
+    "rationale": "Planning request only; implementation must wait for approval gate.",
+    "alternatives": [
+      "Implement immediately without separate approval"
+    ],
+    "tradeoffs": "Adds an approval round-trip before implementation"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-165",
+  "timestamp": "2026-10-01T13:27:43.100017+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "91ddd0f844a96905d6d8ae815fb26ac370d6cc78166f5ce4bfa200c32391a4a4",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

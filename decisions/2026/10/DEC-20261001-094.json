@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager requested fully automatic bundling with archive (not purge).",
+    "english_translation": "Manager requested fully automatic bundling with archive (not purge)."
+  },
+  "extracted_decision": {
+    "summary": "Bundle tasks fully automatically and archive them; never purge.",
+    "category": "process",
+    "rationale": "Preserves history while compacting related small tasks.",
+    "alternatives": [
+      "Purge bundled source tasks",
+      "Manual bundling"
+    ],
+    "tradeoffs": "Automatic but history-preserving; archive grows over time."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-094",
+  "timestamp": "2026-10-01T13:13:31.186017+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1fd0a32ddab3df022e14f5ff5037625c03beb14b0a67110df642a74565486068",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

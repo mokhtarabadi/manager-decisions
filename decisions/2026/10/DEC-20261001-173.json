@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Planning request in locked autopilot.",
+    "english_translation": "Planning request in locked autopilot."
+  },
+  "extracted_decision": {
+    "summary": "Manager set the planning request under locked autopilot mode.",
+    "category": "autopilot-cycle",
+    "rationale": "Enforce autopilot workflow for the planning phase.",
+    "alternatives": [
+      "Unlocked manual planning"
+    ],
+    "tradeoffs": "Locked autopilot may reduce manual intervention"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-173",
+  "timestamp": "2026-10-01T13:27:43.440179+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "56172717a4a2426ca7736858af0c617a0a994feca9b51d5d36711b096a7e8c83",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

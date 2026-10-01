@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "278",
+  "verbatim_quote": {
+    "original": "Produce a phased implementation plan with file lists, verification per phase, and rollback notes.",
+    "english_translation": "Produce a phased implementation plan with file lists, verification per phase, and rollback notes."
+  },
+  "extracted_decision": {
+    "summary": "Manager required a phased implementation plan containing file lists, per-phase verification, and rollback notes.",
+    "category": "quality-gate",
+    "rationale": "Ensure changes are verifiable and reversible, especially for upgrades and multi-file docs.",
+    "alternatives": [
+      "Single-phase plan",
+      "Plan without rollback notes",
+      "Plan without per-phase verification"
+    ],
+    "tradeoffs": "More planning overhead but safer execution and clearer acceptance criteria."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-141",
+  "timestamp": "2026-10-01T13:27:42.106134+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "204ec31cc7020f8d0c19cd3ae7b7a959d27c8ced042cfe42a84dda36cc2f6552",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Selected path O1 - extend existing moderation module (page.tsx + moderation APIs + new master-key cloud fn + media proxy + append-only audit class).",
+    "english_translation": "Selected path O1 - extend existing moderation module (page.tsx + moderation APIs + new master-key cloud fn + media proxy + append-only audit class)."
+  },
+  "extracted_decision": {
+    "summary": "Approved path O1 - extend the existing moderation module with a new master-key cloud function and an append-only audit class; media served via a gated proxy, never raw Parse file links.",
+    "category": "architecture",
+    "rationale": "Reuse proven moderation proxy pattern; keep Parse access server-side.",
+    "alternatives": [
+      "Separate route",
+      "Modal-only"
+    ],
+    "tradeoffs": "More backend work; consistent with existing admin architecture."
+  },
+  "migrated_from": "dumble/DEC-20261001-008",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-028",
+  "timestamp": "2026-10-01T13:12:39.481783+00:00",
+  "fingerprint": "bca3309df27265d7a2b0b6d38540e55030c6f60196a07940279c7ef71869d96e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

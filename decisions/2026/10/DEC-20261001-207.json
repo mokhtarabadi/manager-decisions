@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "The cap must apply BEFORE the prompt string is built, and the same capped text must be what is sent (the cache key may keep hashing the raw file bytes).",
+    "english_translation": "The cap must apply BEFORE the prompt string is built, and the same capped text must be what is sent (the cache key may keep hashing the raw file bytes)."
+  },
+  "extracted_decision": {
+    "summary": "Apply the transcript cap before prompt construction; send the capped text; allow the cache key to keep hashing raw file bytes.",
+    "category": "architecture",
+    "rationale": "Ensures the request is bounded and the model receives the capped text while preserving existing cache-key behavior.",
+    "alternatives": [
+      "Cap after prompt construction",
+      "Change cache key to hash capped text"
+    ],
+    "tradeoffs": "Cache key can diverge from prompt content if the cap changes, though the env value is process-constant"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-207",
+  "timestamp": "2026-10-01T13:27:45.014612+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c4672001c46df23569b106f2afd4c3806863cf52f2a1838f2cf80da7c870bdbd",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

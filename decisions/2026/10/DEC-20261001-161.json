@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "Task file currently at tasks/qa/272-full-system-upgrade-to-opencode-v2-and-openchamber-v2.md.",
+    "english_translation": "Task file currently at tasks/qa/272-full-system-upgrade-to-opencode-v2-and-openchamber-v2.md."
+  },
+  "extracted_decision": {
+    "summary": "Specified current task file path for closure XML operations.",
+    "category": "process",
+    "rationale": "Avoid path mismatch during closure staging and commit.",
+    "alternatives": [
+      "Assume tasks/completed path",
+      "Let Hands discover path",
+      "Move file first"
+    ],
+    "tradeoffs": "Requires stage in qa and deferred move; Reduces risk of operating on wrong path"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-161",
+  "timestamp": "2026-10-01T13:27:42.931680+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "921111a427208a39ac70509cd3c79a2f825126e3dc9a7565b982107ed16940d0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

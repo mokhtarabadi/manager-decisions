@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "264",
+  "verbatim_quote": {
+    "original": "[Code Reviewer], please perform the final review of task 264 (Brain Bridge resolves the active project root for the context bundle and file-pull tools — GitHub issue 24).\n\nStatus: implementation staged, QA returned QA_PASSED (adversarial audit, no reproducible defect; 5 adversarial angles cleared, 3 non-blocking observations O1-O3). The changed hunks ride with this turn (include_diff=True), and the task file's Execution Log now carries the QA turn outcome.\n\nReview angles:\n- Does the change actually satisfy every Acceptance Criterion in the task file (bundle follows project_root; `[missing]` only for genuinely absent files; file-pull tools resolve against the active root; regression test present)?\n- Is the `_workspace_root()` resolution order sound, or does it re-introduce the install-dir bug via some path?\n- Is the one-off re-pin the right layer, or should preflight have changed?\n- Any scope creep beyond issue 24, or any missing consumer the issue named (`_resolve_under_root`, `_grep_files_impl`, `brain_get_context_bundle`)?\n- Is the CHANGELOG entry accurate against the diff?\n\nVerdict: APPROVED / APPROVED_WITH_CHANGES / REJECTED_NEEDS_FIXES, with file:line citations. If technically approved, return PO_REVIEW_PENDING with the technical-vs-final notice.",
+    "english_translation": "[Code Reviewer], please perform the final review of task 264 (Brain Bridge resolves the active project root for the context bundle and file-pull tools — GitHub issue 24).\n\nStatus: implementation staged, QA returned QA_PASSED (adversarial audit, no reproducible defect; 5 adversarial angles cleared, 3 non-blocking observations O1-O3). The changed hunks ride with this turn (include_diff=True), and the task file's Execution Log now carries the QA turn outcome.\n\nReview angles:\n- Does the change actually satisfy every Acceptance Criterion in the task file (bundle follows project_root; `[missing]` only for genuinely absent files; file-pull tools resolve against the active root; regression test present)?\n- Is the `_workspace_root()` resolution order sound, or does it re-introduce the install-dir bug via some path?\n- Is the one-off re-pin the right layer, or should preflight have changed?\n- Any scope creep beyond issue 24, or any missing consumer the issue named (`_resolve_under_root`, `_grep_files_impl`, `brain_get_context_bundle`)?\n- Is the CHANGELOG entry accurate against the diff?\n\nVerdict: APPROVED / APPROVED_WITH_CHANGES / REJECTED_NEEDS_FIXES, with file:line citations. If technically approved, return PO_REVIEW_PENDING with the technical-vs-final notice."
+  },
+  "extracted_decision": {
+    "summary": "Assigned Code Reviewer to perform the final review of task 264 with specified angles and verdict options; if technically approved, return PO_REVIEW_PENDING.",
+    "category": "quality-gate",
+    "rationale": "To obtain a technical verdict on the implementation and route to Product Owner for final UX/business approval before closure.",
+    "alternatives": [
+      "Skip final review and close directly",
+      "Have QA also act as final reviewer"
+    ],
+    "tradeoffs": "Adds a review step and a PO gate, increasing cycle time, but ensures separation of technical and business approvals."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-200",
+  "timestamp": "2026-10-01T13:27:44.680151+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f3015afddbb29b7816d85af117a50922974745cc8baa1fd34b0872ba74f3f0c1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

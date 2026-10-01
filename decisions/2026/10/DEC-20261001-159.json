@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "Senior Programmer: emit the final closure XML for task 272 (technical APPROVED, PO_REVIEW_PENDING recorded, Manager accept quote on record: 'Approved for closure').",
+    "english_translation": "Senior Programmer: emit the final closure XML for task 272 (technical APPROVED, PO_REVIEW_PENDING recorded, Manager accept quote on record: 'Approved for closure')."
+  },
+  "extracted_decision": {
+    "summary": "Ordered Senior Programmer to emit final closure XML because technical approval and manager acceptance are recorded.",
+    "category": "release",
+    "rationale": "All required approvals are in place; proceed to closure execution.",
+    "alternatives": [
+      "Wait for PO review",
+      "Reopen task",
+      "Manual closure without XML"
+    ],
+    "tradeoffs": "Closure proceeds with PO_REVIEW_PENDING noted; Relies on recorded manager acceptance"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-159",
+  "timestamp": "2026-10-01T13:27:42.847603+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ea3bb888075eeae910749012af411b01df81493342081eba74d48e663d5a1203",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

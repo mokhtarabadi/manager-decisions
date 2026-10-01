@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "move tasks/completed/843-cut-release-1-56-0.md to qa in kanban, then inject all our working tree changes to it using tools, then as qa using brain tool",
+    "english_translation": "move tasks/completed/843-cut-release-1-56-0.md to qa in kanban, then inject all our working tree changes to it using tools, then as qa using brain tool"
+  },
+  "extracted_decision": {
+    "summary": "Reopen order: move the release task to qa, inject the working-tree changes into it, then run it as QA via the brain tool.",
+    "category": "process",
+    "rationale": "Manager wanted the release diff staged and re-QA'd through the bridge.",
+    "alternatives": [
+      "Close from completed"
+    ],
+    "tradeoffs": "Extra QA round vs trusting the direct review."
+  },
+  "migrated_from": "dumble/DEC-20261001-048",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-068",
+  "timestamp": "2026-10-01T13:12:42.590652+00:00",
+  "fingerprint": "6504b2053a2356c1265a8a89ac4718e809e872fc33ae58024e7483cda2e0cb96",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

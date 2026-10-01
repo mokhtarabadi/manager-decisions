@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Keep the tool API surface minimal: fold PDF into fetch_web (new type: pdf), keep enrich as an opt-in flag on search_web, add page arg on search_web.",
+    "english_translation": "Keep the tool API surface minimal: fold PDF into fetch_web (new type: pdf), keep enrich as an opt-in flag on search_web, add page arg on search_web."
+  },
+  "extracted_decision": {
+    "summary": "Minimal tool surface: fold PDF into fetch_web, keep enrich opt-in, add page arg.",
+    "category": "architecture",
+    "rationale": "Fewer tools reduce the agent-facing surface and cognitive overhead.",
+    "alternatives": [
+      "Add a separate fetch_pdf tool",
+      "Make enrich default-on"
+    ],
+    "tradeoffs": "Reuses one tool for more shapes; slightly heavier args."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-079",
+  "timestamp": "2026-10-01T13:13:30.316940+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a5f71eaafd9fdb0680d5408b4abe3beefe277b90eadc3d0659c2879887a6930b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

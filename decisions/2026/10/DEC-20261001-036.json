@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Approved, build it",
+    "english_translation": "Approved, build it"
+  },
+  "extracted_decision": {
+    "summary": "Approved building A1-A5 on both purchase sheets - UI only, billing untouched.",
+    "category": "scope",
+    "rationale": "Conversion fix scoped to the sheets without touching billing.",
+    "alternatives": [
+      "Touch billing for fixes"
+    ],
+    "tradeoffs": "Bounded, reversible UI change."
+  },
+  "migrated_from": "dumble/DEC-20261001-016",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-036",
+  "timestamp": "2026-10-01T13:12:40.020446+00:00",
+  "fingerprint": "ef32265262d73b121d8e8899b37f2e8cb9a1f8ab8f9a5437acf4715a8ce13a8c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

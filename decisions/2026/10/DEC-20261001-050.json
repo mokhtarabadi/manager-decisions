@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Masquerade rejected: deception + store risk + moderation-data corruption.",
+    "english_translation": "Masquerade rejected: deception + store risk + moderation-data corruption."
+  },
+  "extracted_decision": {
+    "summary": "Rejected the masquerade option for account deletion - deception, store risk, and moderation-data corruption.",
+    "category": "architecture",
+    "rationale": "Pretending deletion corrupts moderation state and risks store policy.",
+    "alternatives": [
+      "Masquerade as deleted"
+    ],
+    "tradeoffs": "Honest copy over deceptive UX."
+  },
+  "migrated_from": "dumble/DEC-20261001-030",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-050",
+  "timestamp": "2026-10-01T13:12:41.027386+00:00",
+  "fingerprint": "f2f62fff88cecc731e5220794f479dddd710cc4709db23102558bc53124f9d42",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

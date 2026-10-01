@@ -1,0 +1,26 @@
+{
+  "project_name": "apex",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager approved via question tool; routed to Senior Programmer XML, executed verbatim.",
+    "english_translation": "Manager approved via question tool; routed to Senior Programmer XML, executed verbatim."
+  },
+  "extracted_decision": {
+    "summary": "Approved the Designer plan (A1-A5) and routed it to implementation.",
+    "category": "process",
+    "rationale": "Plan approval answers the plan; implementation goes through the Programmer XML.",
+    "alternatives": [
+      "Implement directly on approval"
+    ],
+    "tradeoffs": "Extra routing step, but keeps the plan/implement separation."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-101",
+  "timestamp": "2026-10-01T13:13:31.563747+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0cccd363c9449dae4e29af895ed2371e3c5d52e7f579440bb291c0c924312fa6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

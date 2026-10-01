@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "the version_bump_workflow memory lists raw git add -A / git commit / git tag / git push steps. Those are superseded by Zero-Autonomous-Commit.",
+    "english_translation": "the version_bump_workflow memory lists raw git add -A / git commit / git tag / git push steps. Those are superseded by Zero-Autonomous-Commit."
+  },
+  "extracted_decision": {
+    "summary": "ZAC override - raw git add/commit/tag/push steps in the version-bump workflow memory are superseded by Zero-Autonomous-Commit; tag, push and deploy stay Manager-owned.",
+    "category": "process",
+    "rationale": "Project rule outranks the stored workflow's raw git steps.",
+    "alternatives": [
+      "Follow raw git steps"
+    ],
+    "tradeoffs": "Manual publish vs autonomous commits."
+  },
+  "migrated_from": "dumble/DEC-20261001-050",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-070",
+  "timestamp": "2026-10-01T13:12:42.769112+00:00",
+  "fingerprint": "ea18de8aad60fb3decebd3c97979af45eafe57a5c85e40313fa91c9fb63b8516",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

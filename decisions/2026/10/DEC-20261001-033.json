@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "با حالت اتو پایلت، با کمک برین، پیاده‌سازی رو انجام بده",
+    "english_translation": "In autopilot mode, with the Brain's help, do the implementation."
+  },
+  "extracted_decision": {
+    "summary": "Run referrer implementation in autopilot with the Brain, then inject the Manager's words into the task file and hand it to the QA seat; QA loop runs in autopilot.",
+    "category": "process",
+    "rationale": "Manager wants the Brain to keep his verbatim directives and drive QA automatically.",
+    "alternatives": [
+      "Manual QA ferrying"
+    ],
+    "tradeoffs": "Autonomous loop; Manager sees only relay questions."
+  },
+  "migrated_from": "dumble/DEC-20261001-013",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-033",
+  "timestamp": "2026-10-01T13:12:39.823479+00:00",
+  "fingerprint": "3f0accce091e0ead82ad1fd6234d164054b77ccf39aac81f85cf997c7031c8a4",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

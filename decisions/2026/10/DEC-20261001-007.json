@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-03",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "or even harder test it filter wrong proxies",
+    "english_translation": "or an even harder test, to filter out the wrong proxies."
+  },
+  "extracted_decision": {
+    "summary": "Accept the lightweight HTTP-204 status check instead of a body-download test, to avoid overloading the box across ~7330 nodes every 60s.",
+    "category": "quality-gate",
+    "rationale": "A body-download health test across thousands of nodes per minute would overload the machine.",
+    "alternatives": [
+      "body-download health test",
+      "shorter check interval"
+    ],
+    "tradeoffs": "A 204 check may not catch nodes that answer but serve broken content."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-007",
+  "timestamp": "2026-10-01T13:03:54.256682+00:00",
+  "fingerprint": "d6d1d45165c88e46749ae7c652ce5c8c0f0a740386af4bb37ccfa1a84b51ec19",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

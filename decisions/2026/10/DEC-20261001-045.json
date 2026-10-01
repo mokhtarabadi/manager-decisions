@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "خب ببین یک task ایجاد کن و postfix apply concurrency هایی که نیازه رو انجام بده... کل تیم هم بررسی کنن حالت autopilot اتوماتیک، کامل کامل انجامش بده، می‌خوام release بعدی رو بزنیم بیرون.",
+    "english_translation": "Create a task and apply the needed postfix fixes including concurrency... full team reviews, automatic autopilot, complete it fully, I want to ship the next release."
+  },
+  "extracted_decision": {
+    "summary": "Create one final consolidation task; apply all needed postfix fixes including concurrency; cover every task file in the patch; full-team review; autopilot; complete fully; ship the next release.",
+    "category": "process",
+    "rationale": "832-864 patch needs a single release-gate cleanup before the next release.",
+    "alternatives": [
+      "Multiple small fix tasks"
+    ],
+    "tradeoffs": "One broad diff vs many small ones."
+  },
+  "migrated_from": "dumble/DEC-20261001-025",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-045",
+  "timestamp": "2026-10-01T13:12:40.615699+00:00",
+  "fingerprint": "3bd846b42451009148d4af38b8ec6b43b1aec763f5a264a72cc5dc694ec80d77",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

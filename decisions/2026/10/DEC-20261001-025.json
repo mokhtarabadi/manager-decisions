@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "[reconstructed] Manager ordered move to completed after the export was delivered.",
+    "english_translation": "[reconstructed] Manager ordered move to completed after the export was delivered."
+  },
+  "extracted_decision": {
+    "summary": "Ordered the delivered chat export moved to completed; export artifacts (in /tmp) are never committed to the repo.",
+    "category": "release",
+    "rationale": "Work delivered and staged-reviewed.",
+    "alternatives": [
+      "Keep in qa"
+    ],
+    "tradeoffs": "Keeps PII artifacts out of git."
+  },
+  "migrated_from": "dumble/DEC-20261001-005",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-025",
+  "timestamp": "2026-10-01T13:12:39.292352+00:00",
+  "fingerprint": "dc41ce54ed5a25af43215fbaa73818e04293d5b1a26f08319a5dd78985d32bf7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

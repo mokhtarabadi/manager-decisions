@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-07",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "continue; also verify rotation wraps from the last alive node back to the first, fixing inside this same task since it is small.",
+    "english_translation": "Continue; also verify rotation wraps from the last alive node back to the first, fixing it inside this same task because it is small."
+  },
+  "extracted_decision": {
+    "summary": "Fold small related checks (e.g. rotation wrap-around) into the current task instead of opening a new one.",
+    "category": "scope",
+    "rationale": "The extra check was small and adjacent to the current work.",
+    "alternatives": [
+      "open a separate task"
+    ],
+    "tradeoffs": "Slightly widens task scope."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-017",
+  "timestamp": "2026-10-01T13:03:54.852447+00:00",
+  "fingerprint": "3e5bd4b2010f89053d581a0233ceb310d46e46acf5829cf6ce67ebd1f8a4b00c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Seat Check: single infra/config domain -> Architect only; Designer skipped (no UI surface); Programmer skipped at planning (no debug triggers).",
+    "english_translation": "Seat Check: single infra/config domain -> Architect only; Designer skipped (no UI surface); Programmer skipped at planning (no debug triggers)."
+  },
+  "extracted_decision": {
+    "summary": "Use only the Architect seat for this planning round; skip Designer and Programmer.",
+    "category": "process",
+    "rationale": "Single infrastructure/configuration domain, no UI surface, no debug triggers.",
+    "alternatives": [
+      "Include Designer in planning",
+      "Include Programmer in planning"
+    ],
+    "tradeoffs": "None significant."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-118",
+  "timestamp": "2026-10-01T13:27:41.190788+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "d861376087c2bdaaa113a5ea7803ddcdfdbc5d4f105a461eac5d8b945b94d99a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

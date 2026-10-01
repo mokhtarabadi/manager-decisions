@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "now load everything from memory and skills to make new release and follow all of them",
+    "english_translation": "now load everything from memory and skills to make a new release and follow all of them"
+  },
+  "extracted_decision": {
+    "summary": "Make a new release per memory/skills/workflows, then run the full sweep on autopilot.",
+    "category": "release",
+    "rationale": "Standing release workflow invoked.",
+    "alternatives": [
+      "Manual release"
+    ],
+    "tradeoffs": "Autonomy over step-by-step review."
+  },
+  "migrated_from": "dumble/DEC-20261001-027",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-047",
+  "timestamp": "2026-10-01T13:12:40.753239+00:00",
+  "fingerprint": "59d76ea8485ec35a0fb843475af8e353f3f1c47101f318ca1f76f281404705c8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

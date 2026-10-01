@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "session_id": null,
+  "verbatim_quote": {
+    "original": "yes update .env to use latest version. no task required.",
+    "english_translation": "yes update .env to use latest version. no task required."
+  },
+  "extracted_decision": {
+    "summary": "Approved updating .env CANDO_BACKEND_VERSION to 1.52.0 as a quick fix with no task file.",
+    "category": "process",
+    "rationale": "Manager explicitly said no task required and approved the quick fix. One-line ignored-file change needs no Kanban trace.",
+    "alternatives": [
+      "Create a task file in tasks/backlog for the env change"
+    ],
+    "tradeoffs": "No audit trail in tasks directories, but change is local-only and verified via compose config."
+  },
+  "migrated_from": "dumble/DEC-20260912-002",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-222",
+  "timestamp": "2026-10-01T13:36:14.390460+00:00",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0e1024728c5675286641dd5cdc6251a78a0128914eccc9255d9a1fc202565cb3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

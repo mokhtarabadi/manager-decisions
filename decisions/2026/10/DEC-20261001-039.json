@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Brainstorm O1/P2 approved on autopilot... Remote flag + kill switch + store fallback + offline path mandatory... compare numeric version code 58, never string 1.56.0.",
+    "english_translation": "Brainstorm O1/P2 approved on autopilot... Remote flag + kill switch + store fallback + offline path mandatory... compare numeric version code 58, never string 1.56.0."
+  },
+  "extracted_decision": {
+    "summary": "Approved O1/P2 on autopilot - server-driven force-update gate with remote flag, kill switch, store fallback and offline path mandatory; compare numeric version code, never the string.",
+    "category": "architecture",
+    "rationale": "Move stale users forward without lockout risk.",
+    "alternatives": [
+      "String version compare",
+      "No kill switch"
+    ],
+    "tradeoffs": "Lockout risk mitigated by kill switch."
+  },
+  "migrated_from": "dumble/DEC-20261001-019",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-039",
+  "timestamp": "2026-10-01T13:12:40.207611+00:00",
+  "fingerprint": "826312f6d4be1f76cea4774e644cfc189336f94d37dd8f05238439975eb1188c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

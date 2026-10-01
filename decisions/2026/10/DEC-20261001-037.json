@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "No dark patterns that stores would reject - designer must rule on the auto-advance countdown explicitly.",
+    "english_translation": "No dark patterns that stores would reject - designer must rule on the auto-advance countdown explicitly."
+  },
+  "extracted_decision": {
+    "summary": "No dark patterns that stores would reject; the Designer seat must explicitly rule on the auto-advance idea.",
+    "category": "quality-gate",
+    "rationale": "Store policy and user-trust protection on the payment surface.",
+    "alternatives": [
+      "Ship countdown"
+    ],
+    "tradeoffs": "Design consult cost vs store rejection risk."
+  },
+  "migrated_from": "dumble/DEC-20261001-017",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-037",
+  "timestamp": "2026-10-01T13:12:40.079626+00:00",
+  "fingerprint": "27a652cdba2969122e601111a05ef39fdc7a4ecfdaefc74635d0e9415a696eaf",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

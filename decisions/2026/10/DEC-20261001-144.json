@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "If you need repo data first, return a discovery task instead of a plan.",
+    "english_translation": "If you need repo data first, return a discovery task instead of a plan."
+  },
+  "extracted_decision": {
+    "summary": "Manager permits returning a discovery task instead of an implementation plan when repository data is needed first.",
+    "category": "process",
+    "rationale": "To avoid producing a plan grounded in assumptions rather than verified repository state.",
+    "alternatives": [
+      "Require an implementation plan immediately despite missing repo data",
+      "Proceed with assumptions and revise later"
+    ],
+    "tradeoffs": "Delays planning but reduces risk of an incorrect architecture; May require an extra discovery round"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-144",
+  "timestamp": "2026-10-01T13:27:42.227821+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "95925e16d461785de0aa900530be4bc1b0bce47f63ddecc8b9fc3efc795e6e86",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "The closure XML must instruct the Hands to: move the file to `tasks/completed/` via `git mv`, set `**Status:** closed`, update the `**File:**` header to the new `tasks/completed/` path, log the Manager's accept quote in the Execution Log, then run `custom_context_commit_and_clean_task` as the ONLY commit path. Scope the XML to these closure steps only.",
+    "english_translation": "The closure XML must instruct the Hands to: move the file to `tasks/completed/` via `git mv`, set `**Status:** closed`, update the `**File:**` header to the new `tasks/completed/` path, log the Manager's accept quote in the Execution Log, then run `custom_context_commit_and_clean_task` as the ONLY commit path. Scope the XML to these closure steps only."
+  },
+  "extracted_decision": {
+    "summary": "Manager specified exact closure steps and restricted commit path to custom_context_commit_and_clean_task.",
+    "category": "process",
+    "rationale": "Ensure clean task closure with only the approved commit tool path.",
+    "alternatives": [
+      "Use git commit/push directly",
+      "Include additional closure steps"
+    ],
+    "tradeoffs": "Single commit path may limit flexibility but enforces ZAC compliance"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-172",
+  "timestamp": "2026-10-01T13:27:43.394160+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5ef27d9b8b49354e413d8b40ff6f631e239681a0681059b13735875a7430c79c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

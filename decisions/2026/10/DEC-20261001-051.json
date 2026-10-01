@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "خودت سعی کن از سرور پروداکشن اونهایی که فیکس نشده رو از توی ادمین پنل استخراج کنی... بعد هم که انجام شد بری اونهایی که واقعاً فیکس شدن رو توی ادمین پنل تیکشون رو بزنی فیکس.",
+    "english_translation": "You extract the unfixed ones from the production server via the admin panel... then mark the truly-fixed ones as fixed in the admin panel."
+  },
+  "extracted_decision": {
+    "summary": "Self-extract the unfixed production crashes via the admin-panel cloud functions (master key from .env), task them, fix them, then mark the truly-fixed groups fixed in the panel.",
+    "category": "process",
+    "rationale": "Crash volume too large for CSV; agent can call the admin functions itself.",
+    "alternatives": [
+      "Manual CSV triage"
+    ],
+    "tradeoffs": "Agent-driven triage; panel gets updated."
+  },
+  "migrated_from": "dumble/DEC-20261001-031",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-051",
+  "timestamp": "2026-10-01T13:12:41.102814+00:00",
+  "fingerprint": "11b4ae012536dc60febfbfaba4d62d4df0fdd09bc2476a6646ac3377f3f471b5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

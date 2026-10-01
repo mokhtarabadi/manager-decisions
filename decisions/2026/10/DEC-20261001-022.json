@@ -1,0 +1,29 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Selected path O1 (ranked above O2 full-instrumentation): P1 panel freshness -> P2 force gate to code 58 behind remote flag with kill switch -> P3 bounded AI retry with idempotency. DEFERRED: crash raw UID (needs hashed-ID privacy design first); REJECTED: explicit install event (breaks all funnel history).",
+    "english_translation": "Selected path O1 (ranked above O2 full-instrumentation): P1 panel freshness -> P2 force gate to code 58 behind remote flag with kill switch -> P3 bounded AI retry with idempotency. DEFERRED: crash raw UID (needs hashed-ID privacy design first); REJECTED: explicit install event (breaks all funnel history)."
+  },
+  "extracted_decision": {
+    "summary": "Approved brainstorm path O1 (P1 freshness label, P2 force-update gate with kill switch, P3 bounded AI retry with idempotency); rejected an explicit install event; deferred attaching raw crash UID pending a hashed-ID privacy design.",
+    "category": "architecture",
+    "rationale": "Panel-level trust, lockout prevention and AI-outage resilience outranked full instrumentation.",
+    "alternatives": [
+      "O2 full instrumentation",
+      "Explicit install event",
+      "Raw crash UID now"
+    ],
+    "tradeoffs": "Trust/quick wins first; funnel history preserved; crash identity waits for privacy design."
+  },
+  "migrated_from": "dumble/DEC-20261001-002",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-022",
+  "timestamp": "2026-10-01T13:12:39.102052+00:00",
+  "fingerprint": "4ada98e4b14ef088a45ca4011fb3605d3535a287bf645778be3da0ffda6f2521",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "281",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "extracted_decision": {
+    "summary": "Approved final closure of task 281 after QA_PASSED and Code Reviewer APPROVED, authorizing the move to tasks/completed and commit through the approved tool.",
+    "category": "release",
+    "rationale": "Closure preconditions were met: file in tasks/qa, PO_REVIEW_PENDING logged, QA and review approvals present, and remaining issues were low severity and non-blocking.",
+    "alternatives": [
+      "Hold closure for R1/R2 cleanup (reconcile CHANGELOG byte count, tighten QA paste phrase)",
+      "Reject closure and return to implementation or review"
+    ],
+    "tradeoffs": "Closes the task promptly with known low-severity follow-ups rather than delaying for non-blocking cleanup"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-125",
+  "timestamp": "2026-10-01T13:27:41.476661+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ec359b38dbcf9ef8923518d9dd8c59a33f408a4af3336b1f02cd2ea61c5b7759",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

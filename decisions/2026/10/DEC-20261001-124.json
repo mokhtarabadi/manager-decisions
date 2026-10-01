@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "281",
+  "verbatim_quote": {
+    "original": "O1 single mode-parameterized prompt per Manager-selected brainstorm",
+    "english_translation": "O1 single mode-parameterized prompt per Manager-selected brainstorm"
+  },
+  "extracted_decision": {
+    "summary": "Selected O1: one mode-parameterized prompt instead of two generated prompt variants (manual and automatic).",
+    "category": "architecture",
+    "rationale": "O1 was ranked first because it keeps one source of truth, lowers fragment-drift risk, simplifies build and global-install behavior, and protects manual-flow safety with MODE conditionals and per-mode tests.",
+    "alternatives": [
+      "O2: two generated prompt variants, one manual file and one automatic file"
+    ],
+    "tradeoffs": "O1 reduces drift and install complexity but risks manual-wording leakage if MODE conditionals are weak; O2 isolates manual text but doubles maintenance, QA, and review effort"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-124",
+  "timestamp": "2026-10-01T13:27:41.434468+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "9788388072cde47e9372e9950eaf3fe4249e200b266c3a58bbe19737e6fb61e6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

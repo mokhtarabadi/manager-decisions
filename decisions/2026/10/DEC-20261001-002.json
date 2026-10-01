@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-01",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "if need and can just change systemd unit",
+    "english_translation": "If needed, just change the systemd unit."
+  },
+  "extracted_decision": {
+    "summary": "Ad-hoc operational changes against systemd units need no upfront Kanban tracking; the task file is created retroactively.",
+    "category": "process",
+    "rationale": "Manager prefers an immediate fix for single ops tweaks.",
+    "alternatives": [
+      "create a task file before the change"
+    ],
+    "tradeoffs": "Less in-flight traceability; the task file is reconstructed after the fact."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-002",
+  "timestamp": "2026-10-01T13:03:53.963382+00:00",
+  "fingerprint": "230304ae775d8804cf80b5657f95032c8cfa4c331f512fe77af14defadeff043",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

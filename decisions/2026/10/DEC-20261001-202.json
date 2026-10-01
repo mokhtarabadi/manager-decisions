@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "a new task need and use auto pilot baseline mode so first plan them then fix automaticall, at end extraxt my desctions from old and new tsak and save them",
+    "english_translation": "a new task need and use auto pilot baseline mode so first plan them then fix automaticall, at end extraxt my desctions from old and new tsak and save them"
+  },
+  "extracted_decision": {
+    "summary": "Adopt autopilot baseline mode for new tasks: plan first, then fix automatically, then extract the Manager's decisions from the old and new task and save them.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager locked autopilot baseline mode as the required workflow.",
+    "alternatives": [
+      "Manual or plan-only mode without automatic fixes",
+      "Fix first without planning",
+      "Skip decision extraction at the end"
+    ],
+    "tradeoffs": "Automates fixes but relies on later QA and review gates to catch defects; Adds a decision-extraction step at the end of the cycle"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-202",
+  "timestamp": "2026-10-01T13:27:44.778403+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e34e22c8f671759a0b09174807e0c64fa3957ed3408630af58cd9e4083a74ba2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

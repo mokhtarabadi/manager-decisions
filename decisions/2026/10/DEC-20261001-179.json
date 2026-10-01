@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "تسک طولانیه شاید چند ساعت طول بکشه موردی نداره. این تسک رو هم انجام بده.",
+    "english_translation": "The task is long; it may take several hours, that's fine. Do this task as well."
+  },
+  "extracted_decision": {
+    "summary": "Accept long runtime and complete this task.",
+    "category": "scope",
+    "rationale": "Thoroughness prioritized over speed.",
+    "alternatives": [
+      "Time-boxed partial work"
+    ],
+    "tradeoffs": "Long execution time is acceptable"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-179",
+  "timestamp": "2026-10-01T13:27:43.706284+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "fb77120ece10875a916ebddf4071705bba63f0c640915e86b71ac2a2d102da65",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

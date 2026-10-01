@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved"
+  },
+  "extracted_decision": {
+    "summary": "Plan approval of the C1-C4 release-gate plan.",
+    "category": "process",
+    "rationale": "Ordered file-level plan accepted for autopilot execution.",
+    "alternatives": [
+      "Request revisions"
+    ],
+    "tradeoffs": "None recorded."
+  },
+  "migrated_from": "dumble/DEC-20261001-026",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-046",
+  "timestamp": "2026-10-01T13:12:40.683393+00:00",
+  "fingerprint": "7a7d6592a6c6a2d182ea63617529c6e35f591401d75a8a4acd30a10467cef5e7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

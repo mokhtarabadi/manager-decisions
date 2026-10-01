@@ -1,0 +1,25 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Record the Brainstorm requirement verdict and the selected seat routing in the task Execution Log when execution begins.",
+    "english_translation": "Record the Brainstorm requirement verdict and the selected seat routing in the task Execution Log when execution begins."
+  },
+  "extracted_decision": {
+    "summary": "Manager required logging the Brainstorm verdict and seat routing at execution start.",
+    "category": "process",
+    "rationale": "Auditability and traceability of planning and routing decisions.",
+    "alternatives": [],
+    "tradeoffs": "Adds logging overhead but improves auditability"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-166",
+  "timestamp": "2026-10-01T13:27:43.140396+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "524302f7e9d7ec4e00ef3eec9b25fd811add02657cc55d04fc1e9ccae76440a8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

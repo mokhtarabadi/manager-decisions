@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Autopilot locked for sprint 844 - 571 - 583 (manager approval 2026-09-27). Task 844 runs first, one task at a time.",
+    "english_translation": "Autopilot locked for sprint 844 - 571 - 583 (manager approval 2026-09-27). Task 844 runs first, one task at a time."
+  },
+  "extracted_decision": {
+    "summary": "Locked autopilot for sprint 844-571-583, running one task at a time with 844 first.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager approved the sprint queue under autopilot.",
+    "alternatives": [
+      "Parallel tasks"
+    ],
+    "tradeoffs": "WIP-1 discipline vs speed."
+  },
+  "migrated_from": "dumble/DEC-20261001-052",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-072",
+  "timestamp": "2026-10-01T13:12:42.906294+00:00",
+  "fingerprint": "e54fe009e02c39e665157a2e9b8caccdf145447c3c02fceefbe6dc39b423106e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

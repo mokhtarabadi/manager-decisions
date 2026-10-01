@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "A1 scope: require the planning turn to emit one auditable line — `Brainstorm: required | not required — <reason>` — with the rule that a task which is cross-disciplinary AND hard to reverse requires the full seven-seat report. The reason is recorded in the execution log. A matching sentence goes in the Hands planning gate in `agents/cognitive-executor.md` (that file is NOT a prompt-build input, so no rebuild is owed for it).",
+    "english_translation": "A1 scope: require the planning turn to emit one auditable line — `Brainstorm: required | not required — <reason>` — with the rule that a task which is cross-disciplinary AND hard to reverse requires the full seven-seat report. The reason is recorded in the execution log. A matching sentence goes in the Hands planning gate in `agents/cognitive-executor.md` (that file is NOT a prompt-build input, so no rebuild is owed for it)."
+  },
+  "extracted_decision": {
+    "summary": "Require auditable brainstorm trigger line and hard rule for cross-disciplinary + hard-to-reverse tasks; add matching executor gate.",
+    "category": "quality-gate",
+    "rationale": "Make the brainstorming trigger auditable and prevent automatic brainstorming.",
+    "alternatives": [
+      "Leave trigger implicit",
+      "Make brainstorming always-on"
+    ],
+    "tradeoffs": "Adds one-line requirement to planning turns but improves auditability and control."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-187",
+  "timestamp": "2026-10-01T13:27:44.078115+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "07f6a5ca60c37c558ded71779357f1b6d800b92e8d72ec1f53513688a03ef5b3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

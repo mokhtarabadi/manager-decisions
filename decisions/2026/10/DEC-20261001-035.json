@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "VERDICT: REJECT the 5-second auto-advance countdown. Launching the Bazaar/Myket purchase flow without an explicit tap breaks store consent rules.",
+    "english_translation": "VERDICT: REJECT the 5-second auto-advance countdown. Launching the Bazaar/Myket purchase flow without an explicit tap breaks store consent rules."
+  },
+  "extracted_decision": {
+    "summary": "Rejected the 5-second auto-advance countdown on the purchase sheet; explicit tap only; keep the pre-selected hero package.",
+    "category": "quality-gate",
+    "rationale": "Launching the store purchase flow without an explicit tap breaks store consent rules.",
+    "alternatives": [
+      "Auto-advance after countdown"
+    ],
+    "tradeoffs": "Lower short-term conversion vs store policy and user trust."
+  },
+  "migrated_from": "dumble/DEC-20261001-015",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-035",
+  "timestamp": "2026-10-01T13:12:39.959165+00:00",
+  "fingerprint": "d00a942c9b724a8e908581a562e9d7391994b2e62bc16bae83f91ccdc40c5f92",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

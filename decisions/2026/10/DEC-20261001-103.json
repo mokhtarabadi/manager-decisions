@@ -1,0 +1,26 @@
+{
+  "project_name": "apex",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "start auto pilot",
+    "english_translation": "start auto pilot"
+  },
+  "extracted_decision": {
+    "summary": "One-line autopilot lock order.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager cedes approvals to the Hand for the task.",
+    "alternatives": [
+      "Run interactively"
+    ],
+    "tradeoffs": "Zero approval pauses until a blocker."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-103",
+  "timestamp": "2026-10-01T13:13:31.686681+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "35ec0ac93bf39b6175b34a1b69b40c68a2a7d7ae75ee8e36afe10f1e1b15815d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

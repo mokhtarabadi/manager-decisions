@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-05",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "there is minor bug i used this systsem for a tool that the tool use cf, the cf has rate limit over ips. so it works when we rotated and balanced., but some of nodes already flaged as 429, i think if you can implemment a simple thing for me a api or someting even a command helper when i see a bad proxy or already flaged i run command it roated manually to next.",
+    "english_translation": "There is a minor issue: I use this system for a tool that uses Cloudflare, which rate-limits IPs. It works while we rotate and balance, but some nodes are already flagged as 429. Implement a simple thing — an API or at least a command helper — so when I see a bad or already-flagged proxy I can run a command and it rotates manually to the next one."
+  },
+  "extracted_decision": {
+    "summary": "Provide a manual rotate helper (API or command) to force rotation to the next alive node when a proxy is already flagged, e.g. Cloudflare 429.",
+    "category": "architecture",
+    "rationale": "Manager hits per-IP rate limits mid-work and needs immediate rotation.",
+    "alternatives": [
+      "wait for the 5-minute timer",
+      "auto-detect flags only"
+    ],
+    "tradeoffs": "Manual action required; overuse can drain the alive pool."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-010",
+  "timestamp": "2026-10-01T13:03:54.432916+00:00",
+  "fingerprint": "c53453119050d7ad52d66c4e660432708ddba0e508cc782986cd046297a44f0c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

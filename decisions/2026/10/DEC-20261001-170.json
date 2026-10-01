@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "End with the machine verdict block: first line exactly VERDICT: QA_PASSED or VERDICT: QA_REJECTED, then one CITE: file:line line per cited location.",
+    "english_translation": "End with the machine verdict block: first line exactly VERDICT: QA_PASSED or VERDICT: QA_REJECTED, then one CITE: file:line line per cited location."
+  },
+  "extracted_decision": {
+    "summary": "Manager mandated a machine-readable QA verdict format.",
+    "category": "process",
+    "rationale": "Standardize QA output for automated parsing.",
+    "alternatives": [
+      "Free-form QA report"
+    ],
+    "tradeoffs": "Machine verdict format may not capture nuance"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-170",
+  "timestamp": "2026-10-01T13:27:43.307018+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "5d7a5b9eb937b6f4930782e7ec757bd2eb51cbfcfb0210488c8a789b18edbbf4",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

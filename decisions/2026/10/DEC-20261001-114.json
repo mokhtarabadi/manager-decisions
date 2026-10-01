@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "the retry 30s->2s change is an explicit Manager order and the plugin is ARCHIVED (archive/rate-limit-rescue/) and referenced by no config, so it cannot cause a retry storm",
+    "english_translation": "the retry 30s->2s change is an explicit Manager order and the plugin is ARCHIVED (archive/rate-limit-rescue/) and referenced by no config, so it cannot cause a retry storm"
+  },
+  "extracted_decision": {
+    "summary": "Change retry delay from 30s to 2s per Manager order; keep the plugin archived and unreferenced by any config.",
+    "category": "scope",
+    "rationale": "Archived plugin cannot run, so the shorter retry delay is inert and cannot cause a retry storm.",
+    "alternatives": [
+      "Keep 30s delay",
+      "Re-enable plugin live"
+    ],
+    "tradeoffs": "If plugin is ever re-enabled, 2s retry may risk quota storms."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-114",
+  "timestamp": "2026-10-01T13:27:41.003271+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "a224a30685d9b236983a5b8ea3a3f7b9d06b119d96b75309d7668f7aac619eb5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

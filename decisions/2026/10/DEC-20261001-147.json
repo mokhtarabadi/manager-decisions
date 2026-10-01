@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "Cite fed context; if you cite none, the plan is ungrounded.",
+    "english_translation": "Cite fed context; if you cite none, the plan is ungrounded."
+  },
+  "extracted_decision": {
+    "summary": "Manager rules that a plan without citations to the fed context is considered ungrounded and unacceptable.",
+    "category": "quality-gate",
+    "rationale": "To ensure the plan is traceable to the provided discovery facts.",
+    "alternatives": [
+      "Accept plans without citations if reasoning is plausible",
+      "Allow partial citations"
+    ],
+    "tradeoffs": "Strict quality bar may delay delivery; Reduces risk of hallucinated architecture"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-147",
+  "timestamp": "2026-10-01T13:27:42.357191+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f8132568cdb5d4fae63be349c279ed95d0539fd219aa68e333d6e752035898bf",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

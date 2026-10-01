@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "Autopilot is locked; the standing order says plan through the Brain and then implement without a separate plan-approval pause.",
+    "english_translation": "Autopilot is locked; the standing order says plan through the Brain and then implement without a separate plan-approval pause."
+  },
+  "extracted_decision": {
+    "summary": "Confirm autopilot locked mode: plan through Brain then implement without separate plan-approval pause.",
+    "category": "autopilot-cycle",
+    "rationale": "Standing order already defines locked autopilot workflow for this task.",
+    "alternatives": [
+      "Use supervised autopilot with pause",
+      "Manual approval before implementation"
+    ],
+    "tradeoffs": "Removes approval delay but increases risk of misalignment."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-186",
+  "timestamp": "2026-10-01T13:27:44.029534+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "be7488d722d507e8d83e61ca216b05039a12703cb960b96c06119110da13a60b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

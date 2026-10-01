@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "wherever the app shows time, make it automatic - a handler/ticker, a custom time view, or a library.",
+    "english_translation": "wherever the app shows time, make it automatic - a handler/ticker, a custom time view, or a library."
+  },
+  "extracted_decision": {
+    "summary": "Wherever the app shows time, make it automatic - online status flips instantly and relative times tick live without navigating away.",
+    "category": "scope",
+    "rationale": "Manager wants every displayed time to refresh itself.",
+    "alternatives": [
+      "Leave static times"
+    ],
+    "tradeoffs": "Battery/wake-up cost vs live times."
+  },
+  "migrated_from": "dumble/DEC-20261001-039",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-059",
+  "timestamp": "2026-10-01T13:12:41.665306+00:00",
+  "fingerprint": "5a22a7c82f164eb13fc1498a690499089a45a05e2c84041d4c09cce45238aedb",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

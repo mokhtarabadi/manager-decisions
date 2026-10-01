@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "کلاً همه شون همین کارو الان می‌خوام توضیح بدم، همه‌شون توی یک فایل تسک.",
+    "english_translation": "In general, I want to explain all of them this way: all of them in one task file."
+  },
+  "extracted_decision": {
+    "summary": "Consolidate all related work into one task file.",
+    "category": "process",
+    "rationale": "Manager wants a single consolidated task record.",
+    "alternatives": [
+      "Multiple task files"
+    ],
+    "tradeoffs": "Single task is long but easier to track"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-175",
+  "timestamp": "2026-10-01T13:27:43.526005+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c91fe16def42cbdab944055abcb694f05a493b11ed9e90bd9e77ae5e094ea2b2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

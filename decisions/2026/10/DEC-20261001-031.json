@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "اس‌دی‌کِی‌ها رو اضافه کن، کامل پیاده‌سازی‌شون کن، حتی پروگارد و هر چیزی که هست پیاده‌سازی کن.",
+    "english_translation": "Add the SDKs, implement them fully, including ProGuard and everything else."
+  },
+  "extracted_decision": {
+    "summary": "B3 - full implementation scope: per-variant SDK dependency, per-flavor ReferrerReader, AttributionManager wiring, ProGuard keeps, first-launch query-once, raw-installer logging and tests; nothing scoped out.",
+    "category": "scope",
+    "rationale": "Manager demanded complete, flawless implementation in all three stores.",
+    "alternatives": [
+      "Minimal SDK wiring"
+    ],
+    "tradeoffs": "Larger diff; complete coverage."
+  },
+  "migrated_from": "dumble/DEC-20261001-011",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-031",
+  "timestamp": "2026-10-01T13:12:39.695247+00:00",
+  "fingerprint": "a5881dd4a93154666a8c4965bb03005f7e4e750074baa009dc9913cc3cf753d1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "QA engineer please make the adversarial testing. Task 268 is in the QA lane and the factual diff is attached. The change has two goals: (A1) make the brainstorming trigger auditable instead of automatic, and (A2) repair the contradictory fragment 11. Judge the actual hunks, not this summary. Specifically check: whether the new fragment 11 step 2 is genuinely consistent with fragment 12's conditional trigger; whether any live prompt text still names the removed panel or the dead user-prompts/ path; whether the regenerated system-prompt.md matches the fragments; whether the version bump and the updated test pin are coherent; and whether the change secretly makes brainstorming always-on or weakens the hard gate. End with your machine verdict block.",
+    "english_translation": "QA engineer please make the adversarial testing. Task 268 is in the QA lane and the factual diff is attached. The change has two goals: (A1) make the brainstorming trigger auditable instead of automatic, and (A2) repair the contradictory fragment 11. Judge the actual hunks, not this summary. Specifically check: whether the new fragment 11 step 2 is genuinely consistent with fragment 12's conditional trigger; whether any live prompt text still names the removed panel or the dead user-prompts/ path; whether the regenerated system-prompt.md matches the fragments; whether the version bump and the updated test pin are coherent; and whether the change secretly makes brainstorming always-on or weakens the hard gate. End with your machine verdict block."
+  },
+  "extracted_decision": {
+    "summary": "Direct QA to adversarially test five specific consistency and safety checks and produce machine verdict.",
+    "category": "quality-gate",
+    "rationale": "Ensure fix does not reintroduce automatic brainstorming or weaken gate.",
+    "alternatives": [
+      "Skip QA",
+      "Rely on developer tests"
+    ],
+    "tradeoffs": "Adds QA cycle time but catches prompt-level regressions."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-191",
+  "timestamp": "2026-10-01T13:27:44.256364+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f74ecbec1a3132854b32ad363c732a2ab09e6ac1973c0984d39f49a98b02ec9e",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

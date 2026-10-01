@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "F2 ACCEPTED: both [277] Rollback boxes UNCHECKED (full revert never ran). No more overclaim.",
+    "english_translation": "F2 ACCEPTED: both [277] Rollback boxes UNCHECKED (full revert never ran). No more overclaim."
+  },
+  "extracted_decision": {
+    "summary": "Accept F2; leave both rollback boxes unchecked because full revert never ran; avoid overclaiming.",
+    "category": "quality-gate",
+    "rationale": "The full revert was never executed, so rollback cannot be marked complete.",
+    "alternatives": [
+      "Keep rollback boxes checked with caveat",
+      "Run full destructive rollback test immediately"
+    ],
+    "tradeoffs": "Honest incomplete status versus claimed completeness; Avoiding destructive test versus proving rollback"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-133",
+  "timestamp": "2026-10-01T13:27:41.799779+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "dd459f506203574500275707f260554504e1c334c854656f11795f1a6120ac0c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

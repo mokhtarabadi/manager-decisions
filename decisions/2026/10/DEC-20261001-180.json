@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "هدف اصلی یادت باشه همیشه اینه بهترین کیفیت کد، بهترین عملکرد کد و کمترین هزینه پرداخت شده توسط هزیون‌های ای آی باشه. منظورم اینه ما سیستمی رو طراحی کرده باشیم که ۱۰۰٪ ای آی برامون کد بزنه ولی با کمترین هزینه توهم و بهترین عملکرد.",
+    "english_translation": "Remember, the main goal is always this: best code quality, best code performance, and the least cost paid by AI hallucinations. I mean we should have designed a system where AI writes code for us 100%, but with the least hallucination cost and best performance."
+  },
+  "extracted_decision": {
+    "summary": "Primary objective: best code quality, best performance, least AI hallucination cost; design a system where AI writes 100% of code with minimal hallucination and best performance.",
+    "category": "quality-gate",
+    "rationale": "Stated top-level objective.",
+    "alternatives": [
+      "Speed over quality",
+      "Human-written code"
+    ],
+    "tradeoffs": "Strict quality may slow output but reduces hallucination cost"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-180",
+  "timestamp": "2026-10-01T13:27:43.751872+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "626ec93f3a93024edb591e1bc477ce8cb60a1a6d6616213f4caa39d61f74d85b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "283",
+  "verbatim_quote": {
+    "original": "Approved, implement",
+    "english_translation": "Approved, implement"
+  },
+  "extracted_decision": {
+    "summary": "Manager approved implementation of the task 283 plan.",
+    "category": "process",
+    "rationale": "Plan accepted after review.",
+    "alternatives": [
+      "Request plan revisions",
+      "Reject plan"
+    ],
+    "tradeoffs": "None."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-113",
+  "timestamp": "2026-10-01T13:27:40.963325+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "838adf9c29eefe53fd1b84fc4b97b3174892dd0b2fc9f4f812cf7e260f49d989",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

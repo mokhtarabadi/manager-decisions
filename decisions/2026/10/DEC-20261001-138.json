@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "279",
+  "verbatim_quote": {
+    "original": "ZAC holds: XML must never contain git add/commit/push.",
+    "english_translation": "ZAC holds: XML must never contain git add/commit/push."
+  },
+  "extracted_decision": {
+    "summary": "Zero-Autonomous-Commit holds; XML must never contain git add, git commit, or git push.",
+    "category": "process",
+    "rationale": "ZAC policy forbids autonomous committing by the Hands.",
+    "alternatives": [
+      "Allow autonomous git operations",
+      "Permit commits only after human approval"
+    ],
+    "tradeoffs": "Safety against unintended commits versus reduced automation; Strict process compliance versus convenience"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-138",
+  "timestamp": "2026-10-01T13:27:41.989772+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "08afba4a0b0406088588c9173b213387207eb1ef8ec770fc10b8461e0ccb1566",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

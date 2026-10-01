@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Really do not delete the user data. Look at how the deactive account structure works - do it with that, so the user thinks their account is deleted. Or is this not right? What is the team opinion? Tell me first so I decide.",
+    "english_translation": "Really do not delete the user data. Look at how the deactive account structure works - do it with that, so the user thinks their account is deleted. Or is this not right? What is the team opinion? Tell me first so I decide."
+  },
+  "extracted_decision": {
+    "summary": "Chose O3 for account deletion: soft-hide (deleted_at + 30-day pending_purge_at, images blanked, feeds removed, distinct state - never 'blocked') with honest copy, cancel-by-relogin, delete-now via the OTP-gated cascade, and a nightly purge job.",
+    "category": "architecture",
+    "rationale": "Team consult recommended a distinct hide+purge state rather than hard cascade or masquerade.",
+    "alternatives": [
+      "Hard cascade delete",
+      "Masquerade as blocked"
+    ],
+    "tradeoffs": "Reversible 30-day hide; moderation analytics stay clean."
+  },
+  "migrated_from": "dumble/DEC-20261001-029",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-049",
+  "timestamp": "2026-10-01T13:12:40.917867+00:00",
+  "fingerprint": "888e3f2eb3319541f2ed16d7957eb117323fcd1d3b477b2b9943428290ab0ad9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

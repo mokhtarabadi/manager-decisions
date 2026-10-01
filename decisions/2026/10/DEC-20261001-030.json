@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "داکیومنتش رو داخل پوشه داکس خودمون هم توی پوشه بازار و پوشه مایکت بنویس",
+    "english_translation": "write their documentation inside our own docs folder, in a Bazaar folder and a Myket folder."
+  },
+  "extracted_decision": {
+    "summary": "B2 - crawl the Bazaar, Myket and Play referrer docs and store them in docs/bazaar, docs/myket and docs/play.",
+    "category": "tooling",
+    "rationale": "Vendor-doc sourcing for the referrer SDKs.",
+    "alternatives": [
+      "Link upstream only"
+    ],
+    "tradeoffs": "Local vendored docs add maintenance."
+  },
+  "migrated_from": "dumble/DEC-20261001-010",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-030",
+  "timestamp": "2026-10-01T13:12:39.616151+00:00",
+  "fingerprint": "848d2a6a9157521db40dbad0aab094562e12b6ee5ec27a8152c76d0e2569c17c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

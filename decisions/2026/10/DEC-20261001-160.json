@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "Constraints for the XML: the Hands session has NO shell tool — only read/edit/glob/grep/skill/webfetch/question/execute(Code Mode: brain, lint, custom_context incl. stage_and_inject_diff/commit_and_clean_task, manager_decisions, project_memory, opencode, browser, blowsh, telegram). So the XML must NOT require git mv or any bash command; use the MCP commit path only.",
+    "english_translation": "Constraints for the XML: the Hands session has NO shell tool — only read/edit/glob/grep/skill/webfetch/question/execute(Code Mode: brain, lint, custom_context incl. stage_and_inject_diff/commit_and_clean_task, manager_decisions, project_memory, opencode, browser, blowsh, telegram). So the XML must NOT require git mv or any bash command; use the MCP commit path only."
+  },
+  "extracted_decision": {
+    "summary": "Constrained closure XML to no shell and no git mv; use MCP commit path only because Hands lacks shell capability.",
+    "category": "tooling",
+    "rationale": "Hands session capability lacks shell tool, so bash/git commands are unavailable.",
+    "alternatives": [
+      "Require shell and git mv",
+      "Manual manager move",
+      "Delay closure until shell available"
+    ],
+    "tradeoffs": "Cannot physically move file during closure; Defers lane move to Manager with shell; Relies on MCP stage and commit tools"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-160",
+  "timestamp": "2026-10-01T13:27:42.887797+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c0942a29ee93559ac8a28e2af219275a3e4909613e837fad8b264a724cc1fba5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

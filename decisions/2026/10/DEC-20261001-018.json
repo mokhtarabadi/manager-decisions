@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-08",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "complete item 1 aand 2 with a new task.",
+    "english_translation": "Complete item 1 and item 2 with a new task."
+  },
+  "extracted_decision": {
+    "summary": "Wire the existing --unique-host flag into the live refresh path and tune the freshness/coverage balance, delivered as a new task.",
+    "category": "scope",
+    "rationale": "Two linked follow-ups: activate dedup live and fix the retest coverage math.",
+    "alternatives": [
+      "two separate tasks",
+      "defer both"
+    ],
+    "tradeoffs": "Combines a config change and a tuning change in one task."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-018",
+  "timestamp": "2026-10-01T13:03:54.902737+00:00",
+  "fingerprint": "5ca6f94fe0227bf9c3e7fb546f9cb14612ff68ee0c551c81bf38cfcd80555246",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

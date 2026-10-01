@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "verbatim_quote": {
+    "original": "Persian prompts translated to English internally; thinking and responses in English (per manager instruction).",
+    "english_translation": "Persian prompts translated to English internally; thinking and responses in English (per manager instruction)."
+  },
+  "extracted_decision": {
+    "summary": "Always work and reply in English; translate Persian input internally.",
+    "category": "process",
+    "rationale": "Consistent English artifacts and reasoning.",
+    "alternatives": [
+      "Reply in Persian",
+      "Bilingual responses"
+    ],
+    "tradeoffs": "Loses Persian nuance in the reply, but keeps all artifacts uniform."
+  },
+  "fidelity": "reconstructed",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-075",
+  "timestamp": "2026-10-01T13:12:55.110659+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "796695a6d6dc25e74e4b8398140105f8e53a1bbee51e031864f4e0794e36c692",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

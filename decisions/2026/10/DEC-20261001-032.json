@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "ببین، من قبول دارم اینجوری انجامش بده.",
+    "english_translation": "Look, I agree - do it this way."
+  },
+  "extracted_decision": {
+    "summary": "Per-variant packaging accepted over bundling all referrer SDKs in every APK.",
+    "category": "architecture",
+    "rationale": "Smaller APKs, no dead code, store-policy cleanliness.",
+    "alternatives": [
+      "Bundle all SDKs in every APK"
+    ],
+    "tradeoffs": "Per-flavor source sets; cleaner APKs."
+  },
+  "migrated_from": "dumble/DEC-20261001-012",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-032",
+  "timestamp": "2026-10-01T13:12:39.757547+00:00",
+  "fingerprint": "769c569483778a05861833bc3d9c85b1e73d3386a2fe665e999d5f0a017e2d6a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

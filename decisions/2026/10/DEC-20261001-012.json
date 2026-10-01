@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-06",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "Manager order: do NOT implement now — keep parked in backlog with the configurability requirement recorded.",
+    "english_translation": "Manager order: do not implement now — keep it parked in backlog with the configurability requirement recorded."
+  },
+  "extracted_decision": {
+    "summary": "Park the POST-based 429 pre-flight in backlog and do not implement it until the manager provides the exact POST details.",
+    "category": "scope",
+    "rationale": "The exact POST URL/body/headers and clean-vs-limited criteria are missing.",
+    "alternatives": [
+      "implement with guessed details"
+    ],
+    "tradeoffs": "Feature remains unimplemented until details arrive."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-012",
+  "timestamp": "2026-10-01T13:03:54.577439+00:00",
+  "fingerprint": "2d95281edfdddd001636af5799f03239da202171a2f343f52f78c81b996b5ea0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-01",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "Manager asked to set default link to https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/kind/vless.txt, then redirected to systemd-unit approach.",
+    "english_translation": "Manager asked to set the default link to the OpenRay vless feed, then redirected to a systemd-unit approach."
+  },
+  "extracted_decision": {
+    "summary": "Pin the OpenRay vless feed as the live subscription source via a systemd drop-in override, leaving the repository default feed unchanged.",
+    "category": "architecture",
+    "rationale": "Systemd-layer pinning switches the live source on manager order without altering the repo code default.",
+    "alternatives": [
+      "change the converter's default feed",
+      "pass the URL ad hoc each run"
+    ],
+    "tradeoffs": "Live source diverges from the repo default; captured in override.conf outside the repo."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-001",
+  "timestamp": "2026-10-01T13:03:53.906139+00:00",
+  "fingerprint": "d751104f1025b904388ffb665d3f2241acad3f442824e91d191b2dc1f1de9d4c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

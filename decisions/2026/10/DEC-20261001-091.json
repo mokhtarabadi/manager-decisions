@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "blowsh is our own project you can add support for http to it it located at ../blowsh-mcp",
+    "english_translation": "blowsh is our own project you can add support for http to it it located at ../blowsh-mcp"
+  },
+  "extracted_decision": {
+    "summary": "Authorized adding HTTP transport to blowsh (an own project).",
+    "category": "scope",
+    "rationale": "blowsh is first-party, so it can be modified directly for the singleton rollout.",
+    "alternatives": [
+      "Treat it as read-only like third-party MCP servers"
+    ],
+    "tradeoffs": "Enables the singleton transport; adds HTTP to a stdio-first server."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-091",
+  "timestamp": "2026-10-01T13:13:31.007014+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "0f516ddaa17def1736fba9e158de1382d411a0119849608fecf60d9b6923aaf5",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

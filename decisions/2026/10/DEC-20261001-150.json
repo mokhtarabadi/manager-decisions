@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "276",
+  "verbatim_quote": {
+    "original": "ORDER 1: encode the standing rule 'at approval gates (plan approval, review approval, closure approval) the Hands MUST collect approval via the question tool, because the goal-plugin loop rolls past prose questions' into agents/cognitive-executor.md and the generated system-prompt.md (via its source fragments). Note: executor frontmatter already has 'question: allow' (line 8) and Capability Preflight (line 97) describes relay behavior — the gap is that no sentence mandates the question TOOL at gates.",
+    "english_translation": "ORDER 1: encode the standing rule 'at approval gates (plan approval, review approval, closure approval) the Hands MUST collect approval via the question tool, because the goal-plugin loop rolls past prose questions' into agents/cognitive-executor.md and the generated system-prompt.md (via its source fragments). Note: executor frontmatter already has 'question: allow' (line 8) and Capability Preflight (line 97) describes relay behavior — the gap is that no sentence mandates the question TOOL at gates."
+  },
+  "extracted_decision": {
+    "summary": "Mandate the question tool for all approval gates (plan, review, closure) in cognitive-executor and source fragments, because prose questions are rolled past by the goal-plugin loop.",
+    "category": "quality-gate",
+    "rationale": "Prose-only approval requests are not reliable under the goal-plugin loop; the question tool ensures explicit collection. Existing Capability Preflight only describes relay behavior, not the mandate.",
+    "alternatives": [
+      "Continue with prose approval asks",
+      "Rely on executor frontmatter permission only",
+      "Manual manager mention each time"
+    ],
+    "tradeoffs": "Question tool may be unavailable in some runtimes; must pause and relay rather than skip; Adds mandatory tool interaction at gates; Requires fragment edits and system-prompt regeneration"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-150",
+  "timestamp": "2026-10-01T13:27:42.482396+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "b1add8317f1d2056e844dfb002d8e496f8dcacd9220db667866d62b3674443cd",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

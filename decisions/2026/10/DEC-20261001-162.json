@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "271",
+  "verbatim_quote": {
+    "original": "Approved for closure, resume goal",
+    "english_translation": "Approved for closure, resume goal"
+  },
+  "extracted_decision": {
+    "summary": "Manager approved final closure and authorized resuming the goal.",
+    "category": "quality-gate",
+    "rationale": "Code Reviewer gave technical approval with PO_REVIEW_PENDING and no blocking defects; explicit manager approval phrase was required before closure.",
+    "alternatives": [
+      "Request changes before closure",
+      "Keep task open for further review"
+    ],
+    "tradeoffs": "Closes the task; further changes would require reopening"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-162",
+  "timestamp": "2026-10-01T13:27:42.973182+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "e4e56da929f89e0ba5e99d5286872661a7bba35d4e593adcfd22f392c230a80a",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

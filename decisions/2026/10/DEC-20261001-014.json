@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-06",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "lengthen the rotation interval so clean IPs are kept longer (proposed 30-60 min).",
+    "english_translation": "Lengthen the rotation interval so clean IPs are kept longer (proposed 30-60 min)."
+  },
+  "extracted_decision": {
+    "summary": "Lengthen the rotation interval (proposed 30-60 min) so clean, unflagged IPs survive longer.",
+    "category": "architecture",
+    "rationale": "Five-minute rotation swapped away good clean IPs.",
+    "alternatives": [
+      "keep the 5-minute rotation"
+    ],
+    "tradeoffs": "Slower rotation may keep a degrading node longer."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-014",
+  "timestamp": "2026-10-01T13:03:54.699599+00:00",
+  "fingerprint": "973a0521b3deb88014e46c7e9fb1b8512217a8b81114204ff5bb3f8b23000843",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

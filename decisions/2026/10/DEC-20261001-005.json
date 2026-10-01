@@ -1,0 +1,26 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-02",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "Task it and close",
+    "english_translation": "Task it and close."
+  },
+  "extracted_decision": {
+    "summary": "For quick one-shot fixes, implement first without Kanban tracking, then create the task file and close it retroactively.",
+    "category": "process",
+    "rationale": "Manager prioritizes speed on small fixes.",
+    "alternatives": [
+      "full Kanban tracking during implementation"
+    ],
+    "tradeoffs": "Reduced in-flight traceability."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-005",
+  "timestamp": "2026-10-01T13:03:54.154440+00:00",
+  "fingerprint": "234befd31f5fcc16fbefbd590e4e8079ec5f06aacb046bab9a8fe6996acc3418",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

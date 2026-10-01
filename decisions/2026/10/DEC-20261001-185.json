@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "Task A1 and A2 and plan and implement then full automatically",
+    "english_translation": "Task A1 and A2 and plan and implement then full automatically"
+  },
+  "extracted_decision": {
+    "summary": "Authorize full automatic planning and implementation of A1 and A2 without intermediate approval.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager wants end-to-end execution under locked autopilot without a separate plan-approval pause.",
+    "alternatives": [
+      "Wait for plan approval before implementation",
+      "Request explicit plan approval"
+    ],
+    "tradeoffs": "Faster execution versus reduced checkpoint for plan review."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-185",
+  "timestamp": "2026-10-01T13:27:43.982011+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "94faa60ce17947c0a2ea4d39429f1a965a35ca11fbe42ddbe580f4b3d6a618f7",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

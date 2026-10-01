@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "ورینت دایرکت ما همون ورینت گوگل پلیه. اسمش رو گذاشتم دایرکت، ولی همون گوگل پلیه.",
+    "english_translation": "our direct variant IS the Google Play variant; I named it direct but it is the same as Google Play."
+  },
+  "extracted_decision": {
+    "summary": "B1 - the direct flavor IS the Google Play flavor; Play Install Referrer goes into the DIRECT variant.",
+    "category": "architecture",
+    "rationale": "Manager's naming clarification; per-variant SDK packaging.",
+    "alternatives": [
+      "Add a separate play flavor"
+    ],
+    "tradeoffs": "Keeps 3 flavors; direct carries Play referrer."
+  },
+  "migrated_from": "dumble/DEC-20261001-009",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-029",
+  "timestamp": "2026-10-01T13:12:39.549131+00:00",
+  "fingerprint": "604703138032d95377847e1410828d6a2a9601eaf96603368ac2b784dbf421a6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Original Farsi request: check codes and see if the claims in the pasted report are real. ... Manager approved: create backlog task + start 3-step read-only audit.",
+    "english_translation": "Original Farsi request: check codes and see if the claims in the pasted report are real. ... Manager approved: create backlog task + start 3-step read-only audit."
+  },
+  "extracted_decision": {
+    "summary": "Read-only audit of analytics claims; no code changes.",
+    "category": "process",
+    "rationale": "Verify claims against real code before acting on them.",
+    "alternatives": [
+      "Change code based on the report directly"
+    ],
+    "tradeoffs": "No fixes in this task; a verdict table per claim instead."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-106",
+  "timestamp": "2026-10-01T13:13:31.854789+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ee8f3d1bd930d39946b56ceb3fdddc2d802b8fee1a9aee63fcd5bdf714aa5ee2",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

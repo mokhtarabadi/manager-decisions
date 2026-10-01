@@ -1,0 +1,27 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "QA engineer, please run an adversarial QA pass on task 263 (Decision server transcript cap and config validation).",
+    "english_translation": "QA engineer, please run an adversarial QA pass on task 263 (Decision server transcript cap and config validation)."
+  },
+  "extracted_decision": {
+    "summary": "Run an adversarial QA pass on task 263 before review.",
+    "category": "quality-gate",
+    "rationale": "Validate acceptance criteria and attempt to falsify them before code review.",
+    "alternatives": [
+      "Skip QA and go straight to code review"
+    ],
+    "tradeoffs": "Adds a gate but catches regressions before review"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-213",
+  "timestamp": "2026-10-01T13:27:45.306805+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "42bd8de399820ebb0f95ae9e954e97b9bfb638e443eca01066a95b593b2f08db",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

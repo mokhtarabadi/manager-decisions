@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Task 263 acceptance criteria in brief: (1) the transcript sent to the model is bounded by an env-configurable cap, blank-means-unset, with a documented default; (2) when the transcript is cut, the prompt carries an explicit note stating how much was dropped; (3) a malformed, zero or negative cap value fails the turn loudly with `ValueError`; (4) the decision-server config readers that today silently clamp (`_get_decision_max_tokens`, `_get_decision_temperature`) fail loudly instead; (5) the Responses API request shape stays as it is (already conformant); (6) regression tests cover default, blank, override, malformed, zero/negative and the truncation note; (7) the full suite stays green.",
+    "english_translation": "Task 263 acceptance criteria in brief: (1) the transcript sent to the model is bounded by an env-configurable cap, blank-means-unset, with a documented default; (2) when the transcript is cut, the prompt carries an explicit note stating how much was dropped; (3) a malformed, zero or negative cap value fails the turn loudly with `ValueError`; (4) the decision-server config readers that today silently clamp (`_get_decision_max_tokens`, `_get_decision_temperature`) fail loudly instead; (5) the Responses API request shape stays as it is (already conformant); (6) regression tests cover default, blank, override, malformed, zero/negative and the truncation note; (7) the full suite stays green."
+  },
+  "extracted_decision": {
+    "summary": "Set seven acceptance criteria for task 263 covering bounded transcript, truncation note, loud config validation, unchanged request shape, regression tests, and green suite.",
+    "category": "quality-gate",
+    "rationale": "Defines the completion gate for the task.",
+    "alternatives": [
+      "Accept partial fixes without regression coverage",
+      "Allow request-shape changes"
+    ],
+    "tradeoffs": "Comprehensive gate increases test and documentation work but reduces silent-config and unbounded-prompt risk"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-210",
+  "timestamp": "2026-10-01T13:27:45.161333+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f83469d7e697b83fffc532fc609e45e3831e994a8ca4ed95d547c01819e48521",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

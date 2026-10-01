@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Brainstorm O1/P1 approved on autopilot (task 854 verdict 2026-09-28).",
+    "english_translation": "Brainstorm O1/P1 approved on autopilot (task 854 verdict 2026-09-28)."
+  },
+  "extracted_decision": {
+    "summary": "Approved brainstorm O1/P1 on autopilot - trust-only admin freshness label plus API-sourced version, no metric changes.",
+    "category": "autopilot-cycle",
+    "rationale": "854 follow-up P1 approved on autopilot.",
+    "alternatives": [
+      "Fix metrics instead"
+    ],
+    "tradeoffs": "Trust-only phase; metrics untouched."
+  },
+  "migrated_from": "dumble/DEC-20261001-018",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-038",
+  "timestamp": "2026-10-01T13:12:40.140249+00:00",
+  "fingerprint": "891d7d178d01d4fb7a40566eb8599395e7c6d24f89fb74724651114bd77485ab",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

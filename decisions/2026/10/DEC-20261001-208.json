@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "263",
+  "verbatim_quote": {
+    "original": "Yes, include it. It is the same silent-config defect class this task exists to remove, and leaving one reader clamping while the others fail loudly is incoherent. Make it raise `ValueError` on a malformed or out-of-range value, exactly like the inline `BRAIN_TEMPERATURE` path already does.",
+    "english_translation": "Yes, include it. It is the same silent-config defect class this task exists to remove, and leaving one reader clamping while the others fail loudly is incoherent. Make it raise `ValueError` on a malformed or out-of-range value, exactly like the inline `BRAIN_TEMPERATURE` path already does."
+  },
+  "extracted_decision": {
+    "summary": "Include _get_decision_temperature() in scope and make it raise ValueError on malformed or out-of-range values.",
+    "category": "quality-gate",
+    "rationale": "Same silent-config defect class; it is incoherent to leave one reader clamping while others fail loudly.",
+    "alternatives": [
+      "Leave temperature out of scope",
+      "Keep clamping behavior"
+    ],
+    "tradeoffs": "Slightly expands task scope but removes an incoherent silent fallback"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-208",
+  "timestamp": "2026-10-01T13:27:45.063256+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1091a722fbd14f3b78bba40706a3cac0366f55b19077ef1a36641b93a4fa97bc",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

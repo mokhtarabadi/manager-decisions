@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "277",
+  "verbatim_quote": {
+    "original": "Full discovery text is pasted below — cite it, do not ask for it again.",
+    "english_translation": "Full discovery text is pasted below — cite it, do not ask for it again."
+  },
+  "extracted_decision": {
+    "summary": "Manager provides the full discovery text and forbids the architect from asking for it again; the architect must cite it.",
+    "category": "process",
+    "rationale": "To prevent repeated context requests and move to the final plan.",
+    "alternatives": [
+      "Allow another request for discovery text",
+      "Permit the architect to request clarification"
+    ],
+    "tradeoffs": "Forces progress but may risk unresolved ambiguity; Reduces back-and-forth"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-148",
+  "timestamp": "2026-10-01T13:27:42.403582+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "fdd1566d54363c5926d162801b2603945d4eda192c50de9998aef766fa07887b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

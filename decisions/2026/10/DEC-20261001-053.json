@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "I want to be able to sort or filter crashes by crash status in the admin panel. That can be its own separate task.",
+    "english_translation": "I want to be able to sort or filter crashes by crash status in the admin panel. That can be its own separate task."
+  },
+  "extracted_decision": {
+    "summary": "Sort/filter crashes by status in the admin panel (accepted as its own task); autopilot locked.",
+    "category": "scope",
+    "rationale": "Manager explicitly requested status sort/filter.",
+    "alternatives": [
+      "Server-side filtering"
+    ],
+    "tradeoffs": "Client-side filtering chosen (77 groups fit one response)."
+  },
+  "migrated_from": "dumble/DEC-20261001-033",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-053",
+  "timestamp": "2026-10-01T13:12:41.233758+00:00",
+  "fingerprint": "bf949a6c308eb0afe8a3ade97c87cf59845b33b7dd0c453b946a414f5ad0dd06",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

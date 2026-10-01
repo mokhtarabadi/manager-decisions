@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager ruling for 844 scope: non-VIP Search shows a full lock screen.",
+    "english_translation": "Manager ruling for 844 scope: non-VIP Search shows a full lock screen."
+  },
+  "extracted_decision": {
+    "summary": "Scope ruling: non-VIP Search shows a full lock screen; a VIP opens Search based on the fresh server profile, not the stale local snapshot.",
+    "category": "architecture",
+    "rationale": "Fixes the always-false VIP gate while keeping the paywall for non-VIPs.",
+    "alternatives": [
+      "Read VIP from local _User"
+    ],
+    "tradeoffs": "Extra profile fetch vs correct gating."
+  },
+  "migrated_from": "dumble/DEC-20261001-051",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-071",
+  "timestamp": "2026-10-01T13:12:42.838733+00:00",
+  "fingerprint": "5e4b4de9a3ce266d053d42cc161d471eb95de9e4be5911e3e88972f324517798",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

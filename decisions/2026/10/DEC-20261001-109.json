@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "ببندش منم تایید میکنم یه release هم بدیم",
+    "english_translation": "Close it, I approve too, let's also do a release."
+  },
+  "extracted_decision": {
+    "summary": "Closure approval bundled with release authorization.",
+    "category": "release",
+    "rationale": "The manager closes the task and authorizes a release in one message.",
+    "alternatives": [
+      "Close without releasing",
+      "Release later"
+    ],
+    "tradeoffs": "Bundles two gates into one voice order; typos do not dilute intent."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-109",
+  "timestamp": "2026-10-01T13:13:47.238151+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "877a7a130626c3d6d97ff0234d2535d95ed70c46658a3da05ef5877060307e03",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

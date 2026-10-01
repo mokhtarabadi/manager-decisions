@@ -1,0 +1,30 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "Code Reviewer: audit task 272 in tasks/qa/ against its Goal, Acceptance Criteria, and Verification Evidence. Judge ONLY the attached Factual Git Diff hunks plus the task file content — check that every AC/DoD box honestly checked is supported by recorded evidence, flag any stale claims (e.g. version numbers superseded by later rounds), and return verdict APPROVED or APPROVED_WITH_CHANGES or REJECTED_NEEDS_FIXES with file+line citations.",
+    "english_translation": "Code Reviewer: audit task 272 in tasks/qa/ against its Goal, Acceptance Criteria, and Verification Evidence. Judge ONLY the attached Factual Git Diff hunks plus the task file content — check that every AC/DoD box honestly checked is supported by recorded evidence, flag any stale claims (e.g. version numbers superseded by later rounds), and return verdict APPROVED or APPROVED_WITH_CHANGES or REJECTED_NEEDS_FIXES with file+line citations."
+  },
+  "extracted_decision": {
+    "summary": "Ordered Code Reviewer to audit task 272 strictly against goal, acceptance criteria, and verification evidence using only attached diff and task file, verify every checked AC/DoD box, flag stale claims, and return one of three verdicts with file+line citations.",
+    "category": "quality-gate",
+    "rationale": "Ensure evidence-based review and prevent closure of tasks with unsupported or stale claims.",
+    "alternatives": [
+      "Allow full filesystem inspection",
+      "Accept unchecked boxes",
+      "Skip stale-claim check",
+      "Permit verdict without citations"
+    ],
+    "tradeoffs": "Limits reviewer to attached artifacts, may miss live state; Strict evidence gate can delay approval; Reduces hallucination and improves auditability"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-153",
+  "timestamp": "2026-10-01T13:27:42.602736+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "f61ccb72c4dfcee4e815f0afdd933e5e3c1a0fad9b7d56172b15d0938d5c2d6b",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

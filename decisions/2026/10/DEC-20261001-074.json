@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "the app crashed during the Task 852 device retest; check the latest crash in the database and fix it even if small.",
+    "english_translation": "the app crashed during the Task 852 device retest; check the latest crash in the database and fix it even if small."
+  },
+  "extracted_decision": {
+    "summary": "Check the latest crash in the database and fix it even if small.",
+    "category": "process",
+    "rationale": "Manager wants the newest prod crash resolved promptly.",
+    "alternatives": [
+      "Defer small crashes"
+    ],
+    "tradeoffs": "Quick fix vs batching."
+  },
+  "migrated_from": "dumble/DEC-20261001-054",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-074",
+  "timestamp": "2026-10-01T13:12:43.038538+00:00",
+  "fingerprint": "0ceb47118c4ed5d6cd962b0ba671a391213e7e19448ef160831926d5d42807b1",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "280",
+  "verbatim_quote": {
+    "original": "Software Architect: emit the final ordered implementation plan for both items (exact file paths + edit direction), citing this fed context. No implementation XML yet — plan only.",
+    "english_translation": "Software Architect: emit the final ordered implementation plan for both items (exact file paths + edit direction), citing this fed context. No implementation XML yet — plan only."
+  },
+  "extracted_decision": {
+    "summary": "Direct Software Architect to emit final ordered plan for both items, citing fed context, and explicitly forbid implementation XML at this stage.",
+    "category": "process",
+    "rationale": "Fed context resolves discovery gaps; plan must be finalized and approved before any implementation.",
+    "alternatives": [
+      "Allow implementation XML now",
+      "Skip plan and proceed to implementation"
+    ],
+    "tradeoffs": "Further delay in implementation to ensure plan correctness and approval gate compliance"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-127",
+  "timestamp": "2026-10-01T13:27:41.555831+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "4860dd583d1a3ab9d05d2abe4c9aa2e6972e43cfcb84ec20dcab014d6ee03b68",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

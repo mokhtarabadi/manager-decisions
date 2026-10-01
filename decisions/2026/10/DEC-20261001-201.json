@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "264",
+  "verbatim_quote": {
+    "original": "Approved for clousre",
+    "english_translation": "Approved for clousre"
+  },
+  "extracted_decision": {
+    "summary": "Manager authorized closure of task 264 via the message 'Approved for clousre' (typo for 'Approved for closure'), enabling Senior Programmer to issue the closure XML.",
+    "category": "release",
+    "rationale": "Manager's direct reply to the relayed closure question indicated approval, despite the typo, so closure could proceed.",
+    "alternatives": [
+      "Request clarification of the typo before proceeding",
+      "Wait for exact 'Approved for closure'"
+    ],
+    "tradeoffs": "Proceeding on a typo risks misinterpretation, but context made the intent unambiguous."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-201",
+  "timestamp": "2026-10-01T13:27:44.727679+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "cd0a98a49a24cd7b1254273af37969d75a556e00de1e06ad0c7908c069d7168d",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

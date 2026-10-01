@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-04",
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "just task it not need to handle it now",
+    "english_translation": "Just task it; no need to handle it now."
+  },
+  "extracted_decision": {
+    "summary": "When a feature is implementable but not wanted yet, capture it as a task file and defer implementation on manager order.",
+    "category": "scope",
+    "rationale": "Manager wanted the design recorded without immediate work.",
+    "alternatives": [
+      "implement immediately",
+      "drop the request"
+    ],
+    "tradeoffs": "Deferred work risks going stale."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-009",
+  "timestamp": "2026-10-01T13:03:54.363697+00:00",
+  "fingerprint": "dc12db3d9f06ddd990589cdd49ad44141d7fd506c494dcfd40b9954347a0c426",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "project_name": "dumble",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "stored Manager-approved release workflow dictates every step; zero invention, fully reversible until the release commit.",
+    "english_translation": "stored Manager-approved release workflow dictates every step; zero invention, fully reversible until the release commit."
+  },
+  "extracted_decision": {
+    "summary": "Releases follow the stored approved workflow; no invention, reversible until the release commit.",
+    "category": "release",
+    "rationale": "A repeatable workflow removes per-release judgment.",
+    "alternatives": [
+      "Improvise release steps per task"
+    ],
+    "tradeoffs": "Predictable releases; the release commit is the point of no return."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-107",
+  "timestamp": "2026-10-01T13:13:31.908584+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "135062d62e1aafda116a95b9cadc6d6ed34b191f8d140fc464ee31643b97fc0c",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

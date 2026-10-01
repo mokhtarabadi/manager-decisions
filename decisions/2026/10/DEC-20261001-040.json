@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "Manager order 2026-09-29: 100% automatic, handle QA + reviews with the Brain, drive forward.",
+    "english_translation": "Manager order 2026-09-29: 100% automatic, handle QA + reviews with the Brain, drive forward."
+  },
+  "extracted_decision": {
+    "summary": "Ordered the full QA/review cycle for the 854 follow-ups run 100% automatically with the Brain.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager wants QA + reviews handled by the Brain under autopilot.",
+    "alternatives": [
+      "Manual review"
+    ],
+    "tradeoffs": "Autonomy over oversight."
+  },
+  "migrated_from": "dumble/DEC-20261001-020",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-040",
+  "timestamp": "2026-10-01T13:12:40.269019+00:00",
+  "fingerprint": "fb042e87409af7197177493e02c776ee12a744a984b813dc5a41653d9a4416ad",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

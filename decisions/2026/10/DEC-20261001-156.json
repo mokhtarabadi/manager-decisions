@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "272",
+  "verbatim_quote": {
+    "original": "[Code Reviewer], please perform the final review of task 272. Round 5 applied your 3 APPROVED_WITH_CHANGES patches (CHANGELOG supersede note, tailscale global-only scope, task TODO/AC reword) — all verified by grep this round, lint passes on task file + both docs, fresh diff re-staged. Return final verdict: APPROVED (then PO_REVIEW_PENDING technical approval) or list any remaining defect with file+line cite.",
+    "english_translation": "[Code Reviewer], please perform the final review of task 272. Round 5 applied your 3 APPROVED_WITH_CHANGES patches (CHANGELOG supersede note, tailscale global-only scope, task TODO/AC reword) — all verified by grep this round, lint passes on task file + both docs, fresh diff re-staged. Return final verdict: APPROVED (then PO_REVIEW_PENDING technical approval) or list any remaining defect with file+line cite."
+  },
+  "extracted_decision": {
+    "summary": "Requested final review after Round 5 applied three documentation patches; verdict must be APPROVED with PO_REVIEW_PENDING or list remaining defect with citation.",
+    "category": "quality-gate",
+    "rationale": "Verify prior requested changes landed and no defects remain before closure.",
+    "alternatives": [
+      "Close without final review",
+      "Trust patches without re-audit",
+      "Defer final verdict"
+    ],
+    "tradeoffs": "Additional review cycle; Confirms documentation consistency; Can delay closure if new defects found"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-156",
+  "timestamp": "2026-10-01T13:27:42.723169+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "3ec1d9e7e822154474a760d5ec9c93a91651d08515e64c5ab3d847efb31030fb",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

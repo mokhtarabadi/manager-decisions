@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Brainstorm O1/P3 approved on autopilot... single OpenAI-compatible endpoint... timeout + jittered retry + request-key idempotency... no second vendor yet.",
+    "english_translation": "Brainstorm O1/P3 approved on autopilot... single OpenAI-compatible endpoint... timeout + jittered retry + request-key idempotency... no second vendor yet."
+  },
+  "extracted_decision": {
+    "summary": "Approved O1/P3 on autopilot - bounded AI reply retry (timeout + jitter + idempotency), single provider, no second vendor yet.",
+    "category": "autopilot-cycle",
+    "rationale": "Survive single-provider AI outages without a second vendor.",
+    "alternatives": [
+      "Add a second AI vendor"
+    ],
+    "tradeoffs": "Bounded retry vs vendor diversification."
+  },
+  "migrated_from": "dumble/DEC-20261001-021",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-041",
+  "timestamp": "2026-10-01T13:12:40.344282+00:00",
+  "fingerprint": "2a694358c1418cd796f7fdb39cf4ae521fa8ff068db437dedc674670b132a333",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

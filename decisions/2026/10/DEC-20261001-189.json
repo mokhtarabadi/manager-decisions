@@ -1,0 +1,29 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "EXPLICIT EXCLUSIONS: do not create a brainstorm skill (fragment 12 forbids it). Do not make brainstorming always-on. Do not edit `CHANGELOG.md` history, `docs/history/`, or `tasks/archive/` — they legitimately quote the old scheme.",
+    "english_translation": "EXPLICIT EXCLUSIONS: do not create a brainstorm skill (fragment 12 forbids it). Do not make brainstorming always-on. Do not edit `CHANGELOG.md` history, `docs/history/`, or `tasks/archive/` — they legitimately quote the old scheme."
+  },
+  "extracted_decision": {
+    "summary": "Forbid new brainstorm skill, always-on brainstorming, and edits to historical files.",
+    "category": "scope",
+    "rationale": "Preserve authoritative protocol and historical accuracy.",
+    "alternatives": [
+      "Create brainstorm skill",
+      "Make brainstorming always-on",
+      "Edit historical files"
+    ],
+    "tradeoffs": "Constrains solution to prompt edits only, avoiding scope creep and history rewrite."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-189",
+  "timestamp": "2026-10-01T13:27:44.166705+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "ab64de3fa05e548906b8afa60b359c3d67003d501ffefc1a01b3201be5c939e4",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "280",
+  "verbatim_quote": {
+    "original": "QA Engineer: adversarial review of task 280 (file tasks/qa/280-autopilot-plan-approval-loop-fix-and-cutoff-update.md). Changes: (1) agents/cognitive-executor.md supervised-autopilot gate now routes approval back via brain_turn for a Programmer XML (no direct implement-on-approve); (2) prompts/fragments/03-system_context.md cutoff replaced with explicit unverified marker (web-verified: Meta publishes no Muse Spark cutoff); (3) version 9.47.0->9.48.0; (4) system-prompt.md rebuilt (95266 bytes, byte-identical re-assemble proven by cmp exit 0); (5) CHANGELOG entry. Judge the factual diff for defects, overreach, and AC satisfaction. Verdict QA_PASSED or QA_REJECTED with exact failing points.",
+    "english_translation": "QA Engineer: adversarial review of task 280 (file tasks/qa/280-autopilot-plan-approval-loop-fix-and-cutoff-update.md). Changes: (1) agents/cognitive-executor.md supervised-autopilot gate now routes approval back via brain_turn for a Programmer XML (no direct implement-on-approve); (2) prompts/fragments/03-system_context.md cutoff replaced with explicit unverified marker (web-verified: Meta publishes no Muse Spark cutoff); (3) version 9.47.0->9.48.0; (4) system-prompt.md rebuilt (95266 bytes, byte-identical re-assemble proven by cmp exit 0); (5) CHANGELOG entry. Judge the factual diff for defects, overreach, and AC satisfaction. Verdict QA_PASSED or QA_REJECTED with exact failing points."
+  },
+  "extracted_decision": {
+    "summary": "Assign QA Engineer to perform adversarial review of the factual diff for task 280, judging defects, overreach, and AC satisfaction, and return a QA_PASSED or QA_REJECTED verdict with exact failing points.",
+    "category": "quality-gate",
+    "rationale": "Independent QA validation ensures the implemented changes are correct and meet acceptance criteria before final review.",
+    "alternatives": [
+      "Skip QA and proceed to code review",
+      "Have the implementer self-review"
+    ],
+    "tradeoffs": "Additional review cycle adds time but reduces risk of shipping defects"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-128",
+  "timestamp": "2026-10-01T13:27:41.600548+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "c2b9196a12c446ed826ddc0e4eb7df6da76e62bfc0046bc07f47d44bc5ff8463",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,27 @@
+{
+  "project_name": "v2ray-to-subs",
+  "scope": "episode",
+  "goal_ref": "task-01",
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "verbatim_quote": {
+    "original": "fix the REALITY short-id quoting bug the new feed exposed",
+    "english_translation": "Fix the REALITY short-id quoting bug that the new feed exposed."
+  },
+  "extracted_decision": {
+    "summary": "Force double-quoted YAML scalars for REALITY public-key/short-id so Go-YAML cannot misread hex values such as 2e00 as a float.",
+    "category": "tooling",
+    "rationale": "PyYAML emits 2e00 unquoted; Go-YAML parses it as float 2.0 and mihomo rejects the config.",
+    "alternatives": [
+      "omit short-id",
+      "post-process the emitted YAML"
+    ],
+    "tradeoffs": "Quoted scalars look unusual but are semantically required for mihomo."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-003",
+  "timestamp": "2026-10-01T13:03:54.009709+00:00",
+  "fingerprint": "3cdaa4d76ead4905d89fa2dbee702df366d51ba80560d75b725208473acd2789",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

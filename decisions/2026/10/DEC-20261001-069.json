@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "don't ask me, use goal plugin, manage desctions, and auto pilot",
+    "english_translation": "don't ask me, use goal plugin, manage desctions, and auto pilot"
+  },
+  "extracted_decision": {
+    "summary": "Run the release under autopilot: do not ask, use the goal plugin, manage decisions, and go automatic.",
+    "category": "autopilot-cycle",
+    "rationale": "Explicit standing autopilot order for the release work.",
+    "alternatives": [
+      "Interactive"
+    ],
+    "tradeoffs": "Autonomy over oversight."
+  },
+  "migrated_from": "dumble/DEC-20261001-049",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-069",
+  "timestamp": "2026-10-01T13:12:42.671411+00:00",
+  "fingerprint": "f49bed3ba946f2f6a67b81c10db2ed34eb4be8b40fbe88b4e959d57d64d9fbc6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

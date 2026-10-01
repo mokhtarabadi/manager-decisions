@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "270",
+  "verbatim_quote": {
+    "original": "اول نگاه کن یه پوشه داریم به اسم پوشه استکس. اگر داره جای استفاده میشه نگهش دار و بهم بگو کجا داره استفاده میشه. اگر جای استفاده نمیشه پاکش کن.",
+    "english_translation": "First, look—we have a folder called the stacks folder. If it is being used somewhere, keep it and tell me where it is used. If it is not used anywhere, delete it."
+  },
+  "extracted_decision": {
+    "summary": "Settle the stacks/ folder: keep it only if a live consumer exists and report where; otherwise delete it.",
+    "category": "architecture",
+    "rationale": "Avoid dead configuration; retain only if actually used.",
+    "alternatives": [
+      "Keep if used",
+      "Delete if unused"
+    ],
+    "tradeoffs": "Keeping unused config risks drift; Deleting may break unknown references"
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-174",
+  "timestamp": "2026-10-01T13:27:43.483017+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "720b0f861a801d9616b18ff7b1710093cc5ec5b0c75a3a00b3c82f0f3422d495",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

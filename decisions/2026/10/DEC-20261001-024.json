@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Strictly read-only on prod: no writes, no deletes, no restarts, no config changes.",
+    "english_translation": "Strictly read-only on prod: no writes, no deletes, no restarts, no config changes."
+  },
+  "extracted_decision": {
+    "summary": "Mandated a strictly read-only production export: no writes, deletes, restarts or config changes; download from prod only, render/store artifacts on staging or local.",
+    "category": "process",
+    "rationale": "PII-sensitive export on a live server; zero-mutation safety rule.",
+    "alternatives": [
+      "Allow controlled prod writes"
+    ],
+    "tradeoffs": "Safety over speed; all artifacts stay off prod."
+  },
+  "migrated_from": "dumble/DEC-20261001-004",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-024",
+  "timestamp": "2026-10-01T13:12:39.226304+00:00",
+  "fingerprint": "3040e9329ce37eda06910d90cab26e1535e5f9f8dc57b3ca4dff73e1323ee4c9",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

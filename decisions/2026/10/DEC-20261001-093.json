@@ -1,0 +1,26 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Manager ordered on 2026-09-29: read memory, do everything needed for a release, archive tasks, create milestone, create release task, do all work, hand push/pipeline commands to Manager for manual execution.",
+    "english_translation": "Manager ordered on 2026-09-29: read memory, do everything needed for a release, archive tasks, create milestone, create release task, do all work, hand push/pipeline commands to Manager for manual execution."
+  },
+  "extracted_decision": {
+    "summary": "Full release run; push and pipeline stay Manager-owned.",
+    "category": "release",
+    "rationale": "ZAC puts publishing in the manager's hands while the agent prepares everything.",
+    "alternatives": [
+      "Agent pushes and tags autonomously"
+    ],
+    "tradeoffs": "Slower closure, but the manager controls the irreversible step."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-093",
+  "timestamp": "2026-10-01T13:13:31.112883+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "1dcd4f44b0af63c0a3a9b45af62a70d9da10cf968d1c98925c4f28d0fe94e665",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

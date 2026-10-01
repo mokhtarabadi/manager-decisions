@@ -1,0 +1,27 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "verbatim",
+  "verbatim_quote": {
+    "original": "did you check snack bars? if yes i approved",
+    "english_translation": "did you check snack bars? if yes i approved"
+  },
+  "extracted_decision": {
+    "summary": "Expanded the UI/UX audit scope to align all bottom snackbars with the chat snackbar theming.",
+    "category": "scope",
+    "rationale": "Consistency gap found on snackbar theming.",
+    "alternatives": [
+      "Leave snackbars as-is"
+    ],
+    "tradeoffs": "Small extra Java edit for design consistency."
+  },
+  "migrated_from": "dumble/DEC-20261001-046",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-066",
+  "timestamp": "2026-10-01T13:12:42.347640+00:00",
+  "fingerprint": "a95b29c39c736bdc37264841de7c938dce33ba1072a469e3d773e5d26cf4df61",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,28 @@
+{
+  "project_name": "cognitive-lead-hq",
+  "session_id": "268",
+  "verbatim_quote": {
+    "original": "BUILD CONSTRAINTS: fragment edits require regenerating the committed `system-prompt.md` from `scripts/prompt-build/` and bumping `<system_version>` (currently 9.41.0 at `system-prompt.md:1`); `lint_system_prompt_sync` must then report in sync. CHANGELOG needs an `[Unreleased]` entry. Repo is documentation-only.",
+    "english_translation": "BUILD CONSTRAINTS: fragment edits require regenerating the committed `system-prompt.md` from `scripts/prompt-build/` and bumping `<system_version>` (currently 9.41.0 at `system-prompt.md:1`); `lint_system_prompt_sync` must then report in sync. CHANGELOG needs an `[Unreleased]` entry. Repo is documentation-only."
+  },
+  "extracted_decision": {
+    "summary": "Require system-prompt regeneration, version bump, lint sync, and CHANGELOG Unreleased entry.",
+    "category": "release",
+    "rationale": "Maintain generated prompt consistency and release hygiene.",
+    "alternatives": [
+      "Manual edit system-prompt.md",
+      "Skip version bump"
+    ],
+    "tradeoffs": "Build step and version churn versus drift prevention and sync validation."
+  },
+  "fidelity": "verbatim",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-190",
+  "timestamp": "2026-10-01T13:27:44.211857+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "99d60a2f27dc8e76246ab38f08b42d2c13dd8abca307a768619162b1ec90cf05",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

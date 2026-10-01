@@ -1,0 +1,28 @@
+{
+  "project_name": "dumble",
+  "mode": "manual",
+  "goal_ref": "extract-decisions-25tasks",
+  "scope": "episode",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Access-controlled, audit-logged; deleted messages clearly badged, never hard-deleted.",
+    "english_translation": "Access-controlled, audit-logged; deleted messages clearly badged, never hard-deleted."
+  },
+  "extracted_decision": {
+    "summary": "Admin chat viewer must be access-controlled and audit-logged; deleted-flag messages are clearly badged, never hard-deleted; build on the export workflow for reuse, not one-off scripts; respect edge JWT, Origin check and server-only master key.",
+    "category": "architecture",
+    "rationale": "Admin PII surface requires least-privilege access plus audit trail.",
+    "alternatives": [
+      "Direct file links",
+      "Hard delete"
+    ],
+    "tradeoffs": "Auditability and PII protection over convenience."
+  },
+  "migrated_from": "dumble/DEC-20261001-007",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-027",
+  "timestamp": "2026-10-01T13:12:39.415834+00:00",
+  "fingerprint": "856b5b0430a1e55d0e67b5a5c7d188fa1d703c3c362a6f71930386638dd40b59",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

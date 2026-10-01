@@ -1,0 +1,27 @@
+{
+  "project_name": "blowsh-mcp",
+  "fidelity": "reconstructed",
+  "verbatim_quote": {
+    "original": "Interpret the embedded brainstorming_session as non-functional guidelines that govern but do not override this task.",
+    "english_translation": "Interpret the embedded brainstorming_session as non-functional guidelines that govern but do not override this task."
+  },
+  "extracted_decision": {
+    "summary": "Backlog brainstorm output is non-functional guidance that governs but does not override the task.",
+    "category": "process",
+    "rationale": "Preserves task intent while still honoring brainstorm constraints.",
+    "alternatives": [
+      "Treat brainstorm as binding",
+      "Ignore brainstorm output"
+    ],
+    "tradeoffs": "Requires judgment on conflicts; keeps task authority intact."
+  },
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-081",
+  "timestamp": "2026-10-01T13:13:30.419143+00:00",
+  "mode": "manual",
+  "scope": "episode",
+  "goal_ref": "",
+  "fingerprint": "488b5e2c7acad80bf9c7b48ee1cf5f0ace65890d73e1d9ff512e19bee7090cf0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
