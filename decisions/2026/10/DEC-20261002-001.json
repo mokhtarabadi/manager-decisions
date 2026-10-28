@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "summary": "Manager ordered the simplest possible UX: one button opens one modal with a validated form for the full minimal data set; target state is chosen from existing states only; on submit the gift enters the normal engine cycle.",
+    "category": "scope",
+    "rationale": "Reduce UI complexity while still collecting all required data and ensuring adopted gifts follow existing state and engine pathways.",
+    "alternatives": [
+      "More complex multi-step UX",
+      "Auto-selecting state without form choice"
+    ],
+    "tradeoffs": "One-button/modal simplicity reduces UI surface but requires the form to carry the full minimal data set."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "button, modal, form, state from existing states, gift enters engine cycle",
+    "english_translation": "one button opens one modal with a validated form asking the full minimal data set; target state chosen from existing states; on submit the gift enters the normal engine cycle"
+  },
+  "fidelity": "reconstructed",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-001",
+  "timestamp": "2026-10-02T06:34:31.880581+00:00",
+  "goal_ref": "",
+  "fingerprint": "061de4cd185aa500a419efce997c7c0ab724a7dd3189ccab5bedd2aecac3c6be",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Complete task 255 thoroughly with research, accurate information, and consultation; then close it.",
+    "category": "autopilot-cycle",
+    "rationale": "Manager ordered a research-backed, consulted completion of the Tonnel deposit blocker bundled into the swap-ceiling task, then approved closure.",
+    "alternatives": [
+      "Ship the minimal fix without the gap-closing round"
+    ],
+    "tradeoffs": "More research and tests, but a fully verified money-path fix."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "حالا کامل کن تسک ۲۵۵ رو با فکر و سرج کردن و جمع کردن تطلاعات درست و صحیح و مشورت",
+    "english_translation": "Now complete task 255 with thought, research, gathering correct and accurate information, and consultation."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-008",
+  "timestamp": "2026-10-02T12:42:00.962098+00:00",
+  "goal_ref": "",
+  "fingerprint": "7a050a807c183e5f9ab8d03f1220b49a285143d26da93fa1d5cc064d1e546653",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

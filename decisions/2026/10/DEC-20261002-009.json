@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Handle tasks 274 and 275 with the team and auto-close them.",
+    "category": "autopilot-cycle",
+    "rationale": "Direct manager order grants autopilot with auto-close for the two tasks, executed through the brain seats.",
+    "alternatives": [
+      "Manager-gated closure per task"
+    ],
+    "tradeoffs": "No manager pauses; quality rests on plan, TDD, bridge QA, and bridge review."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "create spring of 274 and 275 and auto close them auto handle them with team.",
+    "english_translation": "Handle tasks 274 and 275 with the team and auto-close them."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-009",
+  "timestamp": "2026-10-02T14:05:53.212353+00:00",
+  "goal_ref": "",
+  "fingerprint": "4475c7e0dc03aadd68001582cdf998372ccae8cdd0d4e4bf18413a26102e9f35",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Fix all three hole tasks step by step and auto-close them with no manager involvement, in full autopilot mode, max 3 repairs.",
+    "category": "autopilot-cycle",
+    "rationale": "Direct manager order grants full autopilot authority for fixing and closing tasks 268-270.",
+    "alternatives": [
+      "Manager-gated approvals per stage"
+    ],
+    "tradeoffs": "No manager pauses; quality rests entirely on plan, TDD, bridge QA, and bridge review gates."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "step by step fix all and auto close them no manager needed here, full auto pilot mode. fix 3 times.",
+    "english_translation": "step by step fix all and auto close them no manager needed here, full autopilot mode. fix 3 times."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-005",
+  "timestamp": "2026-10-02T11:06:02.402696+00:00",
+  "goal_ref": "",
+  "fingerprint": "76cc259e6b86dd5e763d69fa8c010f7c492a929c6d5c0d9114b958fb3b27e3e3",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

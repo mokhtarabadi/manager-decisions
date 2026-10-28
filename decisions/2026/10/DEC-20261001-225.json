@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "summary": "Approved closure of task 253 after QA_PASSED and Code Reviewer APPROVED, authorizing the file move to tasks/completed/ and commit via the governed tool.",
+    "category": "release",
+    "rationale": "All quality gates passed: RED then GREEN 107 tests, spotless clean, QA_PASSED, Code Reviewer APPROVED, and changelog corrected.",
+    "alternatives": [
+      "Request further changes",
+      "Hold for additional testing or review"
+    ],
+    "tradeoffs": "Closing now releases the fix but ends further refinement; based on all gates passed, the risk is deemed acceptable."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-225",
+  "timestamp": "2026-10-01T17:35:33.091457+00:00",
+  "goal_ref": "",
+  "fingerprint": "46ffd08648c806f8ce10800745460d5daff3f1e8dd339f3f6f51c5c5544b28ae",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

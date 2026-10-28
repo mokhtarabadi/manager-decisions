@@ -330,3 +330,16 @@
 | DEC-20261001-221 | release | No new task and no new release for the .env version skew, only a quick env update. | `decisions/2026/10/DEC-20261001-221.json` |
 | DEC-20261001-222 | process | Approved updating .env CANDO_BACKEND_VERSION to 1.52.0 as a quick fix with no task file. | `decisions/2026/10/DEC-20261001-222.json` |
 | DEC-20261001-223 | process | Approved creating milestone-33 summary and archiving completed tasks 812-815. | `decisions/2026/10/DEC-20261001-223.json` |
+| DEC-20261001-224 | quality-gate | Approved the Senior Programmer ordered implementation plan for task 253 at the plan-approval gate, f | `decisions/2026/10/DEC-20261001-224.json` |
+| DEC-20261001-225 | release | Approved closure of task 253 after QA_PASSED and Code Reviewer APPROVED, authorizing the file move t | `decisions/2026/10/DEC-20261001-225.json` |
+| DEC-20261001-226 | process | Manager approved the two-seat implementation plan for task 267 at attempt 1 of max 3, with no edits  | `decisions/2026/10/DEC-20261001-226.json` |
+| DEC-20261001-227 | release | Manager approved closure of task 267 after QA passed and reviewer approved, with exact phrase matche | `decisions/2026/10/DEC-20261001-227.json` |
+| DEC-20261002-001 | scope | Manager ordered the simplest possible UX: one button opens one modal with a validated form for the f | `decisions/2026/10/DEC-20261002-001.json` |
+| DEC-20261002-002 | process | Manager approved the Designer plus Programmer plan for task 265 at attempt 1, with no edits requeste | `decisions/2026/10/DEC-20261002-002.json` |
+| DEC-20261002-003 | release | Manager approved closure of task 265 after QA passed and reviewer approved, with exact phrase matche | `decisions/2026/10/DEC-20261002-003.json` |
+| DEC-20261002-004 | process | Manager approved closure of task 266. | `decisions/2026/10/DEC-20261002-004.json` |
+| DEC-20261002-005 | autopilot-cycle | Fix all three hole tasks step by step and auto-close them with no manager involvement, in full autop | `decisions/2026/10/DEC-20261002-005.json` |
+| DEC-20261002-006 | autopilot-cycle | Open a new docs task, update and clean the project docs against code plus the README, then auto-appr | `decisions/2026/10/DEC-20261002-006.json` |
+| DEC-20261002-007 | autopilot-cycle | Hand the whole UI/UX to the system: implement missing UI, ask the UI/UX Designer, fix bugs, improve  | `decisions/2026/10/DEC-20261002-007.json` |
+| DEC-20261002-008 | autopilot-cycle | Complete task 255 thoroughly with research, accurate information, and consultation; then close it. | `decisions/2026/10/DEC-20261002-008.json` |
+| DEC-20261002-009 | autopilot-cycle | Handle tasks 274 and 275 with the team and auto-close them. | `decisions/2026/10/DEC-20261002-009.json` |

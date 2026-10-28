@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Manager approved closure of task 265 after QA passed and reviewer approved, with exact phrase matched.",
+    "category": "release",
+    "rationale": "Closure gate satisfied by QA_PASSED, reviewer APPROVED, green tests, spotless clean.",
+    "alternatives": [
+      "Hold for more fixes"
+    ],
+    "tradeoffs": "None stated."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-003",
+  "timestamp": "2026-10-02T06:36:30.142481+00:00",
+  "goal_ref": "",
+  "fingerprint": "07ddc941d3c0f680577c25e89fee8ebe6378ecd76507380a8d61ca788dca4ba6",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

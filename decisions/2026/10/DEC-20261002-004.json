@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "summary": "Manager approved closure of task 266.",
+    "category": "process",
+    "rationale": "Approval quote matched the exact phrase after the closure question was answered; the unanimous team verdict was CLOSE safely with no code change.",
+    "alternatives": [
+      "reject closure",
+      "request further audit"
+    ],
+    "tradeoffs": "None stated."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved for closure",
+    "english_translation": "Approved for closure"
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-004",
+  "timestamp": "2026-10-02T09:29:13.804622+00:00",
+  "goal_ref": "",
+  "fingerprint": "d6b34eebf53e8a9fdc3ac4f2abc6c0626efbda3e872acbc9fb4f13eabf68e517",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Open a new docs task, update and clean the project docs against code plus the README, then auto-approve and handle it end to end on autopilot.",
+    "category": "autopilot-cycle",
+    "rationale": "Direct manager order grants docs-only autopilot authority with no separate plan-approval pause.",
+    "alternatives": [
+      "Manager-gated docs review per stage"
+    ],
+    "tradeoffs": "No manager pauses; quality rests on the plan, markdown lint, grep proofs, bridge QA, and bridge review gates."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "update and cleanup docs. base on codes. and readme. update readme. a new task. and auto approve and handle it too",
+    "english_translation": "Update and clean up docs based on code and the README; update the README; create a new task and auto-approve and handle it too."
+  },
+  "fidelity": "verbatim",
+  "mode": "autopilot",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-006",
+  "timestamp": "2026-10-02T11:29:04.452510+00:00",
+  "goal_ref": "",
+  "fingerprint": "c3afbf3554c85f50d4acf05eb47799596c0e323bae8d627daec269366eaf16ff",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

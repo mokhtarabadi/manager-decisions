@@ -1,0 +1,27 @@
+{
+  "extracted_decision": {
+    "summary": "Manager approved the two-seat implementation plan for task 267 at attempt 1 of max 3, with no edits requested.",
+    "category": "process",
+    "rationale": "Plan-approval gate satisfied, allowing implementation to proceed.",
+    "alternatives": [
+      "Request edits",
+      "Reject plan"
+    ],
+    "tradeoffs": "Proceeding without edits uses one of three attempts; later defects consume repair budget."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved"
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261001-226",
+  "timestamp": "2026-10-01T21:41:51.161755+00:00",
+  "goal_ref": "",
+  "fingerprint": "5f57b6bdf653fd04463824bff785d5942b7bfb334d85739c87763de485edfde0",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}

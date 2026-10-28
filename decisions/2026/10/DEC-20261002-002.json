@@ -1,0 +1,26 @@
+{
+  "extracted_decision": {
+    "summary": "Manager approved the Designer plus Programmer plan for task 265 at attempt 1, with no edits requested.",
+    "category": "process",
+    "rationale": "Plan-approval gate satisfied, allowing implementation to proceed.",
+    "alternatives": [
+      "Request edits"
+    ],
+    "tradeoffs": "None stated."
+  },
+  "project_name": "apex",
+  "verbatim_quote": {
+    "original": "Approved",
+    "english_translation": "Approved"
+  },
+  "fidelity": "verbatim",
+  "mode": "manual",
+  "scope": "episode",
+  "redaction_verified": true,
+  "decision_id": "DEC-20261002-002",
+  "timestamp": "2026-10-02T06:34:58.710143+00:00",
+  "goal_ref": "",
+  "fingerprint": "5635f487efa4817c5f28fb64846edaa887c8eab15ac674387ba0a0e8c0af67a8",
+  "active_root": "manager-decisions",
+  "store_mode": "personal"
+}
